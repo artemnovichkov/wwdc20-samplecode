@@ -21,7 +21,7 @@
 - [Detecting Hand Poses with Vision](/DetectingHandPosesWithVision)
 - [Detecting Human Body Poses in an Image](/DetectingHumanBodyPosesInAnImage)
 - [Developing a Safari Web Extension](/DevelopingASafariWebExtension)
-- [Displaying Human-Friendly Content](/Converting Between Swift Data Types And Strings.playground)
+- [Displaying Human-Friendly Content](/Converting-Between-Swift-Data-Types-And-Strings.playground)
 - [Drawing with PencilKit](/DrawingWithPencilKit)
 - [Enhancing Your iPad App with Pointer Interactions](/EnhancingYourIPadAppWithPointerInteractions)
 - [Implementing Alert Push Notifications](/ImplementingAlertPushNotifications)
