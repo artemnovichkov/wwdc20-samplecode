@@ -1,0 +1,4 @@
+All geological data used in this Sample Code Project is provided by the U.S. Geological Survey (USGS). See https://www.doi.gov/copyright for additional information.
+
+Credit: U.S. Geological Survey
+Department of the Interior/USGS

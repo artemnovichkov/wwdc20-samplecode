@@ -1,0 +1,9 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Localized versions of Info.plist keys.
+*/
+
+CFBundleGetInfoString = "v16.0, Copyright 2008-2020, Apple Inc.";
+NSHumanReadableCopyright = "Copyright © 2008-2020, Apple Inc.";

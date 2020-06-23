@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17105"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="HapticControllers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Pth-I8-8WG">
+                                <rect key="frame" x="30" y="112.33333333333331" width="354" height="731.66666666666674"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="uxi-zC-UTd">
+                                        <rect key="frame" x="0.0" y="0.0" width="162" height="731.66666666666663"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="rAI-v3-Z9G">
+                                                <rect key="frame" x="0.0" y="0.0" width="162" height="160.33333333333334"/>
+                                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725782629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <state key="normal">
+                                                    <string key="title">Hit
+(default)</string>
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonBackgroundHighlight:" destination="BYZ-38-t0r" eventType="touchDown" id="5hi-Hh-dlb"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Agh-yB-tPr"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="QZQ-Bq-oaI"/>
+                                                    <action selector="playAHAPWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X8k-3g-8IL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="T5s-Uj-koE">
+                                                <rect key="frame" x="0.0" y="190.33333333333337" width="162" height="160.66666666666663"/>
+                                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725782629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <state key="normal">
+                                                    <string key="title">Hit
+(leftHandle)</string>
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonBackgroundHighlight:" destination="BYZ-38-t0r" eventType="touchDown" id="BLg-cJ-4W5"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="DnO-jA-NX7"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FnI-xO-FY2"/>
+                                                    <action selector="playAHAPWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vwb-GC-xT0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7FH-aQ-Qqh">
+                                                <rect key="frame" x="0.0" y="381" width="162" height="160.33333333333337"/>
+                                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725782629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <state key="normal" title="Triple Strike">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonBackgroundHighlight:" destination="BYZ-38-t0r" eventType="touchDown" id="17I-om-4oa"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="7Gz-JS-VU3"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="99W-B2-tiu"/>
+                                                    <action selector="playAHAPWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kAe-i2-LOe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5VY-bm-4lj">
+                                                <rect key="frame" x="0.0" y="571.33333333333326" width="162" height="160.33333333333337"/>
+                                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725782629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <state key="normal" title="Recharge">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonBackgroundHighlight:" destination="BYZ-38-t0r" eventType="touchDown" id="Wn5-lw-vHi"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pcl-It-Ql6"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="ceK-av-Ovk"/>
+                                                    <action selector="playAHAPWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NBD-iJ-GJX"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="0yy-Up-Lh0">
+                                        <rect key="frame" x="192" y="0.0" width="162" height="731.66666666666663"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2pp-OL-zao">
+                                                <rect key="frame" x="0.0" y="0.0" width="162" height="160.33333333333334"/>
+                                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725782629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <state key="normal">
+                                                    <string key="title">Hit
+(all)</string>
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonBackgroundHighlight:" destination="BYZ-38-t0r" eventType="touchDown" id="7j0-Z5-lkz"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="ARe-NF-BMf"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Klo-in-eIu"/>
+                                                    <action selector="playAHAPWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jOu-9b-zEy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kem-Nq-x7a">
+                                                <rect key="frame" x="0.0" y="190.33333333333337" width="162" height="160.66666666666663"/>
+                                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725782629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <state key="normal">
+                                                    <string key="title">Hit 
+(rightHandle)</string>
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonBackgroundHighlight:" destination="BYZ-38-t0r" eventType="touchDown" id="0su-5b-OXW"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Bd-Ra-StU"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="7Db-Tu-spW"/>
+                                                    <action selector="playAHAPWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WH5-X6-7X0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="JKp-EF-7UF">
+                                                <rect key="frame" x="0.0" y="381" width="162" height="160.33333333333337"/>
+                                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725782629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <state key="normal" title="Rumble">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonBackgroundHighlight:" destination="BYZ-38-t0r" eventType="touchDown" id="XwI-Kr-TyC"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ph4-7Z-ZOH"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="dEl-bI-03G"/>
+                                                    <action selector="playAHAPWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TKE-Gz-8vk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fCa-7v-krH">
+                                                <rect key="frame" x="0.0" y="571.33333333333326" width="162" height="160.33333333333337"/>
+                                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725782629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <state key="normal" title="Heartbeats">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonBackgroundHighlight:" destination="BYZ-38-t0r" eventType="touchDown" id="I7a-AC-ruy"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="DrO-t0-Lxy"/>
+                                                    <action selector="buttonBackgroundRegular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mcR-gC-2gK"/>
+                                                    <action selector="playAHAPWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JOD-HO-bIj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FrN-Fg-Yhz">
+                                <rect key="frame" x="30" y="62.000000000000007" width="354" height="26.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pth-I8-8WG" secondAttribute="trailing" constant="30" id="35W-qh-gR8"/>
+                            <constraint firstItem="FrN-Fg-Yhz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="8H5-Vn-tYb"/>
+                            <constraint firstItem="FrN-Fg-Yhz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="AT0-bK-Vmw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FrN-Fg-Yhz" secondAttribute="trailing" constant="30" id="QMM-Ih-Jk7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Pth-I8-8WG" secondAttribute="bottom" constant="18" id="Rcp-5O-m7i"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="Pth-I8-8WG" secondAttribute="leading" constant="-30" id="SZg-8W-cFD"/>
+                            <constraint firstItem="Pth-I8-8WG" firstAttribute="top" secondItem="FrN-Fg-Yhz" secondAttribute="bottom" constant="24" id="nbU-IA-jHu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="controllerLabel" destination="FrN-Fg-Yhz" id="NR2-WT-Okn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-633.33333333333337" y="147.99107142857142"/>
+        </scene>
+    </scenes>
+</document>

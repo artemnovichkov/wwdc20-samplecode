@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AUTHORIZED_NUMBER_OF_TYPES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@types@</string>
+		<key>types</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>authorized for %ld type</string>
+			<key>other</key>
+			<string>authorized for %ld types</string>
+		</dict>
+	</dict>
+	<key>DENIED_NUMBER_OF_TYPES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@types@</string>
+		<key>types</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>denied for %ld type</string>
+			<key>other</key>
+			<string>denied for %ld types</string>
+		</dict>
+	</dict>
+	<key>UNDETERMINED_NUMBER_OF_TYPES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@types@</string>
+		<key>types</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>undetermined for %ld type</string>
+			<key>other</key>
+			<string>undetermined for %ld types</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

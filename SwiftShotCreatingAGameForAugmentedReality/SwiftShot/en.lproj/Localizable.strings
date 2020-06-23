@@ -1,0 +1,64 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Strings file containing detailed descriptions.
+*/
+
+/* No comment provided by engineer. */
+"Are you sure you want to leave the game?" = "Are you sure you want to leave the game?";
+
+/* Team name */
+"Blue" = "Blue";
+
+/* when no custom selected */
+"Default" = "Default";
+
+/* No comment provided by engineer. */
+"Dismiss" = "Dismiss";
+
+/* No comment provided by engineer. */
+"Find a flat surface to place the game." = "Find a flat surface to place the game.";
+
+/* User didn't enable location services */
+"Insufficient Location Permissions For Beacons" = "Insufficient Location Permissions For Beacons";
+
+/* No comment provided by engineer. */
+"Leave" = "Leave";
+
+/* No comment provided by engineer. */
+"Make adjustments and tap to continue." = "Make adjustments and tap to continue.";
+
+/* No comment provided by engineer. */
+"Move closer to a slingshot." = "Move closer to a slingshot.";
+
+/* Team name */
+"none" = "none";
+
+/* Steps the user can take to activate beacon */
+"Please go to Settings and enable location services for SwiftShot to look for nearby beacons" = "Please go to Settings and enable location services for SwiftShot to look for nearby beacons";
+
+/* No comment provided by engineer. */
+"Point the camera towards the table." = "Point the camera towards the table.";
+
+/* No comment provided by engineer. */
+"Release to shoot." = "Release to shoot.";
+
+/* No comment provided by engineer. */
+"Scale, rotate or move the board." = "Scale, rotate or move the board.";
+
+/* No comment provided by engineer. */
+"Stay" = "Stay";
+
+/* No comment provided by engineer. */
+"Synchronizing world map…" = "Synchronizing world map…";
+
+/* No comment provided by engineer. */
+"Tap anywhere and hold to pull back." = "Tap anywhere and hold to pull back.";
+
+/* Team name */
+"Yellow" = "Yellow";
+
+/* No comment provided by engineer. */
+"You’re the host, so if you leave now the other players will have to leave too." = "You’re the host, so if you leave now the other players will have to leave too.";
+

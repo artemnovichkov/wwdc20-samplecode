@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14800.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14758.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ControlAudio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zd4-SH-7uZ" userLabel="Song Name">
+                                <rect key="frame" x="10" y="403" width="300" height="0.0"/>
+                                <accessibility key="accessibilityConfiguration" label="Song Title"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSu-NR-OME" userLabel="Album and Artist">
+                                <rect key="frame" x="10" y="413" width="300" height="0.0"/>
+                                <accessibility key="accessibilityConfiguration" label="Album and Artist"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.2346492801" blue="0.28942579899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Rk-4o-YVU" userLabel="Skip Forwards">
+                                <rect key="frame" x="266.5" y="480" width="37.5" height="37.5"/>
+                                <accessibility key="accessibilityConfiguration" label="Skip Forwards"/>
+                                <state key="normal" image="fast-forward"/>
+                                <connections>
+                                    <action selector="skipForwardsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FeQ-A4-a3v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1iy-BV-uzi" userLabel="Skip Backwards">
+                                <rect key="frame" x="16" y="480" width="37.5" height="37.5"/>
+                                <accessibility key="accessibilityConfiguration" label="Skip Backwards"/>
+                                <state key="normal" image="rewind"/>
+                                <connections>
+                                    <action selector="skipBackwardsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ndw-AQ-PB7"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="13e-dT-guD">
+                                <rect key="frame" x="10" y="75" width="300" height="300"/>
+                                <accessibility key="accessibilityConfiguration" label="Album Art">
+                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Fj1-6x-XVF"/>
+                                    <constraint firstAttribute="width" constant="300" id="qEp-Tp-FjB"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8V-o8-hev" userLabel="Play Pause">
+                                <rect key="frame" x="122.5" y="461" width="75" height="75"/>
+                                <accessibility key="accessibilityConfiguration" label="Play Pause">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="4Hg-bA-bW2"/>
+                                    <constraint firstAttribute="width" constant="75" id="wM4-kW-ust"/>
+                                </constraints>
+                                <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="playPauseWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tM3-Xg-kBP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I8V-o8-hev" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2ZM-gs-F5q"/>
+                            <constraint firstItem="Zd4-SH-7uZ" firstAttribute="trailing" secondItem="13e-dT-guD" secondAttribute="trailing" id="9Q5-3b-PCa"/>
+                            <constraint firstItem="Zd4-SH-7uZ" firstAttribute="top" secondItem="13e-dT-guD" secondAttribute="bottom" constant="28" id="Axq-KQ-W23"/>
+                            <constraint firstItem="3Rk-4o-YVU" firstAttribute="width" secondItem="1iy-BV-uzi" secondAttribute="width" id="E4t-B9-az9"/>
+                            <constraint firstItem="Zd4-SH-7uZ" firstAttribute="leading" secondItem="13e-dT-guD" secondAttribute="leading" id="GJB-xT-74J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="I8V-o8-hev" secondAttribute="bottom" constant="32" id="JtP-T9-1AW"/>
+                            <constraint firstItem="1iy-BV-uzi" firstAttribute="centerY" secondItem="I8V-o8-hev" secondAttribute="centerY" id="NtQ-G0-ftE"/>
+                            <constraint firstItem="QSu-NR-OME" firstAttribute="trailing" secondItem="13e-dT-guD" secondAttribute="trailing" id="YJA-MW-9SP"/>
+                            <constraint firstItem="1iy-BV-uzi" firstAttribute="height" secondItem="I8V-o8-hev" secondAttribute="height" multiplier="0.5" id="Yf2-ak-ubx"/>
+                            <constraint firstItem="QSu-NR-OME" firstAttribute="leading" secondItem="13e-dT-guD" secondAttribute="leading" id="gij-fN-Cmb"/>
+                            <constraint firstItem="13e-dT-guD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="o6z-wd-Upn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Rk-4o-YVU" secondAttribute="trailing" constant="16" id="oMM-di-qYR"/>
+                            <constraint firstItem="1iy-BV-uzi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="pY8-mC-XRX"/>
+                            <constraint firstItem="3Rk-4o-YVU" firstAttribute="centerY" secondItem="I8V-o8-hev" secondAttribute="centerY" id="q7s-nH-Ka5"/>
+                            <constraint firstItem="13e-dT-guD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sUl-fE-vFp"/>
+                            <constraint firstItem="1iy-BV-uzi" firstAttribute="width" secondItem="I8V-o8-hev" secondAttribute="width" multiplier="0.5" id="uau-1U-SrA"/>
+                            <constraint firstItem="QSu-NR-OME" firstAttribute="top" secondItem="Zd4-SH-7uZ" secondAttribute="bottom" constant="10" id="yRG-UF-BNQ"/>
+                            <constraint firstItem="3Rk-4o-YVU" firstAttribute="height" secondItem="1iy-BV-uzi" secondAttribute="height" id="ysP-ld-E0x"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="albumAndArtistName" destination="QSu-NR-OME" id="0Eq-cR-ESz"/>
+                        <outlet property="albumArt" destination="13e-dT-guD" id="a39-tr-neo"/>
+                        <outlet property="playPauseButton" destination="I8V-o8-hev" id="no0-zt-Aq9"/>
+                        <outlet property="skipBackwardsButton" destination="1iy-BV-uzi" id="ZEq-hq-jlV"/>
+                        <outlet property="skipForwardsButton" destination="3Rk-4o-YVU" id="mFE-ja-xKH"/>
+                        <outlet property="songName" destination="Zd4-SH-7uZ" id="gmJ-Md-NZS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.875" y="97.183098591549296"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fast-forward" width="42" height="42"/>
+        <image name="play" width="0.0" height="0.0"/>
+        <image name="rewind" width="42" height="42"/>
+    </resources>
+</document>

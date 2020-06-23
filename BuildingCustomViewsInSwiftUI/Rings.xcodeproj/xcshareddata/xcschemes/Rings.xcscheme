@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Scheme LastUpgradeVersion="1100" version="1.3">
+	<AnalyzeAction buildConfiguration="Debug" />
+	<ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES" />
+	<TestAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="Debug" codeCoverageEnabled="NO">
+		<Testables />
+	</TestAction>
+	<ProfileAction debugDocumentVersioning="YES" savedToolIdentifier="" buildConfiguration="Release" shouldUseLaunchSchemeArgsEnv="YES" useCustomWorkingDirectory="NO">
+		<BuildableProductRunnable runnableDebuggingMode="0">
+			<BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="577BFE9E2285B22800820E88" BuildableName="Rings.app" ReferencedContainer="container:Rings.xcodeproj" BlueprintName="Rings" />
+		</BuildableProductRunnable>
+	</ProfileAction>
+	<BuildAction buildImplicitDependencies="YES" parallelizeBuildables="YES">
+		<BuildActionEntries>
+			<BuildActionEntry buildForArchiving="YES" buildForAnalyzing="YES" buildForRunning="YES" buildForTesting="YES" buildForProfiling="YES">
+				<BuildableReference BuildableIdentifier="primary" BuildableName="Rings.app" ReferencedContainer="container:Rings.xcodeproj" BlueprintIdentifier="577BFE9E2285B22800820E88" BlueprintName="Rings" />
+			</BuildActionEntry>
+		</BuildActionEntries>
+	</BuildAction>
+	<LaunchAction buildConfiguration="Debug" debugServiceExtension="internal" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" debugDocumentVersioning="YES" launchStyle="0" allowLocationSimulation="YES" ignoresPersistentStateOnLaunch="NO" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" useCustomWorkingDirectory="NO">
+		<BuildableProductRunnable runnableDebuggingMode="0">
+			<BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="577BFE9E2285B22800820E88" BlueprintName="Rings" ReferencedContainer="container:Rings.xcodeproj" BuildableName="Rings.app" />
+		</BuildableProductRunnable>
+	</LaunchAction>
+</Scheme>

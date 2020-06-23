@@ -1,0 +1,16 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Strings file that defines level names.
+*/
+
+"gateway" = "Gateway";
+
+"bridge" = "Bridge";
+
+"farm" = "Farm";
+
+"fort" = "Fort";
+
+"towers" = "Towers";

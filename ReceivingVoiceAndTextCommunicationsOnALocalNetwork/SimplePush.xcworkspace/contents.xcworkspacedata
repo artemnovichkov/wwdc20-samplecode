@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:SimplePush/SimplePush.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SimplePushKit/SimplePushKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SimplePushServer/SimplePushServer.xcodeproj">
+   </FileRef>
+</Workspace>

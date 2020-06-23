@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		772B2EEA227B2F9C00021A5B /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B2EE9227B2F9C00021A5B /* HelperExtensions.swift */; };
+		775A9759227B11A700BA3BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A9758227B11A700BA3BF6 /* AppDelegate.swift */; };
+		775A975E227B11A700BA3BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775A975C227B11A700BA3BF6 /* Main.storyboard */; };
+		775A9760227B11A800BA3BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775A975F227B11A800BA3BF6 /* Assets.xcassets */; };
+		775A9763227B11A800BA3BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775A9761227B11A800BA3BF6 /* LaunchScreen.storyboard */; };
+		775A976D227B13AF00BA3BF6 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A976C227B13AF00BA3BF6 /* Server.swift */; };
+		779DA986227B160D00947FF4 /* ReservationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779DA983227B160D00947FF4 /* ReservationsTableViewController.swift */; };
+		779DA987227B160D00947FF4 /* ReservationContainersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779DA984227B160D00947FF4 /* ReservationContainersTableViewController.swift */; };
+		779DA988227B160D00947FF4 /* ReservationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779DA985227B160D00947FF4 /* ReservationDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		687BB9A97E51601744E24435 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		772B2EE9227B2F9C00021A5B /* HelperExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
+		775A9755227B11A700BA3BF6 /* Siri Event Suggestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siri Event Suggestions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775A9758227B11A700BA3BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		775A975D227B11A700BA3BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		775A975F227B11A800BA3BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775A9762227B11A800BA3BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		775A9764227B11A800BA3BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775A976C227B13AF00BA3BF6 /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		779DA983227B160D00947FF4 /* ReservationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationsTableViewController.swift; sourceTree = "<group>"; };
+		779DA984227B160D00947FF4 /* ReservationContainersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationContainersTableViewController.swift; sourceTree = "<group>"; };
+		779DA985227B160D00947FF4 /* ReservationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationDetailsViewController.swift; sourceTree = "<group>"; };
+		79392A77489F725AFC81B0CC /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		CE60B0F0CE60B88000000001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F77AA29E248696D9000ED11D /* Siri Event Suggestions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Siri Event Suggestions.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775A9752227B11A700BA3BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04562C8F2D61B7DDA7C9FBCD /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				79392A77489F725AFC81B0CC /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		775A974C227B11A700BA3BF6 = {
+			isa = PBXGroup;
+			children = (
+				CE60B0F0CE60B88000000001 /* README.md */,
+				775A9757227B11A700BA3BF6 /* Siri Event Suggestions */,
+				775A9756227B11A700BA3BF6 /* Products */,
+				04562C8F2D61B7DDA7C9FBCD /* Configuration */,
+				924C9898C3F3F813BC23C154 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		775A9756227B11A700BA3BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775A9755227B11A700BA3BF6 /* Siri Event Suggestions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775A9757227B11A700BA3BF6 /* Siri Event Suggestions */ = {
+			isa = PBXGroup;
+			children = (
+				F77AA29E248696D9000ED11D /* Siri Event Suggestions.entitlements */,
+				772B2EE9227B2F9C00021A5B /* HelperExtensions.swift */,
+				775A976C227B13AF00BA3BF6 /* Server.swift */,
+				779DA982227B15FC00947FF4 /* View Controllers */,
+				775A9758227B11A700BA3BF6 /* AppDelegate.swift */,
+				775A975C227B11A700BA3BF6 /* Main.storyboard */,
+				775A975F227B11A800BA3BF6 /* Assets.xcassets */,
+				775A9761227B11A800BA3BF6 /* LaunchScreen.storyboard */,
+				775A9764227B11A800BA3BF6 /* Info.plist */,
+			);
+			path = "Siri Event Suggestions";
+			sourceTree = "<group>";
+		};
+		779DA982227B15FC00947FF4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				779DA984227B160D00947FF4 /* ReservationContainersTableViewController.swift */,
+				779DA983227B160D00947FF4 /* ReservationsTableViewController.swift */,
+				779DA985227B160D00947FF4 /* ReservationDetailsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		924C9898C3F3F813BC23C154 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				687BB9A97E51601744E24435 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = ../LICENSE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775A9754227B11A700BA3BF6 /* Siri Event Suggestions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775A9767227B11A800BA3BF6 /* Build configuration list for PBXNativeTarget "Siri Event Suggestions" */;
+			buildPhases = (
+				775A9751227B11A700BA3BF6 /* Sources */,
+				775A9752227B11A700BA3BF6 /* Frameworks */,
+				775A9753227B11A700BA3BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Siri Event Suggestions";
+			productName = "Siri Event Suggestions";
+			productReference = 775A9755227B11A700BA3BF6 /* Siri Event Suggestions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775A974D227B11A700BA3BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					775A9754227B11A700BA3BF6 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 775A9750227B11A700BA3BF6 /* Build configuration list for PBXProject "Siri Event Suggestions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775A974C227B11A700BA3BF6;
+			productRefGroup = 775A9756227B11A700BA3BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775A9754227B11A700BA3BF6 /* Siri Event Suggestions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775A9753227B11A700BA3BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775A9763227B11A800BA3BF6 /* LaunchScreen.storyboard in Resources */,
+				775A9760227B11A800BA3BF6 /* Assets.xcassets in Resources */,
+				775A975E227B11A700BA3BF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775A9751227B11A700BA3BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779DA987227B160D00947FF4 /* ReservationContainersTableViewController.swift in Sources */,
+				779DA986227B160D00947FF4 /* ReservationsTableViewController.swift in Sources */,
+				775A976D227B13AF00BA3BF6 /* Server.swift in Sources */,
+				779DA988227B160D00947FF4 /* ReservationDetailsViewController.swift in Sources */,
+				772B2EEA227B2F9C00021A5B /* HelperExtensions.swift in Sources */,
+				775A9759227B11A700BA3BF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		775A975C227B11A700BA3BF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775A975D227B11A700BA3BF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		775A9761227B11A800BA3BF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775A9762227B11A800BA3BF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775A9765227B11A800BA3BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79392A77489F725AFC81B0CC /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		775A9766227B11A800BA3BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79392A77489F725AFC81B0CC /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775A9768227B11A800BA3BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79392A77489F725AFC81B0CC /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Siri Event Suggestions/Siri Event Suggestions.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Siri Event Suggestions/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Siri-Event-Suggestions${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775A9769227B11A800BA3BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79392A77489F725AFC81B0CC /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Siri Event Suggestions/Siri Event Suggestions.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Siri Event Suggestions/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Siri-Event-Suggestions${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775A9750227B11A700BA3BF6 /* Build configuration list for PBXProject "Siri Event Suggestions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775A9765227B11A800BA3BF6 /* Debug */,
+				775A9766227B11A800BA3BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775A9767227B11A800BA3BF6 /* Build configuration list for PBXNativeTarget "Siri Event Suggestions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775A9768227B11A800BA3BF6 /* Debug */,
+				775A9769227B11A800BA3BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775A974D227B11A700BA3BF6 /* Project object */;
+}

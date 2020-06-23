@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17111.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fAD-eJ-tLD">
+    <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17085"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Quilt Simulator-->
+        <scene sceneID="yUh-2v-WTL">
+            <objects>
+                <viewController id="axO-hP-1lh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I7M-da-Lej">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="grid" translatesAutoresizingMaskIntoConstraints="NO" id="zUj-xP-iil">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                                <color key="tintColor" name="gridTintColor"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gZK-7U-mPU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zUj-xP-iil" secondAttribute="trailing" id="3N5-SY-VDd"/>
+                            <constraint firstItem="zUj-xP-iil" firstAttribute="top" secondItem="I7M-da-Lej" secondAttribute="top" id="Au4-zH-aEH"/>
+                            <constraint firstAttribute="bottom" secondItem="zUj-xP-iil" secondAttribute="bottom" id="g8f-YS-BK6"/>
+                            <constraint firstItem="zUj-xP-iil" firstAttribute="leading" secondItem="I7M-da-Lej" secondAttribute="leading" id="zsS-bL-Kae"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Quilt Simulator" id="fC4-cD-emU">
+                        <barButtonItem key="leftBarButtonItem" title="test" image="arrow.uturn.left" catalog="system" width="33" id="pQc-Yv-Ka9" userLabel="spacer">
+                            <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="5"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gWh-yP-73T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298.56115107913672" y="-256.2814070351759"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4e5-bZ-7Mk">
+            <objects>
+                <navigationController id="fAD-eJ-tLD" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KdR-Tb-gdf">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="axO-hP-1lh" kind="relationship" relationship="rootViewController" id="GLX-rf-5Pt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S2m-Vc-t5E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-665" y="51"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.uturn.left" catalog="system" width="32" height="32"/>
+        <image name="grid" width="20" height="20"/>
+        <namedColor name="gridTintColor">
+            <color red="0.23499999940395355" green="0.23499999940395355" blue="0.2630000114440918" alpha="0.28999999165534973" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MANHATTAN_CLAM_CHOWDER_SUBTITLE</key>
+	<dict>
+		<key>NSStringVariableWidthRuleType</key>
+		<dict>
+			<key>20</key>
+			<string>Clam chowder</string>
+			<key>24</key>
+			<string>Manhattan clam chowder</string>
+		</dict>
+	</dict>
+	<key>MANHATTAN_CLAM_CHOWDER</key>
+	<dict>
+		<key>NSStringVariableWidthRuleType</key>
+		<dict>
+			<key>20</key>
+			<string>Clam chowder</string>
+			<key>24</key>
+			<string>Manhattan Clam Chowder</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

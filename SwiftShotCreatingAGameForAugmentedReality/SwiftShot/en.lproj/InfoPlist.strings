@@ -1,0 +1,13 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+User interface text for various Info.plist keys.
+*/
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "This application will use the camera for Augmented Reality.";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "This game will use location services to look for beacons in order to locate the pre-created game tables at WWDC. Your geographic location will not be tracked.";
+

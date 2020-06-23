@@ -1,0 +1,183 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Strings file for the user interface.
+*/
+
+/* Class = "UILabel"; text = "Show Rope Simulation"; ObjectID = "0fY-rv-dlb"; */
+"0fY-rv-dlb.text" = "Show Rope Simulation";
+
+/* Class = "UILabel"; text = "Manual"; ObjectID = "1mj-Mo-Tsh"; */
+"1mj-Mo-Tsh.text" = "Manual";
+
+/* Class = "UILabel"; text = "Use Custom Settings"; ObjectID = "5jF-Yf-TXC"; */
+"5jF-Yf-TXC.text" = "Use Custom Settings";
+
+/* Class = "UITableViewSection"; headerTitle = "Projectile Trail"; ObjectID = "6TL-yZ-Scq"; */
+"6TL-yZ-Scq.headerTitle" = "Projectile Trail";
+
+/* Class = "UIButton"; normalTitle = ">"; ObjectID = "7D6-zl-eO8"; */
+"7D6-zl-eO8.normalTitle" = ">";
+
+/* Class = "UILabel"; text = "Show AR Relocalization help"; ObjectID = "98F-pI-Juk"; */
+"98F-pI-Juk.text" = "Show AR Relocalization help";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BtT-Xd-zPH"; */
+"BtT-Xd-zPH.text" = "Label";
+
+/* Class = "UILabel"; text = "Width (unit ball size)"; ObjectID = "CUo-m3-aap"; */
+"CUo-m3-aap.text" = "Width (unit ball size)";
+
+/* Class = "UILabel"; text = "Show Network Debug"; ObjectID = "Cfz-s7-f4f"; */
+"Cfz-s7-f4f.text" = "Show Network Debug";
+
+/* Class = "UITableViewSection"; headerTitle = "Board Location"; ObjectID = "CiX-9Z-ABY"; */
+"CiX-9Z-ABY.headerTitle" = "Board Location";
+
+/* Class = "UILabel"; text = "Antialiased Rendering"; ObjectID = "Cxz-3M-e9h"; */
+"Cxz-3M-e9h.text" = "Antialiased Rendering";
+
+/* Class = "UILabel"; text = "Length (frames)"; ObjectID = "DGh-bq-Po1"; */
+"DGh-bq-Po1.text" = "Length (frames)";
+
+/* Class = "UILabel"; text = "Effects Volume"; ObjectID = "DgV-Kc-syQ"; */
+"DgV-Kc-syQ.text" = "Effects Volume";
+
+/* Class = "UILabel"; text = "Music Volume"; ObjectID = "DoP-o6-ONM"; */
+"DoP-o6-ONM.text" = "Music Volume";
+
+/* Class = "UILabel"; text = "Show Physics Debug"; ObjectID = "KvR-rB-2Z5"; */
+"KvR-rB-2Z5.text" = "Show Physics Debug";
+
+/* Class = "UILabel"; text = "Show Flag Models"; ObjectID = "NAk-Q9-9Je"; */
+"NAk-Q9-9Je.text" = "Show Flag Models";
+
+/* Class = "UIButton"; normalTitle = "Start solo game"; ObjectID = "O4I-zw-cye"; */
+"O4I-zw-cye.normalTitle" = "Start solo game";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Onb-LZ-9ie"; */
+"Onb-LZ-9ie.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Save Key Position"; ObjectID = "PtQ-iE-fAn"; */
+"PtQ-iE-fAn.normalTitle" = "Save Key Position";
+
+/* Class = "UIButton"; normalTitle = "Host"; ObjectID = "Q2e-w6-mur"; */
+"Q2e-w6-mur.normalTitle" = "Host";
+
+/* Class = "UILabel"; text = "Taper Trail"; ObjectID = "RNm-Dx-h4f"; */
+"RNm-Dx-h4f.text" = "Taper Trail";
+
+/* Class = "UILabel"; text = "Selected Level"; ObjectID = "Rq5-Id-Nrw"; */
+"Rq5-Id-Nrw.text" = "Selected Level";
+
+/* Class = "UIBarButtonItem"; title = "Drop"; ObjectID = "SCi-ug-7Ne"; */
+"SCi-ug-7Ne.title" = "Drop";
+
+/* Class = "UILabel"; text = "Use Autofocus"; ObjectID = "SMh-LD-8Oi"; */
+"SMh-LD-8Oi.text" = "Use Autofocus";
+
+/* Class = "UILabel"; text = "Show Reset Lever"; ObjectID = "TDB-7X-EBp"; */
+"TDB-7X-EBp.text" = "Show Reset Lever";
+
+/* Class = "UILabel"; text = "Network Delay"; ObjectID = "TOV-XP-qTQ"; */
+"TOV-XP-qTQ.text" = "Network Delay";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "U3R-ow-dXu"; */
+"U3R-ow-dXu.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "None"; ObjectID = "Uyz-8S-yai"; */
+"Uyz-8S-yai.placeholder" = "None";
+
+/* Class = "UILabel"; text = "Tracking State"; ObjectID = "YMG-sn-bKo"; */
+"YMG-sn-bKo.text" = "Tracking State";
+
+/* Class = "UILabel"; text = "SwiftShot"; ObjectID = "YQp-L8-g0c"; */
+"YQp-L8-g0c.text" = "SwiftShot";
+
+/* Class = "UILabel"; text = "AR Debug Display"; ObjectID = "YfA-Kn-9WQ"; */
+"YfA-Kn-9WQ.text" = "AR Debug Display";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YnC-xs-saU"; */
+"YnC-xs-saU.text" = "Label";
+
+/* Class = "UILabel"; text = "■"; ObjectID = "aIZ-TQ-K7R"; */
+"aIZ-TQ-K7R.text" = "■";
+
+/* Class = "UILabel"; text = "Sync Music with Clock"; ObjectID = "bWN-ad-EfB"; */
+"bWN-ad-EfB.text" = "Sync Music with Clock";
+
+/* Class = "UIButton"; normalTitle = "Join"; ObjectID = "blE-xz-CCY"; */
+"blE-xz-CCY.normalTitle" = "Join";
+
+/* Class = "UILabel"; text = "Look for Beacons"; ObjectID = "cKT-gA-KnF"; */
+"cKT-gA-KnF.text" = "Look for Beacons";
+
+/* Class = "UILabel"; text = "Spectator Mode"; ObjectID = "cuj-sr-Qpw"; */
+"cuj-sr-Qpw.text" = "Spectator Mode";
+
+/* Class = "UILabel"; text = "Show Settings Button In Game"; ObjectID = "dLX-Ck-2Dl"; */
+"dLX-Ck-2Dl.text" = "Show Settings Button In Game";
+
+/* Class = "UILabel"; text = "Show Wireframe Overlay"; ObjectID = "dfa-Dm-hpt"; */
+"dfa-Dm-hpt.text" = "Show Wireframe Overlay";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "dge-yI-GAI"; */
+"dge-yI-GAI.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "eGX-F2-bqs"; */
+"eGX-F2-bqs.text" = "Title";
+
+/* Class = "UILabel"; text = "Enable Game Board Auto-Sizing"; ObjectID = "eyj-bf-uLP"; */
+"eyj-bf-uLP.text" = "Enable Game Board Auto-Sizing";
+
+/* Class = "UIButton"; normalTitle = "<"; ObjectID = "ihi-GG-QhA"; */
+"ihi-GG-QhA.normalTitle" = "<";
+
+/* Class = "UITextField"; placeholder = "None"; ObjectID = "kFK-SL-Bqk"; */
+"kFK-SL-Bqk.placeholder" = "None";
+
+/* Class = "UILabel"; text = "Disable In-Game UI"; ObjectID = "kPU-eo-dHY"; */
+"kPU-eo-dHY.text" = "Disable In-Game UI";
+
+/* Class = "UILabel"; text = "Show Projectile Trail"; ObjectID = "laY-7s-5ZN"; */
+"laY-7s-5ZN.text" = "Show Projectile Trail";
+
+/* Class = "UILabel"; text = "Show Thermal State"; ObjectID = "lm7-Qr-PL8"; */
+"lm7-Qr-PL8.text" = "Show Thermal State";
+
+/* Class = "UILabel"; text = "Render Stats"; ObjectID = "mFr-jM-rlq"; */
+"mFr-jM-rlq.text" = "Render Stats";
+
+/* Class = "UILabel"; text = "Share World Map"; ObjectID = "muf-Z6-r2N"; */
+"muf-Z6-r2N.text" = "Share World Map";
+
+/* Class = "UITableViewSection"; headerTitle = "UI Settings"; ObjectID = "rsa-I4-Aar"; */
+"rsa-I4-Aar.headerTitle" = "UI Settings";
+
+/* Class = "UILabel"; text = "Tables near you…"; ObjectID = "t2Q-gl-UIr"; */
+"t2Q-gl-UIr.text" = "Tables near you…";
+
+/* Class = "UILabel"; text = "Show Level of Detail"; ObjectID = "t6r-6R-Hnz"; */
+"t6r-6R-Hnz.text" = "Show Level of Detail";
+
+/* Class = "UILabel"; text = "Developer Settings"; ObjectID = "tET-Zj-C5t"; */
+"tET-Zj-C5t.text" = "Developer Settings";
+
+/* Class = "UILabel"; text = "App Version"; ObjectID = "uLH-fb-ozr"; */
+"uLH-fb-ozr.text" = "App Version";
+
+/* Class = "UITextField"; placeholder = "None"; ObjectID = "ucc-wD-HTq"; */
+"ucc-wD-HTq.placeholder" = "None";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vXS-UG-yt2"; */
+"vXS-UG-yt2.text" = "Label";
+
+/* Class = "UILabel"; text = "Player Name"; ObjectID = "x5B-tk-jfc"; */
+"x5B-tk-jfc.text" = "Player Name";
+
+/* Class = "UILabel"; text = "Show Cloud Models"; ObjectID = "xTJ-Bp-MS2"; */
+"xTJ-Bp-MS2.text" = "Show Cloud Models";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zqx-KP-KKo"; */
+"zqx-KP-KKo.text" = "Label";

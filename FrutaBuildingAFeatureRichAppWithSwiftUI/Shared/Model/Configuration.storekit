@@ -1,0 +1,29 @@
+{
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : true,
+      "internalID" : "107973A4",
+      "localizations" : [
+        {
+          "description" : "Make smoothies at home!",
+          "displayName" : "Unlock All Recipes",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.example.apple-samplecode.fruta.unlock-recipes",
+      "referenceName" : "Unlock All Recipes",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}

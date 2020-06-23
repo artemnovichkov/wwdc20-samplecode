@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4848BDDB2436D8FC004D40EA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4848BDDA2436D8FC004D40EA /* main.swift */; };
+		B146FAF12438CD0A00DD32B5 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146FAF02438CD0A00DD32B5 /* Channel.swift */; };
+		B146FAF62438CDB700DD32B5 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146FAF52438CDB700DD32B5 /* Router.swift */; };
+		B146FAF82438CE1A00DD32B5 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146FAF72438CE1A00DD32B5 /* Client.swift */; };
+		B17DF704248059A00001F5FD /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17DF703248059A00001F5FD /* Call.swift */; };
+		B1B43FCF24734B5F00F3F379 /* SimplePushKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1B43FCD24734B5F00F3F379 /* SimplePushKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1B440212473540C00F3F379 /* SimplePushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B4401E247353E600F3F379 /* SimplePushKit.framework */; };
+		B1B4402824735D7900F3F379 /* SimplePushServer.p12 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B1B4402724735CB500F3F379 /* SimplePushServer.p12 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1B4401B247353E600F3F379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B44016247353E600F3F379 /* SimplePushKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 48303A752436E269009577D9;
+			remoteInfo = "SimplePushKit-iOS";
+		};
+		B1B4401D247353E600F3F379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B44016247353E600F3F379 /* SimplePushKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 48303A5F2436E187009577D9;
+			remoteInfo = "SimplePushKit-macOS";
+		};
+		B1B4401F247353F800F3F379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B44016247353E600F3F379 /* SimplePushKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 48303A562436E187009577D9;
+			remoteInfo = "SimplePushKit-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4848BDD52436D8FC004D40EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				B1B4402824735D7900F3F379 /* SimplePushServer.p12 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B43FD024734B5F00F3F379 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1B43FCF24734B5F00F3F379 /* SimplePushKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		208286AEAEF568DED0844961 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		4848BDD72436D8FC004D40EA /* SimplePushServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimplePushServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		4848BDDA2436D8FC004D40EA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		76A59794446E8FEA976F7833 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7E7FD305575EFE5C3B437BE0 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		B146FAF02438CD0A00DD32B5 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		B146FAF52438CDB700DD32B5 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B146FAF72438CE1A00DD32B5 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		B17DF703248059A00001F5FD /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		B1B43FCD24734B5F00F3F379 /* SimplePushKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimplePushKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B44016247353E600F3F379 /* SimplePushKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimplePushKit.xcodeproj; path = ../SimplePushKit/SimplePushKit.xcodeproj; sourceTree = "<group>"; };
+		B1B4402724735CB500F3F379 /* SimplePushServer.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimplePushServer.p12; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4848BDD42436D8FC004D40EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B440212473540C00F3F379 /* SimplePushKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB45D8DD27FC8714BA697E2 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				208286AEAEF568DED0844961 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = ../LICENSE;
+			sourceTree = "<group>";
+		};
+		4848BDCE2436D8FC004D40EA = {
+			isa = PBXGroup;
+			children = (
+				76A59794446E8FEA976F7833 /* README.md */,
+				4848BDD92436D8FC004D40EA /* SimplePushServer */,
+				4848BDE22436DA09004D40EA /* Frameworks */,
+				4848BDD82436D8FC004D40EA /* Products */,
+				892F946F59942F0B098A3EFD /* Configuration */,
+				1AB45D8DD27FC8714BA697E2 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		4848BDD82436D8FC004D40EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4848BDD72436D8FC004D40EA /* SimplePushServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4848BDD92436D8FC004D40EA /* SimplePushServer */ = {
+			isa = PBXGroup;
+			children = (
+				4848BDDA2436D8FC004D40EA /* main.swift */,
+				B146FAF02438CD0A00DD32B5 /* Channel.swift */,
+				B146FAF52438CDB700DD32B5 /* Router.swift */,
+				B146FAF72438CE1A00DD32B5 /* Client.swift */,
+				B17DF703248059A00001F5FD /* Call.swift */,
+				489311E92445FAF0004F50A0 /* Resources */,
+			);
+			path = SimplePushServer;
+			sourceTree = "<group>";
+		};
+		4848BDE22436DA09004D40EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1B44016247353E600F3F379 /* SimplePushKit.xcodeproj */,
+				B1B43FCD24734B5F00F3F379 /* SimplePushKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		489311E92445FAF0004F50A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1B4402724735CB500F3F379 /* SimplePushServer.p12 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		892F946F59942F0B098A3EFD /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				7E7FD305575EFE5C3B437BE0 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		B1B44017247353E600F3F379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B4401C247353E600F3F379 /* SimplePushKit.framework */,
+				B1B4401E247353E600F3F379 /* SimplePushKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4848BDD62436D8FC004D40EA /* SimplePushServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4848BDDE2436D8FC004D40EA /* Build configuration list for PBXNativeTarget "SimplePushServer" */;
+			buildPhases = (
+				4848BDD32436D8FC004D40EA /* Sources */,
+				4848BDD42436D8FC004D40EA /* Frameworks */,
+				4848BDD52436D8FC004D40EA /* CopyFiles */,
+				B1B43FD024734B5F00F3F379 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B44020247353F800F3F379 /* PBXTargetDependency */,
+			);
+			name = SimplePushServer;
+			productName = SimplePushServer;
+			productReference = 4848BDD72436D8FC004D40EA /* SimplePushServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4848BDCF2436D8FC004D40EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					4848BDD62436D8FC004D40EA = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 4848BDD22436D8FC004D40EA /* Build configuration list for PBXProject "SimplePushServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4848BDCE2436D8FC004D40EA;
+			productRefGroup = 4848BDD82436D8FC004D40EA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B1B44017247353E600F3F379 /* Products */;
+					ProjectRef = B1B44016247353E600F3F379 /* SimplePushKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4848BDD62436D8FC004D40EA /* SimplePushServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B1B4401C247353E600F3F379 /* SimplePushKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SimplePushKit.framework;
+			remoteRef = B1B4401B247353E600F3F379 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1B4401E247353E600F3F379 /* SimplePushKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SimplePushKit.framework;
+			remoteRef = B1B4401D247353E600F3F379 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4848BDD32436D8FC004D40EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17DF704248059A00001F5FD /* Call.swift in Sources */,
+				B146FAF82438CE1A00DD32B5 /* Client.swift in Sources */,
+				B146FAF62438CDB700DD32B5 /* Router.swift in Sources */,
+				B146FAF12438CD0A00DD32B5 /* Channel.swift in Sources */,
+				4848BDDB2436D8FC004D40EA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1B44020247353F800F3F379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SimplePushKit-macOS";
+			targetProxy = B1B4401F247353F800F3F379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4848BDDC2436D8FC004D40EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7FD305575EFE5C3B437BE0 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4848BDDD2436D8FC004D40EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7FD305575EFE5C3B437BE0 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4848BDDF2436D8FC004D40EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7FD305575EFE5C3B437BE0 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SimplePushServer${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4848BDE02436D8FC004D40EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7FD305575EFE5C3B437BE0 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SimplePushServer${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4848BDD22436D8FC004D40EA /* Build configuration list for PBXProject "SimplePushServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4848BDDC2436D8FC004D40EA /* Debug */,
+				4848BDDD2436D8FC004D40EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4848BDDE2436D8FC004D40EA /* Build configuration list for PBXNativeTarget "SimplePushServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4848BDDF2436D8FC004D40EA /* Debug */,
+				4848BDE02436D8FC004D40EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4848BDCF2436D8FC004D40EA /* Project object */;
+}

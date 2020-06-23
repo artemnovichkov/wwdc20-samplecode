@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17133" systemVersion="19G40" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="GameEntity" representedClassName="GameEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="tiles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TileEntity" inverseName="game" inverseEntity="TileEntity"/>
+    </entity>
+    <entity name="TileEntity" representedClassName="TileEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="flipped" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sticker" optional="YES" attributeType="String"/>
+        <relationship name="game" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GameEntity" inverseName="tiles" inverseEntity="GameEntity"/>
+    </entity>
+    <elements>
+        <element name="GameEntity" positionX="-45" positionY="0" width="128" height="88"/>
+        <element name="TileEntity" positionX="-18" positionY="27" width="128" height="103"/>
+    </elements>
+</model>

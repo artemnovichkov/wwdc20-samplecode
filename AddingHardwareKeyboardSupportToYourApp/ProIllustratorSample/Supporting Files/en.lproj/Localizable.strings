@@ -1,0 +1,26 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Localized strings
+*/
+
+/* Menu items and discoverability titles */
+"NEW" = "New";
+"DELETE" = "Delete";
+
+/* Title for file browser */
+"FILES" = "Files";
+
+/* Untitled filenames */
+"UNTITLED_%d" = "Untitled %d";
+
+/* Names of shapes */
+"RECTANGLE" = "Rectangle";
+"CIRCLE" = "Circle";
+
+/* Title for add shape modal screen */
+"ADD SHAPE" = "Add Shape";
+
+/* Discoverability title for "Cancel" */
+"CANCEL" = "Cancel";

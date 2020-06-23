@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17132" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17105"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PHPickerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="6J6-Wh-9Ol" userLabel="Live Photo View" customClass="PHLivePhotoView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo.on.rectangle.angled" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Tfa-GR-aFN">
+                                <rect key="frame" x="0.0" y="-1" width="414" height="897"/>
+                                <color key="tintColor" systemColor="systemFillColor"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUH-sZ-1o3" userLabel="Live Photos Only">
+                                <rect key="frame" x="351" y="64" width="43" height="42"/>
+                                <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                <state key="normal" image="livephoto" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="large" weight="medium">
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                    </preferredSymbolConfiguration>
+                                </state>
+                                <connections>
+                                    <action selector="presentPickerForLivePhotosOnly:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="dYb-e4-Jeu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUv-Z2-JwA" userLabel="Images Including Live Photos">
+                                <rect key="frame" x="297.5" y="64" width="45.5" height="38"/>
+                                <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                <state key="normal" image="photo" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="large" weight="medium">
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                    </preferredSymbolConfiguration>
+                                </state>
+                                <connections>
+                                    <action selector="presentPickerForImagesIncludingLivePhotos:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="J9W-Ub-BiU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dUH-sZ-1o3" secondAttribute="trailing" constant="20" id="5zY-k9-fvJ"/>
+                            <constraint firstItem="6J6-Wh-9Ol" firstAttribute="bottom" secondItem="Tfa-GR-aFN" secondAttribute="bottom" id="9Dj-Yy-7sV"/>
+                            <constraint firstItem="dUH-sZ-1o3" firstAttribute="leading" secondItem="JUv-Z2-JwA" secondAttribute="trailing" constant="8" symbolic="YES" id="Se3-pH-5eu"/>
+                            <constraint firstItem="6J6-Wh-9Ol" firstAttribute="top" secondItem="Tfa-GR-aFN" secondAttribute="top" id="W9d-9P-kuZ"/>
+                            <constraint firstItem="6J6-Wh-9Ol" firstAttribute="trailing" secondItem="Tfa-GR-aFN" secondAttribute="trailing" id="WXh-Ek-9i3"/>
+                            <constraint firstItem="6J6-Wh-9Ol" firstAttribute="leading" secondItem="Tfa-GR-aFN" secondAttribute="leading" id="eX3-Cr-Vkc"/>
+                            <constraint firstItem="Tfa-GR-aFN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="f93-tE-OQE"/>
+                            <constraint firstItem="JUv-Z2-JwA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="map-Ga-zfb"/>
+                            <constraint firstItem="Tfa-GR-aFN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ofW-Lz-UBv"/>
+                            <constraint firstAttribute="bottom" secondItem="Tfa-GR-aFN" secondAttribute="bottom" id="orE-1a-W5p"/>
+                            <constraint firstItem="Tfa-GR-aFN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sNr-i4-wt1"/>
+                            <constraint firstItem="dUH-sZ-1o3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="uMo-Jj-l7S"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Tfa-GR-aFN" id="Qyz-6J-9hH"/>
+                        <outlet property="livePhotoView" destination="6J6-Wh-9Ol" id="My9-8U-Pas"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-217.39130434782609" y="89.732142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="livephoto" catalog="system" width="128" height="122"/>
+        <image name="photo" catalog="system" width="128" height="93"/>
+        <image name="photo.on.rectangle.angled" catalog="system" width="128" height="101"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

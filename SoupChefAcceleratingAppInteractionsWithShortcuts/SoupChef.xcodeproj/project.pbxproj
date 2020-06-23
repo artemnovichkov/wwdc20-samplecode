@@ -1,0 +1,1804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18038DF7227F583900473D42 /* Intents.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 18038DF6227F583900473D42 /* Intents.stringsdict */; };
+		18038DF8227F58FC00473D42 /* Intents.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 18038DF6227F583900473D42 /* Intents.stringsdict */; };
+		18038DFB227F590000473D42 /* Intents.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 18038DF6227F583900473D42 /* Intents.stringsdict */; };
+		181546BC22662FA10070A877 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6041F8C220F96CAC00AFC5D2 /* Localizable.strings */; };
+		1848ECF222761A6800C4D680 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294C6C3C20AE255A002A46C4 /* SharedAssets.xcassets */; };
+		292B745520A94BF40038A692 /* SoupKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B745320A94BF40038A692 /* SoupKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		292B745820A94BF40038A692 /* SoupKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292B745120A94BF40038A692 /* SoupKit.framework */; };
+		292B745920A94BF40038A692 /* SoupKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 292B745120A94BF40038A692 /* SoupKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		292B748A20A94C190038A692 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292B748820A94C190038A692 /* Interface.storyboard */; };
+		292B749320A94C1A0038A692 /* SoupChefWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 292B749220A94C1A0038A692 /* SoupChefWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		292B749A20A94C1A0038A692 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B749920A94C1A0038A692 /* ExtensionDelegate.swift */; };
+		292B74B120A94C230038A692 /* SoupKitWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B74AF20A94C230038A692 /* SoupKitWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		292B74B420A94C230038A692 /* SoupKitWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292B74AD20A94C230038A692 /* SoupKitWatch.framework */; };
+		292B74B520A94C230038A692 /* SoupKitWatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 292B74AD20A94C230038A692 /* SoupKitWatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		292B74C120A94C450038A692 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B74C020A94C450038A692 /* IntentHandler.swift */; };
+		292B74C520A94C450038A692 /* SoupChefIntentsWatch.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 292B74BE20A94C450038A692 /* SoupChefIntentsWatch.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		292B74CD20A94CB90038A692 /* HistoryInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B74CA20A94CB80038A692 /* HistoryInterfaceController.swift */; };
+		292B74CE20A94CB90038A692 /* OrderConfirmedInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B74CB20A94CB90038A692 /* OrderConfirmedInterfaceController.swift */; };
+		292B74CF20A94CB90038A692 /* MenuInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292B74CC20A94CB90038A692 /* MenuInterfaceController.swift */; };
+		292B74D320A94DA90038A692 /* SoupMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D2020A7CCBD005ADCF5 /* SoupMenuManager.swift */; };
+		292B74D420A94DAA0038A692 /* SoupMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D2020A7CCBD005ADCF5 /* SoupMenuManager.swift */; };
+		292B74D520A94DCC0038A692 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7115427209A808A005588F4 /* Order.swift */; };
+		292B74D620A94DCC0038A692 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7115423209A805C005588F4 /* MenuItem.swift */; };
+		292B74D720A94DCC0038A692 /* NSUserActivity+IntentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D4B20A813CE005ADCF5 /* NSUserActivity+IntentData.swift */; };
+		292B74D820A94DCC0038A692 /* NumberFormatter+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74852C320A26A8E00403EBA /* NumberFormatter+Currency.swift */; };
+		292B74D920A94DCC0038A692 /* UserDefaults+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D4820A807A1005ADCF5 /* UserDefaults+DataSource.swift */; };
+		292B74DA20A94DCD0038A692 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7115427209A808A005588F4 /* Order.swift */; };
+		292B74DB20A94DCD0038A692 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7115423209A805C005588F4 /* MenuItem.swift */; };
+		292B74DC20A94DCD0038A692 /* NSUserActivity+IntentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D4B20A813CE005ADCF5 /* NSUserActivity+IntentData.swift */; };
+		292B74DD20A94DCD0038A692 /* NumberFormatter+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74852C320A26A8E00403EBA /* NumberFormatter+Currency.swift */; };
+		292B74DE20A94DCD0038A692 /* UserDefaults+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D4820A807A1005ADCF5 /* UserDefaults+DataSource.swift */; };
+		292B74DF20A94DD10038A692 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D4320A80725005ADCF5 /* DataManager.swift */; };
+		292B74E020A94DD10038A692 /* SoupOrderDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D4220A80725005ADCF5 /* SoupOrderDataManager.swift */; };
+		292B74E220A94DD10038A692 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D4320A80725005ADCF5 /* DataManager.swift */; };
+		292B74E320A94DD10038A692 /* SoupOrderDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D4220A80725005ADCF5 /* SoupOrderDataManager.swift */; };
+		2977F0C820AE1CA70052AE03 /* OrderDetailTableConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977F0C720AE1CA70052AE03 /* OrderDetailTableConfiguration.swift */; };
+		298308BF20B0F309006FDD95 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 298308C120B0F309006FDD95 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		298308C220B0F320006FDD95 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 298308C120B0F309006FDD95 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		298308C320B0F321006FDD95 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 298308C120B0F309006FDD95 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		298308C420B0F322006FDD95 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 298308C120B0F309006FDD95 /* Intents.intentdefinition */; };
+		298308C520B0F323006FDD95 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 298308C120B0F309006FDD95 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		298308C620B0F323006FDD95 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 298308C120B0F309006FDD95 /* Intents.intentdefinition */; };
+		298308C720B0F324006FDD95 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 298308C120B0F309006FDD95 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		298308C820B0F7F0006FDD95 /* SoupKitWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292B74AD20A94C230038A692 /* SoupKitWatch.framework */; };
+		298308CD20B10892006FDD95 /* SoupKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292B745120A94BF40038A692 /* SoupKit.framework */; };
+		298308CE20B10898006FDD95 /* SoupKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292B745120A94BF40038A692 /* SoupKit.framework */; };
+		29D1F3D220AA937600C97CDF /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1F3D120AA937600C97CDF /* Localizable.swift */; };
+		29D1F3D320AA937600C97CDF /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D1F3D120AA937600C97CDF /* Localizable.swift */; };
+		29D3F96D20AE2B9100B68560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D3F96B20AE2B9100B68560 /* Assets.xcassets */; };
+		29D3F9B220AE315800B68560 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294C6C3C20AE255A002A46C4 /* SharedAssets.xcassets */; };
+		3013B13A24847657002881BC /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294C6C3C20AE255A002A46C4 /* SharedAssets.xcassets */; };
+		6029C1B720D9CAEE003CA478 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294C6C3C20AE255A002A46C4 /* SharedAssets.xcassets */; };
+		6029C1B920D9CFFE003CA478 /* SoupMenuManager+Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029C1B820D9CFFE003CA478 /* SoupMenuManager+Intents.swift */; };
+		6029C1BA20D9CFFE003CA478 /* SoupMenuManager+Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029C1B820D9CFFE003CA478 /* SoupMenuManager+Intents.swift */; };
+		6029C1BB20D9DF73003CA478 /* SoupChefWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 292B748620A94C190038A692 /* SoupChefWatch.app */; };
+		6041F8C620F96CAC00AFC5D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6041F8C220F96CAC00AFC5D2 /* Localizable.strings */; };
+		6041F8C720F96CAC00AFC5D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6041F8C220F96CAC00AFC5D2 /* Localizable.strings */; };
+		6041F8C820F96CAC00AFC5D2 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 6041F8C420F96CAC00AFC5D2 /* Localizable.stringsdict */; };
+		6041F8C920F96CAC00AFC5D2 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 6041F8C420F96CAC00AFC5D2 /* Localizable.stringsdict */; };
+		6052023420D9C4EA000C1972 /* InvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6052023020D9C4E9000C1972 /* InvoiceViewController.swift */; };
+		6052023520D9C4EA000C1972 /* OrderConfirmedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6052023120D9C4EA000C1972 /* OrderConfirmedViewController.swift */; };
+		6052023620D9C4EA000C1972 /* InvoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6052023220D9C4EA000C1972 /* InvoiceView.xib */; };
+		6052023720D9C4EA000C1972 /* OrderConfirmedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6052023320D9C4EA000C1972 /* OrderConfirmedView.xib */; };
+		606C6DBE2076EEE8009F09CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606C6DBD2076EEE8009F09CA /* AppDelegate.swift */; };
+		606C6DD82076EF08009F09CA /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606C6DD72076EF08009F09CA /* IntentHandler.swift */; };
+		606C6DE12076EF08009F09CA /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606C6DE02076EF08009F09CA /* IntentsUI.framework */; };
+		606C6DE42076EF08009F09CA /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606C6DE32076EF08009F09CA /* IntentViewController.swift */; };
+		606C6DEB2076EF09009F09CA /* SoupChefIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 606C6DDE2076EF08009F09CA /* SoupChefIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		606C6DEE2076EF09009F09CA /* SoupChefIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 606C6DD52076EF08009F09CA /* SoupChefIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		60B7BD2320DB08AA003E869D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E9911E20AD2E1F00594EDF /* Assets.xcassets */; };
+		60C80CC920E3737A00270927 /* Order+Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C80CC820E3737A00270927 /* Order+Intents.swift */; };
+		60C80CCA20E3737A00270927 /* Order+Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C80CC820E3737A00270927 /* Order+Intents.swift */; };
+		60C80CCB20E3745F00270927 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60631C1E20D9C5D300F65100 /* UIImage+Extension.swift */; };
+		60E0132A20FA900E00D0E727 /* Intents.intentdefinition in Resources */ = {isa = PBXBuildFile; fileRef = 298308C120B0F309006FDD95 /* Intents.intentdefinition */; };
+		60F40DC32488D35500F7B9E2 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 6041F8C420F96CAC00AFC5D2 /* Localizable.stringsdict */; };
+		60F40DC42488D35700F7B9E2 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 6041F8C420F96CAC00AFC5D2 /* Localizable.stringsdict */; };
+		60F40DC52488D35A00F7B9E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6041F8C220F96CAC00AFC5D2 /* Localizable.strings */; };
+		60F40DC82488D36300F7B9E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6041F8C220F96CAC00AFC5D2 /* Localizable.strings */; };
+		60F40DC92488D36B00F7B9E2 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 6041F8C420F96CAC00AFC5D2 /* Localizable.stringsdict */; };
+		D7115420209A48A1005588F4 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = D7115422209A48A1005588F4 /* Main.storyboard */; };
+		D715F20820897745002A64CD /* OrderHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715F20620897745002A64CD /* OrderHistoryTableViewController.swift */; };
+		D715F21020897753002A64CD /* SoupMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715F20C20897753002A64CD /* SoupMenuViewController.swift */; };
+		D715F21520897A60002A64CD /* LaunchScreen.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 606C6DC82076EEE9009F09CA /* LaunchScreen.storyboard */; };
+		D715F21920897A60002A64CD /* MainInterface.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 606C6DE52076EF08009F09CA /* MainInterface.storyboard */; };
+		D73F089720AAA76400A901C5 /* OrderSoupIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720B87320AA734200FCFD81 /* OrderSoupIntentHandler.swift */; };
+		D73F089920AAA7F800A901C5 /* OrderSoupIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720B87320AA734200FCFD81 /* OrderSoupIntentHandler.swift */; };
+		D76D4CFF20A794F5005ADCF5 /* OrderDetail.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = D76D4CFE20A794E6005ADCF5 /* OrderDetail.storyboard */; };
+		D76D4D1F20A7C83B005ADCF5 /* ConfigureMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D4D1E20A7C83B005ADCF5 /* ConfigureMenuTableViewController.swift */; };
+		D7924F8420A2380600D89872 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7924F8320A2380600D89872 /* OrderDetailViewController.swift */; };
+		D7E9911D20AD2DEB00594EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E9911C20AD2DEB00594EDF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		292B745620A94BF40038A692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606C6DB22076EEE8009F09CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292B745020A94BF40038A692;
+			remoteInfo = SoupKit;
+		};
+		292B749420A94C1A0038A692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606C6DB22076EEE8009F09CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292B749120A94C1A0038A692;
+			remoteInfo = "SoupChefWatch Extension";
+		};
+		292B74B220A94C230038A692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606C6DB22076EEE8009F09CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292B74AC20A94C230038A692;
+			remoteInfo = SoupKitWatch;
+		};
+		292B74C320A94C450038A692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606C6DB22076EEE8009F09CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292B74BD20A94C450038A692;
+			remoteInfo = SoupChefIntentsWatch;
+		};
+		294C6C2220AE2214002A46C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606C6DB22076EEE8009F09CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292B745020A94BF40038A692;
+			remoteInfo = SoupKit;
+		};
+		294C6C2420AE221D002A46C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606C6DB22076EEE8009F09CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292B745020A94BF40038A692;
+			remoteInfo = SoupKit;
+		};
+		294C6C2620AE2228002A46C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606C6DB22076EEE8009F09CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292B74AC20A94C230038A692;
+			remoteInfo = SoupKitWatch;
+		};
+		6029C1BC20D9DF94003CA478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606C6DB22076EEE8009F09CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292B748520A94C190038A692;
+			remoteInfo = SoupChefWatch;
+		};
+		606C6DE92076EF09009F09CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606C6DB22076EEE8009F09CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606C6DDD2076EF08009F09CA;
+			remoteInfo = SoupChefIntentsUI;
+		};
+		606C6DEC2076EF09009F09CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606C6DB22076EEE8009F09CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606C6DD42076EF08009F09CA;
+			remoteInfo = SoupChefIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		292B74A420A94C1B0038A692 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				292B749320A94C1A0038A692 /* SoupChefWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B74B920A94C230038A692 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				292B74B520A94C230038A692 /* SoupKitWatch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B74C920A94C450038A692 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				292B74C520A94C450038A692 /* SoupChefIntentsWatch.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29F0E4FF20A5517500096FA9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6029C1BB20D9DF73003CA478 /* SoupChefWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602A55962076F1050057E0D1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				292B745920A94BF40038A692 /* SoupKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6DF52076EF09009F09CA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				606C6DEB2076EF09009F09CA /* SoupChefIntentsUI.appex in Embed App Extensions */,
+				606C6DEE2076EF09009F09CA /* SoupChefIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18038DF6227F583900473D42 /* Intents.stringsdict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.stringsdict; path = Intents.stringsdict; sourceTree = "<group>"; };
+		291CEC0420A9F474003FE156 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		292B745120A94BF40038A692 /* SoupKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoupKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		292B745320A94BF40038A692 /* SoupKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoupKit.h; sourceTree = "<group>"; };
+		292B745420A94BF40038A692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292B748620A94C190038A692 /* SoupChefWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoupChefWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		292B748920A94C190038A692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		292B748D20A94C1A0038A692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292B749220A94C1A0038A692 /* SoupChefWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SoupChefWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		292B749920A94C1A0038A692 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		292B749D20A94C1B0038A692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292B74AD20A94C230038A692 /* SoupKitWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoupKitWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		292B74AF20A94C230038A692 /* SoupKitWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoupKitWatch.h; sourceTree = "<group>"; };
+		292B74B020A94C230038A692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292B74BE20A94C450038A692 /* SoupChefIntentsWatch.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SoupChefIntentsWatch.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		292B74C020A94C450038A692 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		292B74C220A94C450038A692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292B74CA20A94CB80038A692 /* HistoryInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryInterfaceController.swift; sourceTree = "<group>"; };
+		292B74CB20A94CB90038A692 /* OrderConfirmedInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderConfirmedInterfaceController.swift; sourceTree = "<group>"; };
+		292B74CC20A94CB90038A692 /* MenuInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuInterfaceController.swift; sourceTree = "<group>"; };
+		292B74D020A94D460038A692 /* SoupChefIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoupChefIntents.entitlements; sourceTree = "<group>"; };
+		292B74D120A94D540038A692 /* SoupChefWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SoupChefWatch Extension.entitlements"; sourceTree = "<group>"; };
+		292B74D220A94D5A0038A692 /* SoupChefIntentsWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoupChefIntentsWatch.entitlements; sourceTree = "<group>"; };
+		294C6C3C20AE255A002A46C4 /* SharedAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharedAssets.xcassets; sourceTree = "<group>"; };
+		2977F0C720AE1CA70052AE03 /* OrderDetailTableConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailTableConfiguration.swift; sourceTree = "<group>"; };
+		298308C020B0F309006FDD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Intents.intentdefinition; sourceTree = "<group>"; };
+		29D1F3D120AA937600C97CDF /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		29D3F96B20AE2B9100B68560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6029C1B820D9CFFE003CA478 /* SoupMenuManager+Intents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoupMenuManager+Intents.swift"; sourceTree = "<group>"; };
+		6041F8C320F96CAC00AFC5D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6041F8C520F96CAC00AFC5D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		6052023020D9C4E9000C1972 /* InvoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceViewController.swift; sourceTree = "<group>"; };
+		6052023120D9C4EA000C1972 /* OrderConfirmedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderConfirmedViewController.swift; sourceTree = "<group>"; };
+		6052023220D9C4EA000C1972 /* InvoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvoiceView.xib; sourceTree = "<group>"; };
+		6052023320D9C4EA000C1972 /* OrderConfirmedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderConfirmedView.xib; sourceTree = "<group>"; };
+		60631C1E20D9C5D300F65100 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		606C6DBA2076EEE8009F09CA /* SoupChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoupChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		606C6DBD2076EEE8009F09CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		606C6DC92076EEE9009F09CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		606C6DCB2076EEE9009F09CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606C6DD52076EF08009F09CA /* SoupChefIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SoupChefIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		606C6DD72076EF08009F09CA /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		606C6DD92076EF08009F09CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606C6DDE2076EF08009F09CA /* SoupChefIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SoupChefIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		606C6DE02076EF08009F09CA /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		606C6DE32076EF08009F09CA /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		606C6DE62076EF08009F09CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		606C6DE82076EF09009F09CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C80CC820E3737A00270927 /* Order+Intents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Order+Intents.swift"; sourceTree = "<group>"; };
+		60EA6D8820782A9300249FFB /* SoupChef.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoupChef.entitlements; sourceTree = "<group>"; };
+		8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		BB4C37508A45F62FA7FB0008 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		D7115421209A48A1005588F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7115423209A805C005588F4 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		D7115427209A808A005588F4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D715F20620897745002A64CD /* OrderHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderHistoryTableViewController.swift; sourceTree = "<group>"; };
+		D715F20C20897753002A64CD /* SoupMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoupMenuViewController.swift; sourceTree = "<group>"; };
+		D720B87320AA734200FCFD81 /* OrderSoupIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSoupIntentHandler.swift; sourceTree = "<group>"; };
+		D74852C320A26A8E00403EBA /* NumberFormatter+Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Currency.swift"; sourceTree = "<group>"; };
+		D76D4CFD20A794E6005ADCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/OrderDetail.storyboard; sourceTree = "<group>"; };
+		D76D4D1E20A7C83B005ADCF5 /* ConfigureMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureMenuTableViewController.swift; sourceTree = "<group>"; };
+		D76D4D2020A7CCBD005ADCF5 /* SoupMenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoupMenuManager.swift; path = ../SoupMenuManager.swift; sourceTree = "<group>"; };
+		D76D4D4220A80725005ADCF5 /* SoupOrderDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoupOrderDataManager.swift; sourceTree = "<group>"; };
+		D76D4D4320A80725005ADCF5 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D76D4D4820A807A1005ADCF5 /* UserDefaults+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+DataSource.swift"; sourceTree = "<group>"; };
+		D76D4D4B20A813CE005ADCF5 /* NSUserActivity+IntentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSUserActivity+IntentData.swift"; sourceTree = "<group>"; };
+		D7924F8320A2380600D89872 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		D7E9911C20AD2DEB00594EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E9911E20AD2E1F00594EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		292B744E20A94BF40038A692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B748F20A94C1A0038A692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B74B420A94C230038A692 /* SoupKitWatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B74AA20A94C230038A692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B74BB20A94C450038A692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298308C820B0F7F0006FDD95 /* SoupKitWatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6DB72076EEE8009F09CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B745820A94BF40038A692 /* SoupKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6DD22076EF08009F09CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298308CD20B10892006FDD95 /* SoupKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6DDB2076EF08009F09CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298308CE20B10898006FDD95 /* SoupKit.framework in Frameworks */,
+				606C6DE12076EF08009F09CA /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		292B745220A94BF40038A692 /* SoupKit */ = {
+			isa = PBXGroup;
+			children = (
+				292B745320A94BF40038A692 /* SoupKit.h */,
+				292B745420A94BF40038A692 /* Info.plist */,
+			);
+			path = SoupKit;
+			sourceTree = "<group>";
+		};
+		292B748720A94C190038A692 /* SoupChefWatch */ = {
+			isa = PBXGroup;
+			children = (
+				292B748820A94C190038A692 /* Interface.storyboard */,
+				D7E9911E20AD2E1F00594EDF /* Assets.xcassets */,
+				292B748D20A94C1A0038A692 /* Info.plist */,
+			);
+			path = SoupChefWatch;
+			sourceTree = "<group>";
+		};
+		292B749620A94C1A0038A692 /* SoupChefWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				29D3F96B20AE2B9100B68560 /* Assets.xcassets */,
+				292B749920A94C1A0038A692 /* ExtensionDelegate.swift */,
+				292B74CA20A94CB80038A692 /* HistoryInterfaceController.swift */,
+				292B749D20A94C1B0038A692 /* Info.plist */,
+				292B74CC20A94CB90038A692 /* MenuInterfaceController.swift */,
+				292B74CB20A94CB90038A692 /* OrderConfirmedInterfaceController.swift */,
+				292B74D120A94D540038A692 /* SoupChefWatch Extension.entitlements */,
+			);
+			path = "SoupChefWatch Extension";
+			sourceTree = "<group>";
+		};
+		292B74AE20A94C230038A692 /* SoupKitWatch */ = {
+			isa = PBXGroup;
+			children = (
+				292B74AF20A94C230038A692 /* SoupKitWatch.h */,
+				292B74B020A94C230038A692 /* Info.plist */,
+			);
+			path = SoupKitWatch;
+			sourceTree = "<group>";
+		};
+		292B74BF20A94C450038A692 /* SoupChefIntentsWatch */ = {
+			isa = PBXGroup;
+			children = (
+				292B74D220A94D5A0038A692 /* SoupChefIntentsWatch.entitlements */,
+				292B74C020A94C450038A692 /* IntentHandler.swift */,
+				292B74C220A94C450038A692 /* Info.plist */,
+			);
+			path = SoupChefIntentsWatch;
+			sourceTree = "<group>";
+		};
+		2981E7A120AABB62003259CF /* Supporting Targets */ = {
+			isa = PBXGroup;
+			children = (
+				292B749620A94C1A0038A692 /* SoupChefWatch Extension */,
+				606C6DD62076EF08009F09CA /* SoupChefIntents */,
+				292B74BF20A94C450038A692 /* SoupChefIntentsWatch */,
+				292B748720A94C190038A692 /* SoupChefWatch */,
+				292B745220A94BF40038A692 /* SoupKit */,
+				292B74AE20A94C230038A692 /* SoupKitWatch */,
+			);
+			path = "Supporting Targets";
+			sourceTree = "<group>";
+		};
+		2981E7A220AABB92003259CF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				29D1F3D120AA937600C97CDF /* Localizable.swift */,
+				D76D4D4B20A813CE005ADCF5 /* NSUserActivity+IntentData.swift */,
+				D74852C320A26A8E00403EBA /* NumberFormatter+Currency.swift */,
+				294C6C3C20AE255A002A46C4 /* SharedAssets.xcassets */,
+				60631C1E20D9C5D300F65100 /* UIImage+Extension.swift */,
+				D76D4D4820A807A1005ADCF5 /* UserDefaults+DataSource.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		2981E7A420AABC0D003259CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7115422209A48A1005588F4 /* Main.storyboard */,
+				D76D4CFE20A794E6005ADCF5 /* OrderDetail.storyboard */,
+				606C6DC82076EEE9009F09CA /* LaunchScreen.storyboard */,
+				D7E9911C20AD2DEB00594EDF /* Assets.xcassets */,
+				60EA6D8820782A9300249FFB /* SoupChef.entitlements */,
+				606C6DCB2076EEE9009F09CA /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29973BC820A9494C00F97C8B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6041F8C220F96CAC00AFC5D2 /* Localizable.strings */,
+				6041F8C420F96CAC00AFC5D2 /* Localizable.stringsdict */,
+				D76D4D4720A8072A005ADCF5 /* Data */,
+				298308C120B0F309006FDD95 /* Intents.intentdefinition */,
+				18038DF6227F583900473D42 /* Intents.stringsdict */,
+				60C80CC820E3737A00270927 /* Order+Intents.swift */,
+				D720B87320AA734200FCFD81 /* OrderSoupIntentHandler.swift */,
+				6029C1B820D9CFFE003CA478 /* SoupMenuManager+Intents.swift */,
+				2981E7A220AABB92003259CF /* Support */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		29C014F820AABC43003172D3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				606C6DBD2076EEE8009F09CA /* AppDelegate.swift */,
+				D76D4D1E20A7C83B005ADCF5 /* ConfigureMenuTableViewController.swift */,
+				2977F0C720AE1CA70052AE03 /* OrderDetailTableConfiguration.swift */,
+				D7924F8320A2380600D89872 /* OrderDetailViewController.swift */,
+				D715F20620897745002A64CD /* OrderHistoryTableViewController.swift */,
+				D715F20C20897753002A64CD /* SoupMenuViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		606C6DB12076EEE8009F09CA = {
+			isa = PBXGroup;
+			children = (
+				291CEC0420A9F474003FE156 /* README.md */,
+				606C6DBC2076EEE8009F09CA /* SoupChef */,
+				29973BC820A9494C00F97C8B /* Shared */,
+				606C6DE22076EF08009F09CA /* SoupChefIntentsUI */,
+				2981E7A120AABB62003259CF /* Supporting Targets */,
+				606C6DDF2076EF08009F09CA /* Frameworks */,
+				606C6DBB2076EEE8009F09CA /* Products */,
+				8574D98C9738DB228A7D44EF /* Configuration */,
+				83C1B6EBDEBC3608667E2536 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		606C6DBB2076EEE8009F09CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606C6DBA2076EEE8009F09CA /* SoupChef.app */,
+				606C6DD52076EF08009F09CA /* SoupChefIntents.appex */,
+				606C6DDE2076EF08009F09CA /* SoupChefIntentsUI.appex */,
+				292B745120A94BF40038A692 /* SoupKit.framework */,
+				292B748620A94C190038A692 /* SoupChefWatch.app */,
+				292B749220A94C1A0038A692 /* SoupChefWatch Extension.appex */,
+				292B74AD20A94C230038A692 /* SoupKitWatch.framework */,
+				292B74BE20A94C450038A692 /* SoupChefIntentsWatch.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		606C6DBC2076EEE8009F09CA /* SoupChef */ = {
+			isa = PBXGroup;
+			children = (
+				2981E7A420AABC0D003259CF /* Resources */,
+				29C014F820AABC43003172D3 /* UI */,
+			);
+			path = SoupChef;
+			sourceTree = "<group>";
+		};
+		606C6DD62076EF08009F09CA /* SoupChefIntents */ = {
+			isa = PBXGroup;
+			children = (
+				292B74D020A94D460038A692 /* SoupChefIntents.entitlements */,
+				606C6DD72076EF08009F09CA /* IntentHandler.swift */,
+				606C6DD92076EF08009F09CA /* Info.plist */,
+			);
+			path = SoupChefIntents;
+			sourceTree = "<group>";
+		};
+		606C6DDF2076EF08009F09CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				606C6DE02076EF08009F09CA /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		606C6DE22076EF08009F09CA /* SoupChefIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				606C6DE82076EF09009F09CA /* Info.plist */,
+				606C6DE32076EF08009F09CA /* IntentViewController.swift */,
+				6052023220D9C4EA000C1972 /* InvoiceView.xib */,
+				6052023020D9C4E9000C1972 /* InvoiceViewController.swift */,
+				606C6DE52076EF08009F09CA /* MainInterface.storyboard */,
+				6052023320D9C4EA000C1972 /* OrderConfirmedView.xib */,
+				6052023120D9C4EA000C1972 /* OrderConfirmedViewController.swift */,
+			);
+			path = SoupChefIntentsUI;
+			sourceTree = "<group>";
+		};
+		83C1B6EBDEBC3608667E2536 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				BB4C37508A45F62FA7FB0008 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		8574D98C9738DB228A7D44EF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		D76D4D4720A8072A005ADCF5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D76D4D4320A80725005ADCF5 /* DataManager.swift */,
+				D7115423209A805C005588F4 /* MenuItem.swift */,
+				D7115427209A808A005588F4 /* Order.swift */,
+				D76D4D2020A7CCBD005ADCF5 /* SoupMenuManager.swift */,
+				D76D4D4220A80725005ADCF5 /* SoupOrderDataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		292B744C20A94BF40038A692 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B745520A94BF40038A692 /* SoupKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B74A820A94C230038A692 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B74B120A94C230038A692 /* SoupKitWatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		292B745020A94BF40038A692 /* SoupKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292B745A20A94BF40038A692 /* Build configuration list for PBXNativeTarget "SoupKit" */;
+			buildPhases = (
+				292B744C20A94BF40038A692 /* Headers */,
+				292B744D20A94BF40038A692 /* Sources */,
+				292B744E20A94BF40038A692 /* Frameworks */,
+				292B744F20A94BF40038A692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoupKit;
+			productName = SoupKit;
+			productReference = 292B745120A94BF40038A692 /* SoupKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		292B748520A94C190038A692 /* SoupChefWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292B74A520A94C1B0038A692 /* Build configuration list for PBXNativeTarget "SoupChefWatch" */;
+			buildPhases = (
+				292B748420A94C190038A692 /* Resources */,
+				292B74A420A94C1B0038A692 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292B749520A94C1A0038A692 /* PBXTargetDependency */,
+			);
+			name = SoupChefWatch;
+			productName = SoupChefWatch;
+			productReference = 292B748620A94C190038A692 /* SoupChefWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		292B749120A94C1A0038A692 /* SoupChefWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292B74A120A94C1B0038A692 /* Build configuration list for PBXNativeTarget "SoupChefWatch Extension" */;
+			buildPhases = (
+				292B748E20A94C1A0038A692 /* Sources */,
+				292B748F20A94C1A0038A692 /* Frameworks */,
+				292B749020A94C1A0038A692 /* Resources */,
+				292B74B920A94C230038A692 /* Embed Frameworks */,
+				292B74C920A94C450038A692 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292B74B320A94C230038A692 /* PBXTargetDependency */,
+				292B74C420A94C450038A692 /* PBXTargetDependency */,
+			);
+			name = "SoupChefWatch Extension";
+			productName = "SoupChefWatch Extension";
+			productReference = 292B749220A94C1A0038A692 /* SoupChefWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		292B74AC20A94C230038A692 /* SoupKitWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292B74B620A94C230038A692 /* Build configuration list for PBXNativeTarget "SoupKitWatch" */;
+			buildPhases = (
+				292B74A820A94C230038A692 /* Headers */,
+				292B74A920A94C230038A692 /* Sources */,
+				292B74AA20A94C230038A692 /* Frameworks */,
+				292B74AB20A94C230038A692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoupKitWatch;
+			productName = SoupKitWatch;
+			productReference = 292B74AD20A94C230038A692 /* SoupKitWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		292B74BD20A94C450038A692 /* SoupChefIntentsWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292B74C620A94C450038A692 /* Build configuration list for PBXNativeTarget "SoupChefIntentsWatch" */;
+			buildPhases = (
+				292B74BA20A94C450038A692 /* Sources */,
+				292B74BB20A94C450038A692 /* Frameworks */,
+				292B74BC20A94C450038A692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294C6C2720AE2228002A46C4 /* PBXTargetDependency */,
+			);
+			name = SoupChefIntentsWatch;
+			productName = SoupChefIntentsWatch;
+			productReference = 292B74BE20A94C450038A692 /* SoupChefIntentsWatch.appex */;
+			productType = "com.apple.product-type.app-extension.intents-service";
+		};
+		606C6DB92076EEE8009F09CA /* SoupChef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606C6DCE2076EEE9009F09CA /* Build configuration list for PBXNativeTarget "SoupChef" */;
+			buildPhases = (
+				606C6DB62076EEE8009F09CA /* Sources */,
+				606C6DB72076EEE8009F09CA /* Frameworks */,
+				606C6DB82076EEE8009F09CA /* Resources */,
+				606C6DF52076EF09009F09CA /* Embed App Extensions */,
+				602A55962076F1050057E0D1 /* Embed Frameworks */,
+				29F0E4FF20A5517500096FA9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6029C1BD20D9DF94003CA478 /* PBXTargetDependency */,
+				606C6DEA2076EF09009F09CA /* PBXTargetDependency */,
+				606C6DED2076EF09009F09CA /* PBXTargetDependency */,
+				292B745720A94BF40038A692 /* PBXTargetDependency */,
+			);
+			name = SoupChef;
+			productName = SoupChef;
+			productReference = 606C6DBA2076EEE8009F09CA /* SoupChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		606C6DD42076EF08009F09CA /* SoupChefIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606C6DF22076EF09009F09CA /* Build configuration list for PBXNativeTarget "SoupChefIntents" */;
+			buildPhases = (
+				606C6DD12076EF08009F09CA /* Sources */,
+				606C6DD22076EF08009F09CA /* Frameworks */,
+				606C6DD32076EF08009F09CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294C6C2320AE2214002A46C4 /* PBXTargetDependency */,
+			);
+			name = SoupChefIntents;
+			productName = SoupChefIntents;
+			productReference = 606C6DD52076EF08009F09CA /* SoupChefIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		606C6DDD2076EF08009F09CA /* SoupChefIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606C6DEF2076EF09009F09CA /* Build configuration list for PBXNativeTarget "SoupChefIntentsUI" */;
+			buildPhases = (
+				606C6DDA2076EF08009F09CA /* Sources */,
+				606C6DDB2076EF08009F09CA /* Frameworks */,
+				606C6DDC2076EF08009F09CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294C6C2520AE221D002A46C4 /* PBXTargetDependency */,
+			);
+			name = SoupChefIntentsUI;
+			productName = SoupChefIntentsUI;
+			productReference = 606C6DDE2076EF08009F09CA /* SoupChefIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606C6DB22076EEE8009F09CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					292B745020A94BF40038A692 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
+					};
+					292B748520A94C190038A692 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					292B749120A94C1A0038A692 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					292B74AC20A94C230038A692 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
+					};
+					292B74BD20A94C450038A692 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					606C6DB92076EEE8009F09CA = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1100;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					606C6DD42076EF08009F09CA = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1100;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					606C6DDD2076EF08009F09CA = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 606C6DB52076EEE8009F09CA /* Build configuration list for PBXProject "SoupChef" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 606C6DB12076EEE8009F09CA;
+			productRefGroup = 606C6DBB2076EEE8009F09CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606C6DB92076EEE8009F09CA /* SoupChef */,
+				606C6DD42076EF08009F09CA /* SoupChefIntents */,
+				606C6DDD2076EF08009F09CA /* SoupChefIntentsUI */,
+				292B745020A94BF40038A692 /* SoupKit */,
+				292B748520A94C190038A692 /* SoupChefWatch */,
+				292B749120A94C1A0038A692 /* SoupChefWatch Extension */,
+				292B74AC20A94C230038A692 /* SoupKitWatch */,
+				292B74BD20A94C450038A692 /* SoupChefIntentsWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292B744F20A94BF40038A692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B748420A94C190038A692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B7BD2320DB08AA003E869D /* Assets.xcassets in Resources */,
+				6041F8C920F96CAC00AFC5D2 /* Localizable.stringsdict in Resources */,
+				6041F8C720F96CAC00AFC5D2 /* Localizable.strings in Resources */,
+				60E0132A20FA900E00D0E727 /* Intents.intentdefinition in Resources */,
+				292B748A20A94C190038A692 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B749020A94C1A0038A692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D3F96D20AE2B9100B68560 /* Assets.xcassets in Resources */,
+				29D3F9B220AE315800B68560 /* SharedAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B74AB20A94C230038A692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B74BC20A94C450038A692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18038DFB227F590000473D42 /* Intents.stringsdict in Resources */,
+				60F40DC82488D36300F7B9E2 /* Localizable.strings in Resources */,
+				60F40DC92488D36B00F7B9E2 /* Localizable.stringsdict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6DB82076EEE8009F09CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6029C1B720D9CAEE003CA478 /* SharedAssets.xcassets in Resources */,
+				18038DF7227F583900473D42 /* Intents.stringsdict in Resources */,
+				6041F8C820F96CAC00AFC5D2 /* Localizable.stringsdict in Resources */,
+				6041F8C620F96CAC00AFC5D2 /* Localizable.strings in Resources */,
+				D7E9911D20AD2DEB00594EDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6DD32076EF08009F09CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3013B13A24847657002881BC /* SharedAssets.xcassets in Resources */,
+				60F40DC42488D35700F7B9E2 /* Localizable.stringsdict in Resources */,
+				18038DF8227F58FC00473D42 /* Intents.stringsdict in Resources */,
+				181546BC22662FA10070A877 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6DDC2076EF08009F09CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F40DC52488D35A00F7B9E2 /* Localizable.strings in Resources */,
+				1848ECF222761A6800C4D680 /* SharedAssets.xcassets in Resources */,
+				60F40DC32488D35500F7B9E2 /* Localizable.stringsdict in Resources */,
+				6052023620D9C4EA000C1972 /* InvoiceView.xib in Resources */,
+				6052023720D9C4EA000C1972 /* OrderConfirmedView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292B744D20A94BF40038A692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C80CC920E3737A00270927 /* Order+Intents.swift in Sources */,
+				292B74DB20A94DCD0038A692 /* MenuItem.swift in Sources */,
+				292B74DD20A94DCD0038A692 /* NumberFormatter+Currency.swift in Sources */,
+				292B74DA20A94DCD0038A692 /* Order.swift in Sources */,
+				292B74E220A94DD10038A692 /* DataManager.swift in Sources */,
+				292B74DE20A94DCD0038A692 /* UserDefaults+DataSource.swift in Sources */,
+				292B74E320A94DD10038A692 /* SoupOrderDataManager.swift in Sources */,
+				D73F089720AAA76400A901C5 /* OrderSoupIntentHandler.swift in Sources */,
+				292B74DC20A94DCD0038A692 /* NSUserActivity+IntentData.swift in Sources */,
+				29D1F3D220AA937600C97CDF /* Localizable.swift in Sources */,
+				298308C420B0F322006FDD95 /* Intents.intentdefinition in Sources */,
+				60C80CCB20E3745F00270927 /* UIImage+Extension.swift in Sources */,
+				6029C1B920D9CFFE003CA478 /* SoupMenuManager+Intents.swift in Sources */,
+				292B74D320A94DA90038A692 /* SoupMenuManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B748E20A94C1A0038A692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B749A20A94C1A0038A692 /* ExtensionDelegate.swift in Sources */,
+				292B74CF20A94CB90038A692 /* MenuInterfaceController.swift in Sources */,
+				292B74CD20A94CB90038A692 /* HistoryInterfaceController.swift in Sources */,
+				298308C520B0F323006FDD95 /* Intents.intentdefinition in Sources */,
+				292B74CE20A94CB90038A692 /* OrderConfirmedInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B74A920A94C230038A692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292B74D620A94DCC0038A692 /* MenuItem.swift in Sources */,
+				292B74D820A94DCC0038A692 /* NumberFormatter+Currency.swift in Sources */,
+				292B74D520A94DCC0038A692 /* Order.swift in Sources */,
+				292B74DF20A94DD10038A692 /* DataManager.swift in Sources */,
+				292B74D920A94DCC0038A692 /* UserDefaults+DataSource.swift in Sources */,
+				292B74E020A94DD10038A692 /* SoupOrderDataManager.swift in Sources */,
+				D73F089920AAA7F800A901C5 /* OrderSoupIntentHandler.swift in Sources */,
+				292B74D720A94DCC0038A692 /* NSUserActivity+IntentData.swift in Sources */,
+				29D1F3D320AA937600C97CDF /* Localizable.swift in Sources */,
+				298308C620B0F323006FDD95 /* Intents.intentdefinition in Sources */,
+				6029C1BA20D9CFFE003CA478 /* SoupMenuManager+Intents.swift in Sources */,
+				60C80CCA20E3737A00270927 /* Order+Intents.swift in Sources */,
+				292B74D420A94DAA0038A692 /* SoupMenuManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292B74BA20A94C450038A692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298308C720B0F324006FDD95 /* Intents.intentdefinition in Sources */,
+				292B74C120A94C450038A692 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6DB62076EEE8009F09CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76D4CFF20A794F5005ADCF5 /* OrderDetail.storyboard in Sources */,
+				D7115420209A48A1005588F4 /* Main.storyboard in Sources */,
+				2977F0C820AE1CA70052AE03 /* OrderDetailTableConfiguration.swift in Sources */,
+				D7924F8420A2380600D89872 /* OrderDetailViewController.swift in Sources */,
+				D715F21520897A60002A64CD /* LaunchScreen.storyboard in Sources */,
+				D715F20820897745002A64CD /* OrderHistoryTableViewController.swift in Sources */,
+				D715F21020897753002A64CD /* SoupMenuViewController.swift in Sources */,
+				D76D4D1F20A7C83B005ADCF5 /* ConfigureMenuTableViewController.swift in Sources */,
+				298308BF20B0F309006FDD95 /* Intents.intentdefinition in Sources */,
+				606C6DBE2076EEE8009F09CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6DD12076EF08009F09CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298308C220B0F320006FDD95 /* Intents.intentdefinition in Sources */,
+				606C6DD82076EF08009F09CA /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C6DDA2076EF08009F09CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298308C320B0F321006FDD95 /* Intents.intentdefinition in Sources */,
+				D715F21920897A60002A64CD /* MainInterface.storyboard in Sources */,
+				6052023520D9C4EA000C1972 /* OrderConfirmedViewController.swift in Sources */,
+				6052023420D9C4EA000C1972 /* InvoiceViewController.swift in Sources */,
+				606C6DE42076EF08009F09CA /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		292B745720A94BF40038A692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292B745020A94BF40038A692 /* SoupKit */;
+			targetProxy = 292B745620A94BF40038A692 /* PBXContainerItemProxy */;
+		};
+		292B749520A94C1A0038A692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292B749120A94C1A0038A692 /* SoupChefWatch Extension */;
+			targetProxy = 292B749420A94C1A0038A692 /* PBXContainerItemProxy */;
+		};
+		292B74B320A94C230038A692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292B74AC20A94C230038A692 /* SoupKitWatch */;
+			targetProxy = 292B74B220A94C230038A692 /* PBXContainerItemProxy */;
+		};
+		292B74C420A94C450038A692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292B74BD20A94C450038A692 /* SoupChefIntentsWatch */;
+			targetProxy = 292B74C320A94C450038A692 /* PBXContainerItemProxy */;
+		};
+		294C6C2320AE2214002A46C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292B745020A94BF40038A692 /* SoupKit */;
+			targetProxy = 294C6C2220AE2214002A46C4 /* PBXContainerItemProxy */;
+		};
+		294C6C2520AE221D002A46C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292B745020A94BF40038A692 /* SoupKit */;
+			targetProxy = 294C6C2420AE221D002A46C4 /* PBXContainerItemProxy */;
+		};
+		294C6C2720AE2228002A46C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292B74AC20A94C230038A692 /* SoupKitWatch */;
+			targetProxy = 294C6C2620AE2228002A46C4 /* PBXContainerItemProxy */;
+		};
+		6029C1BD20D9DF94003CA478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292B748520A94C190038A692 /* SoupChefWatch */;
+			targetProxy = 6029C1BC20D9DF94003CA478 /* PBXContainerItemProxy */;
+		};
+		606C6DEA2076EF09009F09CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606C6DDD2076EF08009F09CA /* SoupChefIntentsUI */;
+			targetProxy = 606C6DE92076EF09009F09CA /* PBXContainerItemProxy */;
+		};
+		606C6DED2076EF09009F09CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606C6DD42076EF08009F09CA /* SoupChefIntents */;
+			targetProxy = 606C6DEC2076EF09009F09CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		292B748820A94C190038A692 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292B748920A94C190038A692 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		298308C120B0F309006FDD95 /* Intents.intentdefinition */ = {
+			isa = PBXVariantGroup;
+			children = (
+				298308C020B0F309006FDD95 /* Base */,
+			);
+			name = Intents.intentdefinition;
+			sourceTree = "<group>";
+		};
+		6041F8C220F96CAC00AFC5D2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6041F8C320F96CAC00AFC5D2 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6041F8C420F96CAC00AFC5D2 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6041F8C520F96CAC00AFC5D2 /* en */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		606C6DC82076EEE9009F09CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606C6DC92076EEE9009F09CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		606C6DE52076EF08009F09CA /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606C6DE62076EF08009F09CA /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		D7115422209A48A1005588F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7115421209A48A1005588F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D76D4CFE20A794E6005ADCF5 /* OrderDetail.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76D4CFD20A794E6005ADCF5 /* Base */,
+			);
+			name = OrderDetail.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		292B745B20A94BF40038A692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Supporting Targets/SoupKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.SoupKit";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		292B745C20A94BF40038A692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Supporting Targets/SoupKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.SoupKit";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		292B74A220A94C1B0038A692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Supporting Targets/SoupChefWatch Extension/SoupChefWatch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Supporting Targets/SoupChefWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		292B74A320A94C1B0038A692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Supporting Targets/SoupChefWatch Extension/SoupChefWatch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Supporting Targets/SoupChefWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		292B74A620A94C1B0038A692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = SoupChefWatch_Extension;
+				INFOPLIST_FILE = "Supporting Targets/SoupChefWatch/Info.plist";
+				MARKETING_VERSION = 1.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		292B74A720A94C1B0038A692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = SoupChefWatch_Extension;
+				INFOPLIST_FILE = "Supporting Targets/SoupChefWatch/Info.plist";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		292B74B720A94C230038A692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Supporting Targets/SoupKitWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.SoupKitWatch";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		292B74B820A94C230038A692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Supporting Targets/SoupKitWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.SoupKitWatch";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		292B74C720A94C450038A692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Supporting Targets/SoupChefIntentsWatch/SoupChefIntentsWatch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Supporting Targets/SoupChefIntentsWatch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension.SoupChefIntentsWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		292B74C820A94C450038A692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Supporting Targets/SoupChefIntentsWatch/SoupChefIntentsWatch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Supporting Targets/SoupChefIntentsWatch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension.SoupChefIntentsWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		606C6DCC2076EEE9009F09CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		606C6DCD2076EEE9009F09CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		606C6DCF2076EEE9009F09CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoupChef/Resources/SoupChef.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SoupChef/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		606C6DD02076EEE9009F09CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoupChef/Resources/SoupChef.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SoupChef/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		606C6DF02076EF09009F09CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SoupChefIntentsUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.SoupChefIntentsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		606C6DF12076EF09009F09CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SoupChefIntentsUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.SoupChefIntentsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		606C6DF32076EF09009F09CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Supporting Targets/SoupChefIntents/SoupChefIntents.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Supporting Targets/SoupChefIntents/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.SoupChefIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		606C6DF42076EF09009F09CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBBA308BAEF3EC89AC6FBEA /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Supporting Targets/SoupChefIntents/SoupChefIntents.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Supporting Targets/SoupChefIntents/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SoupChef${SAMPLE_CODE_DISAMBIGUATOR}.SoupChefIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292B745A20A94BF40038A692 /* Build configuration list for PBXNativeTarget "SoupKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292B745B20A94BF40038A692 /* Debug */,
+				292B745C20A94BF40038A692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292B74A120A94C1B0038A692 /* Build configuration list for PBXNativeTarget "SoupChefWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292B74A220A94C1B0038A692 /* Debug */,
+				292B74A320A94C1B0038A692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292B74A520A94C1B0038A692 /* Build configuration list for PBXNativeTarget "SoupChefWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292B74A620A94C1B0038A692 /* Debug */,
+				292B74A720A94C1B0038A692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292B74B620A94C230038A692 /* Build configuration list for PBXNativeTarget "SoupKitWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292B74B720A94C230038A692 /* Debug */,
+				292B74B820A94C230038A692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292B74C620A94C450038A692 /* Build configuration list for PBXNativeTarget "SoupChefIntentsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292B74C720A94C450038A692 /* Debug */,
+				292B74C820A94C450038A692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606C6DB52076EEE8009F09CA /* Build configuration list for PBXProject "SoupChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606C6DCC2076EEE9009F09CA /* Debug */,
+				606C6DCD2076EEE9009F09CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606C6DCE2076EEE9009F09CA /* Build configuration list for PBXNativeTarget "SoupChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606C6DCF2076EEE9009F09CA /* Debug */,
+				606C6DD02076EEE9009F09CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606C6DEF2076EF09009F09CA /* Build configuration list for PBXNativeTarget "SoupChefIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606C6DF02076EF09009F09CA /* Debug */,
+				606C6DF12076EF09009F09CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606C6DF22076EF09009F09CA /* Build configuration list for PBXNativeTarget "SoupChefIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606C6DF32076EF09009F09CA /* Debug */,
+				606C6DF42076EF09009F09CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606C6DB22076EEE8009F09CA /* Project object */;
+}

@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		736CF3272492ACDB00E7C366 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 736CF3262492ACDB00E7C366 /* README.md */; };
+		B48CB515248FF7ED00F02653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CB514248FF7ED00F02653 /* AppDelegate.swift */; };
+		B48CB518248FF7ED00F02653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48CB516248FF7ED00F02653 /* Main.storyboard */; };
+		B48CB51A248FF7ED00F02653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CB519248FF7ED00F02653 /* ViewController.swift */; };
+		B48CB51C248FF7EE00F02653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48CB51B248FF7EE00F02653 /* Assets.xcassets */; };
+		B48CB523248FF7EF00F02653 /* Sea Creator Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B48CB522248FF7EF00F02653 /* Sea Creator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B48CB528248FF7EF00F02653 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48CB527248FF7EF00F02653 /* Cocoa.framework */; };
+		B48CB52B248FF7EF00F02653 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CB52A248FF7EF00F02653 /* SafariWebExtensionHandler.swift */; };
+		B48CB540248FF7EF00F02653 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B48CB538248FF7EF00F02653 /* popup.js */; };
+		B48CB541248FF7EF00F02653 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B48CB539248FF7EF00F02653 /* background.js */; };
+		B48CB542248FF7EF00F02653 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B48CB53A248FF7EF00F02653 /* images */; };
+		B48CB543248FF7EF00F02653 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = B48CB53B248FF7EF00F02653 /* popup.html */; };
+		B48CB544248FF7EF00F02653 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B48CB53C248FF7EF00F02653 /* manifest.json */; };
+		B48CB545248FF7EF00F02653 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = B48CB53D248FF7EF00F02653 /* popup.css */; };
+		B48CB546248FF7EF00F02653 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = B48CB53E248FF7EF00F02653 /* _locales */; };
+		B48CB547248FF7EF00F02653 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B48CB53F248FF7EF00F02653 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B48CB524248FF7EF00F02653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48CB508248FF7ED00F02653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48CB521248FF7EF00F02653;
+			remoteInfo = "Sea Creator Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B48CB533248FF7EF00F02653 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B48CB523248FF7EF00F02653 /* Sea Creator Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		51FE55EC80006AD7C74F4100 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		736CF3262492ACDB00E7C366 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A6BC77C40FEF2C5BA1EDF833 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		B48CB510248FF7ED00F02653 /* Sea Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sea Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48CB513248FF7ED00F02653 /* Sea_Creator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sea_Creator.entitlements; sourceTree = "<group>"; };
+		B48CB514248FF7ED00F02653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B48CB517248FF7ED00F02653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B48CB519248FF7ED00F02653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B48CB51B248FF7EE00F02653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B48CB51D248FF7EE00F02653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48CB522248FF7EF00F02653 /* Sea Creator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sea Creator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48CB527248FF7EF00F02653 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B48CB52A248FF7EF00F02653 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		B48CB52C248FF7EF00F02653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48CB52D248FF7EF00F02653 /* Sea_Creator_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sea_Creator_Extension.entitlements; sourceTree = "<group>"; };
+		B48CB538248FF7EF00F02653 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		B48CB539248FF7EF00F02653 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		B48CB53A248FF7EF00F02653 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		B48CB53B248FF7EF00F02653 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		B48CB53C248FF7EF00F02653 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		B48CB53D248FF7EF00F02653 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = Resources/popup.css; sourceTree = "<group>"; };
+		B48CB53E248FF7EF00F02653 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		B48CB53F248FF7EF00F02653 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48CB50D248FF7ED00F02653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48CB51F248FF7EF00F02653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48CB528248FF7EF00F02653 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1582B99454D1273E208654F5 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC77C40FEF2C5BA1EDF833 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		259F5AAE1A8710C21D728CF7 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				51FE55EC80006AD7C74F4100 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		B48CB507248FF7ED00F02653 = {
+			isa = PBXGroup;
+			children = (
+				736CF3262492ACDB00E7C366 /* README.md */,
+				B48CB512248FF7ED00F02653 /* Sea Creator */,
+				B48CB529248FF7EF00F02653 /* Sea Creator Extension */,
+				B48CB526248FF7EF00F02653 /* Frameworks */,
+				B48CB511248FF7ED00F02653 /* Products */,
+				1582B99454D1273E208654F5 /* Configuration */,
+				259F5AAE1A8710C21D728CF7 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		B48CB511248FF7ED00F02653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48CB510248FF7ED00F02653 /* Sea Creator.app */,
+				B48CB522248FF7EF00F02653 /* Sea Creator Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48CB512248FF7ED00F02653 /* Sea Creator */ = {
+			isa = PBXGroup;
+			children = (
+				B48CB513248FF7ED00F02653 /* Sea_Creator.entitlements */,
+				B48CB514248FF7ED00F02653 /* AppDelegate.swift */,
+				B48CB516248FF7ED00F02653 /* Main.storyboard */,
+				B48CB519248FF7ED00F02653 /* ViewController.swift */,
+				B48CB51B248FF7EE00F02653 /* Assets.xcassets */,
+				B48CB51D248FF7EE00F02653 /* Info.plist */,
+			);
+			path = "Sea Creator";
+			sourceTree = "<group>";
+		};
+		B48CB526248FF7EF00F02653 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B48CB527248FF7EF00F02653 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B48CB529248FF7EF00F02653 /* Sea Creator Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B48CB537248FF7EF00F02653 /* Resources */,
+				B48CB52A248FF7EF00F02653 /* SafariWebExtensionHandler.swift */,
+				B48CB52C248FF7EF00F02653 /* Info.plist */,
+				B48CB52D248FF7EF00F02653 /* Sea_Creator_Extension.entitlements */,
+			);
+			path = "Sea Creator Extension";
+			sourceTree = "<group>";
+		};
+		B48CB537248FF7EF00F02653 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B48CB538248FF7EF00F02653 /* popup.js */,
+				B48CB539248FF7EF00F02653 /* background.js */,
+				B48CB53A248FF7EF00F02653 /* images */,
+				B48CB53B248FF7EF00F02653 /* popup.html */,
+				B48CB53C248FF7EF00F02653 /* manifest.json */,
+				B48CB53D248FF7EF00F02653 /* popup.css */,
+				B48CB53E248FF7EF00F02653 /* _locales */,
+				B48CB53F248FF7EF00F02653 /* content.js */,
+			);
+			name = Resources;
+			path = "Sea Creator Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48CB50F248FF7ED00F02653 /* Sea Creator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48CB534248FF7EF00F02653 /* Build configuration list for PBXNativeTarget "Sea Creator" */;
+			buildPhases = (
+				B48CB50C248FF7ED00F02653 /* Sources */,
+				B48CB50D248FF7ED00F02653 /* Frameworks */,
+				B48CB50E248FF7ED00F02653 /* Resources */,
+				B48CB533248FF7EF00F02653 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48CB525248FF7EF00F02653 /* PBXTargetDependency */,
+			);
+			name = "Sea Creator";
+			productName = "Sea Creator";
+			productReference = B48CB510248FF7ED00F02653 /* Sea Creator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B48CB521248FF7EF00F02653 /* Sea Creator Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48CB530248FF7EF00F02653 /* Build configuration list for PBXNativeTarget "Sea Creator Extension" */;
+			buildPhases = (
+				B48CB51E248FF7EF00F02653 /* Sources */,
+				B48CB51F248FF7EF00F02653 /* Frameworks */,
+				B48CB520248FF7EF00F02653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sea Creator Extension";
+			productName = "Sea Creator Extension";
+			productReference = B48CB522248FF7EF00F02653 /* Sea Creator Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48CB508248FF7ED00F02653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					B48CB50F248FF7ED00F02653 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					B48CB521248FF7EF00F02653 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = B48CB50B248FF7ED00F02653 /* Build configuration list for PBXProject "Sea Creator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B48CB507248FF7ED00F02653;
+			productRefGroup = B48CB511248FF7ED00F02653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48CB50F248FF7ED00F02653 /* Sea Creator */,
+				B48CB521248FF7EF00F02653 /* Sea Creator Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48CB50E248FF7ED00F02653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736CF3272492ACDB00E7C366 /* README.md in Resources */,
+				B48CB51C248FF7EE00F02653 /* Assets.xcassets in Resources */,
+				B48CB518248FF7ED00F02653 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48CB520248FF7EF00F02653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48CB547248FF7EF00F02653 /* content.js in Resources */,
+				B48CB542248FF7EF00F02653 /* images in Resources */,
+				B48CB543248FF7EF00F02653 /* popup.html in Resources */,
+				B48CB545248FF7EF00F02653 /* popup.css in Resources */,
+				B48CB544248FF7EF00F02653 /* manifest.json in Resources */,
+				B48CB541248FF7EF00F02653 /* background.js in Resources */,
+				B48CB546248FF7EF00F02653 /* _locales in Resources */,
+				B48CB540248FF7EF00F02653 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48CB50C248FF7ED00F02653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48CB51A248FF7ED00F02653 /* ViewController.swift in Sources */,
+				B48CB515248FF7ED00F02653 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48CB51E248FF7EF00F02653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48CB52B248FF7EF00F02653 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B48CB525248FF7EF00F02653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48CB521248FF7EF00F02653 /* Sea Creator Extension */;
+			targetProxy = B48CB524248FF7EF00F02653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B48CB516248FF7ED00F02653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48CB517248FF7ED00F02653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48CB52E248FF7EF00F02653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BC77C40FEF2C5BA1EDF833 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B48CB52F248FF7EF00F02653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BC77C40FEF2C5BA1EDF833 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B48CB531248FF7EF00F02653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BC77C40FEF2C5BA1EDF833 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Sea Creator Extension/Sea_Creator_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Sea Creator Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Sea-Creator-Extension${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B48CB532248FF7EF00F02653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BC77C40FEF2C5BA1EDF833 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Sea Creator Extension/Sea_Creator_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Sea Creator Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Sea-Creator-Extension${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B48CB535248FF7EF00F02653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BC77C40FEF2C5BA1EDF833 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sea Creator/Sea_Creator.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Sea Creator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Sea-Creator${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B48CB536248FF7EF00F02653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BC77C40FEF2C5BA1EDF833 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sea Creator/Sea_Creator.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Sea Creator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Sea-Creator${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48CB50B248FF7ED00F02653 /* Build configuration list for PBXProject "Sea Creator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48CB52E248FF7EF00F02653 /* Debug */,
+				B48CB52F248FF7EF00F02653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48CB530248FF7EF00F02653 /* Build configuration list for PBXNativeTarget "Sea Creator Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48CB531248FF7EF00F02653 /* Debug */,
+				B48CB532248FF7EF00F02653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48CB534248FF7EF00F02653 /* Build configuration list for PBXNativeTarget "Sea Creator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48CB535248FF7EF00F02653 /* Debug */,
+				B48CB536248FF7EF00F02653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B48CB508248FF7ED00F02653 /* Project object */;
+}

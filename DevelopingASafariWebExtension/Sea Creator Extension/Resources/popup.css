@@ -1,0 +1,16 @@
+/*
+ <samplecode>
+ <abstract>
+ Configures the appearance of the extension's popover.
+ </abstract>
+ </samplecode>
+ */
+body {
+    font-family: system-ui;
+    min-width: 220px;
+    text-align: center;
+}
+
+#title {
+    font-size: 30px;
+}

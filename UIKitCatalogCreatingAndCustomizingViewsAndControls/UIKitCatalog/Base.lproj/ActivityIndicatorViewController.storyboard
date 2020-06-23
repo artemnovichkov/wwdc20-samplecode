@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14800.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YvC-vN-mSd">
+    <device id="retina4_7" orientation="portrait"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14758.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Activity Indicators-->
+        <scene sceneID="umG-hc-QKi">
+            <objects>
+                <tableViewController id="YvC-vN-mSd" customClass="ActivityIndicatorViewController" customModule="UIKitCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Udh-X7-hOc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Default" id="9eg-PX-Muo">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="58" id="yn2-Ta-5b4">
+                                        <rect key="frame" x="0.0" y="55.5" width="375" height="58"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yn2-Ta-5b4" id="wPg-rJ-XdR">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CZW-TS-wTd">
+                                                    <rect key="frame" x="146.5" y="10.5" width="82" height="37"/>
+                                                    <subviews>
+                                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="751" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="5Na-2m-UBr">
+                                                            <rect key="frame" x="8" y="8" width="20" height="21"/>
+                                                        </activityIndicatorView>
+                                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="M5t-YG-hcB">
+                                                            <rect key="frame" x="36" y="0.0" width="37" height="37"/>
+                                                        </activityIndicatorView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="M5t-YG-hcB" secondAttribute="trailing" constant="9" id="1bF-2T-IsT"/>
+                                                        <constraint firstItem="M5t-YG-hcB" firstAttribute="centerY" secondItem="CZW-TS-wTd" secondAttribute="centerY" id="A4N-by-OTy"/>
+                                                        <constraint firstItem="5Na-2m-UBr" firstAttribute="leading" secondItem="CZW-TS-wTd" secondAttribute="leading" constant="8" id="FBn-Ws-tsw"/>
+                                                        <constraint firstItem="5Na-2m-UBr" firstAttribute="top" secondItem="CZW-TS-wTd" secondAttribute="topMargin" id="MvP-me-LhS"/>
+                                                        <constraint firstAttribute="trailing" secondItem="5Na-2m-UBr" secondAttribute="trailing" constant="54" id="U69-I5-xXs"/>
+                                                        <constraint firstItem="M5t-YG-hcB" firstAttribute="leading" secondItem="5Na-2m-UBr" secondAttribute="trailing" constant="8" id="WAa-aQ-QNn"/>
+                                                        <constraint firstItem="5Na-2m-UBr" firstAttribute="centerY" secondItem="CZW-TS-wTd" secondAttribute="centerY" id="YzJ-Gf-v77"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="CZW-TS-wTd" firstAttribute="centerY" secondItem="wPg-rJ-XdR" secondAttribute="centerY" id="Cy2-2r-1JH"/>
+                                                <constraint firstItem="CZW-TS-wTd" firstAttribute="top" secondItem="wPg-rJ-XdR" secondAttribute="topMargin" constant="-0.5" id="XUu-jo-iSH"/>
+                                                <constraint firstItem="CZW-TS-wTd" firstAttribute="centerX" secondItem="wPg-rJ-XdR" secondAttribute="centerX" id="ysP-dk-etz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Tinted" id="fUA-1K-3Rv">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="58" id="z0B-YV-ic1">
+                                        <rect key="frame" x="0.0" y="161.5" width="375" height="58"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z0B-YV-ic1" id="stF-iz-x9q">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jfs-lj-Sfc">
+                                                    <rect key="frame" x="146" y="10.5" width="83" height="37"/>
+                                                    <subviews>
+                                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="751" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="wIr-u3-n9x">
+                                                            <rect key="frame" x="9" y="8.5" width="20" height="20"/>
+                                                        </activityIndicatorView>
+                                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="3sQ-iE-m13">
+                                                            <rect key="frame" x="37" y="0.0" width="37" height="37"/>
+                                                        </activityIndicatorView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="wIr-u3-n9x" firstAttribute="leading" secondItem="jfs-lj-Sfc" secondAttribute="leading" constant="9" id="2mc-QB-RED"/>
+                                                        <constraint firstItem="wIr-u3-n9x" firstAttribute="centerY" secondItem="jfs-lj-Sfc" secondAttribute="centerY" id="5Qz-DP-S4N"/>
+                                                        <constraint firstAttribute="trailing" secondItem="wIr-u3-n9x" secondAttribute="trailing" constant="54" id="MTT-x5-NMH"/>
+                                                        <constraint firstItem="3sQ-iE-m13" firstAttribute="leading" secondItem="jfs-lj-Sfc" secondAttribute="leading" constant="37" id="UeD-iL-B9a"/>
+                                                        <constraint firstItem="3sQ-iE-m13" firstAttribute="leading" secondItem="wIr-u3-n9x" secondAttribute="trailing" constant="8" id="Utt-C4-s05"/>
+                                                        <constraint firstItem="3sQ-iE-m13" firstAttribute="centerY" secondItem="jfs-lj-Sfc" secondAttribute="centerY" id="r6x-Qx-NhW"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="jfs-lj-Sfc" firstAttribute="centerX" secondItem="stF-iz-x9q" secondAttribute="centerX" id="56m-vE-nN6"/>
+                                                <constraint firstItem="jfs-lj-Sfc" firstAttribute="top" secondItem="stF-iz-x9q" secondAttribute="topMargin" constant="-0.5" id="KKl-gs-zOA"/>
+                                                <constraint firstItem="jfs-lj-Sfc" firstAttribute="centerY" secondItem="stF-iz-x9q" secondAttribute="centerY" id="hO9-Dt-132"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="YvC-vN-mSd" id="teo-Yh-WfL"/>
+                            <outlet property="delegate" destination="YvC-vN-mSd" id="s5w-Zv-MyP"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Activity Indicators" id="Cch-q9-uGA"/>
+                    <connections>
+                        <outlet property="defaultLargeActivityIndicatorView" destination="M5t-YG-hcB" id="2zA-DO-R8r"/>
+                        <outlet property="defaultSmallActivityIndicatorView" destination="5Na-2m-UBr" id="AS0-YP-dxQ"/>
+                        <outlet property="tintedLargeActivityIndicatorView" destination="3sQ-iE-m13" id="uJU-XN-Y7A"/>
+                        <outlet property="tintedSmallActivityIndicatorView" destination="wIr-u3-n9x" id="zgT-Ua-dnv"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqV-LB-3XC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3991.1999999999998" y="2371.6641679160421"/>
+        </scene>
+    </scenes>
+</document>

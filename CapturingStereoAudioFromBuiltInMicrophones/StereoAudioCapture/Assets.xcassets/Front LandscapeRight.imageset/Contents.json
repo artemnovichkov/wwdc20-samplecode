@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Front LandscapeRight.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

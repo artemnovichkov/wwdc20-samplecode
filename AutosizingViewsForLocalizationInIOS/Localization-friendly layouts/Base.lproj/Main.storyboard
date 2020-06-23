@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17130" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17104"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Localization" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which of these is your favorite?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLM-CV-mhg">
+                                <rect key="frame" x="15.999999999999986" y="117.66666666666667" width="238.66666666666663" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gGg-lg-Wa4" customClass="ReadjustingStackView" customModule="Localization" customModuleProvider="target">
+                                <rect key="frame" x="15" y="146" width="345" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KT9-Hs-G04">
+                                        <rect key="frame" x="0.0" y="0.0" width="80.333333333333329" height="30"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <state key="normal" title="Salmon"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMw-xs-g2A">
+                                        <rect key="frame" x="88.333333333333343" y="0.0" width="80.333333333333343" height="30"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <state key="normal" title="Pasta"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8Z-tp-nTb">
+                                        <rect key="frame" x="176.66666666666666" y="0.0" width="79.999999999999972" height="30"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <state key="normal" title="Borscht"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpJ-C6-suZ">
+                                        <rect key="frame" x="264.66666666666669" y="0.0" width="80.333333333333314" height="30"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <state key="normal" title="Paella"/>
+                                    </button>
+                                </subviews>
+                                <connections>
+                                    <outlet property="leadingConstraint" destination="2ZJ-H2-cat" id="FsL-oh-q36"/>
+                                </connections>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the kitchen!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vh7-uB-U8a">
+                                <rect key="frame" x="42.666666666666657" y="64" width="290" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gGg-lg-Wa4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="2ZJ-H2-cat" userLabel="Readjusting Leading"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vLM-CV-mhg" secondAttribute="trailing" constant="20" symbolic="YES" id="U56-RI-6WR"/>
+                            <constraint firstItem="vLM-CV-mhg" firstAttribute="top" secondItem="Vh7-uB-U8a" secondAttribute="bottom" constant="20" id="Wwn-ct-Han"/>
+                            <constraint firstItem="Vh7-uB-U8a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Zlc-DE-5dR"/>
+                            <constraint firstItem="Vh7-uB-U8a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fUw-gJ-vfJ"/>
+                            <constraint firstItem="gGg-lg-Wa4" firstAttribute="top" secondItem="vLM-CV-mhg" secondAttribute="bottom" constant="8" symbolic="YES" id="ham-wH-xPt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gGg-lg-Wa4" secondAttribute="trailing" constant="15" id="sBZ-jV-QJJ"/>
+                            <constraint firstItem="vLM-CV-mhg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xen-3i-Z96"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Vh7-uB-U8a" secondAttribute="trailing" constant="15" id="ybl-SF-gec"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="buttons" destination="KT9-Hs-G04" collectionClass="NSMutableArray" id="Vvh-MY-d03"/>
+                        <outletCollection property="buttons" destination="eMw-xs-g2A" collectionClass="NSMutableArray" id="1hn-Gp-VKE"/>
+                        <outletCollection property="buttons" destination="Q8Z-tp-nTb" collectionClass="NSMutableArray" id="aW4-Y2-7DL"/>
+                        <outletCollection property="buttons" destination="fpJ-C6-suZ" collectionClass="NSMutableArray" id="VVX-bY-REN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="128"/>
+        </scene>
+    </scenes>
+</document>

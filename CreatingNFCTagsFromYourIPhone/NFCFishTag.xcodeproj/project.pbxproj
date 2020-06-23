@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4231A98228DD16C00C34101 /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4231A97228DD16C00C34101 /* CouponViewController.swift */; };
+		B42EDE092283AC80007FCA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42EDE082283AC80007FCA92 /* AppDelegate.swift */; };
+		B42EDE0D2283AC80007FCA92 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42EDE0C2283AC80007FCA92 /* ScanViewController.swift */; };
+		B42EDE102283AC80007FCA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42EDE0E2283AC80007FCA92 /* Main.storyboard */; };
+		B42EDE122283AC82007FCA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42EDE112283AC82007FCA92 /* Assets.xcassets */; };
+		B42EDE152283AC82007FCA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42EDE132283AC82007FCA92 /* LaunchScreen.storyboard */; };
+		B434BE8722840BC5005748B2 /* LoyaltyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B434BE8622840BC5005748B2 /* LoyaltyViewController.swift */; };
+		B467280A227D19F400184B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4672809227D19F400184B98 /* AppDelegate.swift */; };
+		B467280C227D19F400184B98 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467280B227D19F400184B98 /* MainViewController.swift */; };
+		B467280F227D19F400184B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B467280D227D19F400184B98 /* Main.storyboard */; };
+		B4672811227D19F600184B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4672810227D19F600184B98 /* Assets.xcassets */; };
+		B4672814227D19F600184B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4672812227D19F600184B98 /* LaunchScreen.storyboard */; };
+		B4C8638222825D0F00140F29 /* MainViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C8638122825D0F00140F29 /* MainViewController+DataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F04944694F5B17D01B7A4FD /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		6199971FA2B1EAB4FE9A0E2C /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		B4231A97228DD16C00C34101 /* CouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
+		B42EDE062283AC80007FCA92 /* FishTagReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishTagReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42EDE082283AC80007FCA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B42EDE0C2283AC80007FCA92 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		B42EDE0F2283AC80007FCA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B42EDE112283AC82007FCA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B42EDE142283AC82007FCA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B42EDE162283AC82007FCA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42EDE1A2283ACAA007FCA92 /* FishTagReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FishTagReader.entitlements; sourceTree = "<group>"; };
+		B42EDE1C2283B4FC007FCA92 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B434BE8622840BC5005748B2 /* LoyaltyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyViewController.swift; sourceTree = "<group>"; };
+		B4672806227D19F400184B98 /* FishTagCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishTagCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4672809227D19F400184B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B467280B227D19F400184B98 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B467280E227D19F400184B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4672810227D19F600184B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4672813227D19F600184B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4672815227D19F600184B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C863802282564700140F29 /* FishTagCreator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FishTagCreator.entitlements; sourceTree = "<group>"; };
+		B4C8638122825D0F00140F29 /* MainViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+DataSource.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B42EDE032283AC80007FCA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4672803227D19F400184B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F89F67D78D7B3AF342DDADE /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				6199971FA2B1EAB4FE9A0E2C /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		45D6C5C854A1DD9ADB5801E4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				4F04944694F5B17D01B7A4FD /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		B42EDE072283AC80007FCA92 /* FishTagReader */ = {
+			isa = PBXGroup;
+			children = (
+				B42EDE1A2283ACAA007FCA92 /* FishTagReader.entitlements */,
+				B42EDE082283AC80007FCA92 /* AppDelegate.swift */,
+				B42EDE0C2283AC80007FCA92 /* ScanViewController.swift */,
+				B42EDE0E2283AC80007FCA92 /* Main.storyboard */,
+				B42EDE112283AC82007FCA92 /* Assets.xcassets */,
+				B42EDE132283AC82007FCA92 /* LaunchScreen.storyboard */,
+				B42EDE162283AC82007FCA92 /* Info.plist */,
+				B434BE8622840BC5005748B2 /* LoyaltyViewController.swift */,
+			);
+			path = FishTagReader;
+			sourceTree = "<group>";
+		};
+		B46727FD227D19F400184B98 = {
+			isa = PBXGroup;
+			children = (
+				B42EDE1C2283B4FC007FCA92 /* README.md */,
+				B4672808227D19F400184B98 /* FishTagCreator */,
+				B42EDE072283AC80007FCA92 /* FishTagReader */,
+				B4672807227D19F400184B98 /* Products */,
+				45D6C5C854A1DD9ADB5801E4 /* Configuration */,
+				0F89F67D78D7B3AF342DDADE /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		B4672807227D19F400184B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4672806227D19F400184B98 /* FishTagCreator.app */,
+				B42EDE062283AC80007FCA92 /* FishTagReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4672808227D19F400184B98 /* FishTagCreator */ = {
+			isa = PBXGroup;
+			children = (
+				B4C863802282564700140F29 /* FishTagCreator.entitlements */,
+				B4672809227D19F400184B98 /* AppDelegate.swift */,
+				B467280B227D19F400184B98 /* MainViewController.swift */,
+				B4C8638122825D0F00140F29 /* MainViewController+DataSource.swift */,
+				B467280D227D19F400184B98 /* Main.storyboard */,
+				B4672810227D19F600184B98 /* Assets.xcassets */,
+				B4672812227D19F600184B98 /* LaunchScreen.storyboard */,
+				B4672815227D19F600184B98 /* Info.plist */,
+				B4231A97228DD16C00C34101 /* CouponViewController.swift */,
+			);
+			path = FishTagCreator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B42EDE052283AC80007FCA92 /* FishTagReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42EDE192283AC82007FCA92 /* Build configuration list for PBXNativeTarget "FishTagReader" */;
+			buildPhases = (
+				B42EDE022283AC80007FCA92 /* Sources */,
+				B42EDE032283AC80007FCA92 /* Frameworks */,
+				B42EDE042283AC80007FCA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishTagReader;
+			productName = FishTagReader;
+			productReference = B42EDE062283AC80007FCA92 /* FishTagReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4672805227D19F400184B98 /* FishTagCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4672818227D19F600184B98 /* Build configuration list for PBXNativeTarget "FishTagCreator" */;
+			buildPhases = (
+				B4672802227D19F400184B98 /* Sources */,
+				B4672803227D19F400184B98 /* Frameworks */,
+				B4672804227D19F400184B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishTagCreator;
+			productName = FishTagCreator;
+			productReference = B4672806227D19F400184B98 /* FishTagCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46727FE227D19F400184B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					B42EDE052283AC80007FCA92 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					B4672805227D19F400184B98 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = B4672801227D19F400184B98 /* Build configuration list for PBXProject "NFCFishTag" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B46727FD227D19F400184B98;
+			productRefGroup = B4672807227D19F400184B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4672805227D19F400184B98 /* FishTagCreator */,
+				B42EDE052283AC80007FCA92 /* FishTagReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B42EDE042283AC80007FCA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42EDE152283AC82007FCA92 /* LaunchScreen.storyboard in Resources */,
+				B42EDE122283AC82007FCA92 /* Assets.xcassets in Resources */,
+				B42EDE102283AC80007FCA92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4672804227D19F400184B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4672814227D19F600184B98 /* LaunchScreen.storyboard in Resources */,
+				B4672811227D19F600184B98 /* Assets.xcassets in Resources */,
+				B467280F227D19F400184B98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B42EDE022283AC80007FCA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B434BE8722840BC5005748B2 /* LoyaltyViewController.swift in Sources */,
+				B42EDE0D2283AC80007FCA92 /* ScanViewController.swift in Sources */,
+				B42EDE092283AC80007FCA92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4672802227D19F400184B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4231A98228DD16C00C34101 /* CouponViewController.swift in Sources */,
+				B467280C227D19F400184B98 /* MainViewController.swift in Sources */,
+				B4C8638222825D0F00140F29 /* MainViewController+DataSource.swift in Sources */,
+				B467280A227D19F400184B98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B42EDE0E2283AC80007FCA92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42EDE0F2283AC80007FCA92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B42EDE132283AC82007FCA92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42EDE142283AC82007FCA92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B467280D227D19F400184B98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B467280E227D19F400184B98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4672812227D19F600184B98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4672813227D19F600184B98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B42EDE172283AC82007FCA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F04944694F5B17D01B7A4FD /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FishTagReader/FishTagReader.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FishTagReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.FishTagReader${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B42EDE182283AC82007FCA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F04944694F5B17D01B7A4FD /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FishTagReader/FishTagReader.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FishTagReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.FishTagReader${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B4672816227D19F600184B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F04944694F5B17D01B7A4FD /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4672817227D19F600184B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F04944694F5B17D01B7A4FD /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4672819227D19F600184B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F04944694F5B17D01B7A4FD /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FishTagCreator/FishTagCreator.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FishTagCreator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.FishTagCreator${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B467281A227D19F600184B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F04944694F5B17D01B7A4FD /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FishTagCreator/FishTagCreator.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FishTagCreator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.FishTagCreator${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B42EDE192283AC82007FCA92 /* Build configuration list for PBXNativeTarget "FishTagReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42EDE172283AC82007FCA92 /* Debug */,
+				B42EDE182283AC82007FCA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4672801227D19F400184B98 /* Build configuration list for PBXProject "NFCFishTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4672816227D19F600184B98 /* Debug */,
+				B4672817227D19F600184B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4672818227D19F600184B98 /* Build configuration list for PBXNativeTarget "FishTagCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4672819227D19F600184B98 /* Debug */,
+				B467281A227D19F600184B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B46727FE227D19F400184B98 /* Project object */;
+}

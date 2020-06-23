@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TDb1dD</key>
+	<dict>
+		<key>quantity</key>
+		<dict>
+			<key>one</key>
+			<string>You asked for %d soup</string>
+			<key>other</key>
+			<string>You asked for %d soups</string>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@quantity@, but we don&apos;t have that many in stock.</string>
+	</dict>
+</dict>
+</plist>

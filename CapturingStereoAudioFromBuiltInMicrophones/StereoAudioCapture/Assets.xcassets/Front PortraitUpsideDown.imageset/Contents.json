@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Front PortraitUpsideDown.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

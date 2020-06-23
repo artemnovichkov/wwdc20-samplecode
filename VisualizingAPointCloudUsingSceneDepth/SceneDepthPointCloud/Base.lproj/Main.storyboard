@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17125" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17099"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="SceneDepthPointCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="3se-qz-xqx" customClass="MTKView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="3C0-cp-GOg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+        <!--Unsupported View Controller-->
+        <scene sceneID="LNQ-b5-bmB">
+            <objects>
+                <viewController storyboardIdentifier="unsupportedDeviceMessage" id="QxW-sa-KRf" userLabel="Unsupported View Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ji7-Qy-V5V">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unsupported Device" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JF-Av-Mdm">
+                                <rect key="frame" x="23.5" y="363" width="367.5" height="34"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWc-7D-15s">
+                                <rect key="frame" x="23.5" y="405" width="367.5" height="86.5"/>
+                                <string key="text">This sample app requires a LiDAR-capable device, such as the second-generation iPad Pro 11-inch and fourth-generation iPad Pro 12.9-inch.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AP6-ry-WKg"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pWc-7D-15s" firstAttribute="top" secondItem="8JF-Av-Mdm" secondAttribute="bottom" constant="8" symbolic="YES" id="40q-aT-MIy"/>
+                            <constraint firstItem="8JF-Av-Mdm" firstAttribute="centerX" secondItem="Ji7-Qy-V5V" secondAttribute="centerX" id="JFT-gH-Efe"/>
+                            <constraint firstItem="pWc-7D-15s" firstAttribute="centerX" secondItem="Ji7-Qy-V5V" secondAttribute="centerX" id="TcA-NA-EzA"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pWc-7D-15s" secondAttribute="trailing" constant="20" symbolic="YES" id="Z0l-sD-KhR"/>
+                            <constraint firstItem="pWc-7D-15s" firstAttribute="centerY" secondItem="Ji7-Qy-V5V" secondAttribute="centerY" id="mOn-bG-duj"/>
+                            <constraint firstItem="8JF-Av-Mdm" firstAttribute="width" secondItem="pWc-7D-15s" secondAttribute="width" id="py8-fg-6jU"/>
+                            <constraint firstItem="pWc-7D-15s" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ji7-Qy-V5V" secondAttribute="leading" constant="20" symbolic="YES" id="umA-vH-H05"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qfh-tj-jYu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="922" y="134"/>
+        </scene>
+    </scenes>
+</document>

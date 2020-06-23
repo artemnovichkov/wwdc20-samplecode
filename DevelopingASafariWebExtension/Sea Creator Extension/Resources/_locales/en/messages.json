@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Sea Creator",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Sea Creator brings your aquatic reading to life.",
+        "description": "Description of what the extension does."
+    }
+}

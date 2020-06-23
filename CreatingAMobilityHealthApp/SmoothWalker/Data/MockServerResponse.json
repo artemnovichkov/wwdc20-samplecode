@@ -1,0 +1,86 @@
+{
+    "identifier": "WWDC_2020",
+    "date": "2020-06-22T009:41:00-07:00",
+
+    "weeklyReport": {
+            "identifier": "WeeklyReport1",
+            "startDate": "2020-06-16T08:00:00-07:00",
+            "endDate": "2020-06-22T08:00:00-07:00",
+            
+            "samples": [
+                {
+                    "syncIdentifier": "SyncIdentifier1",
+                    "syncVersion": 1,
+                    "type": "quantity",
+                    "typeIdentifier": "HKQuantityTypeIdentifierSixMinuteWalkTestDistance",
+                    "unit": "meter",
+                    "value": 400,
+                    "startDate": "2020-06-16T08:00:00-07:00",
+                    "endDate": "2020-06-16T20:00:00-07:00",
+                },
+                {
+                    "syncIdentifier": "SyncIdentifier2",
+                    "syncVersion": 1,
+                    "type": "quantity",
+                    "typeIdentifier": "HKQuantityTypeIdentifierSixMinuteWalkTestDistance",
+                    "unit": "meter",
+                    "value": 440,
+                    "startDate": "2020-06-17T08:00:00-07:00",
+                    "endDate": "2020-06-17T20:00:00-07:00",
+                },
+                {
+                    "syncIdentifier": "SyncIdentifier3",
+                    "syncVersion": 1,
+                    "type": "quantity",
+                    "typeIdentifier": "HKQuantityTypeIdentifierSixMinuteWalkTestDistance",
+                    "unit": "meter",
+                    "value": 460,
+                    "startDate": "2020-06-18T08:00:00-07:00",
+                    "endDate": "2020-06-18T20:00:00-07:00",
+                },
+                {
+                    "syncIdentifier": "SyncIdentifier4",
+                    "syncVersion": 1,
+                    "type": "quantity",
+                    "typeIdentifier": "HKQuantityTypeIdentifierSixMinuteWalkTestDistance",
+                    "unit": "meter",
+                    "value": 475,
+                    "startDate": "2020-06-19T08:00:00-07:00",
+                    "endDate": "2020-06-19T20:00:00-07:00",
+                },
+                {
+                    "syncIdentifier": "SyncIdentifier5",
+                    "syncVersion": 1,
+                    "type": "quantity",
+                    "typeIdentifier": "HKQuantityTypeIdentifierSixMinuteWalkTestDistance",
+                    "unit": "meter",
+                    "value": 482,
+                    "startDate": "2020-06-20T08:00:00-07:00",
+                    "endDate": "2020-06-20T20:00:00-07:00",
+                },
+                {
+                    "syncIdentifier": "SyncIdentifier6",
+                    "syncVersion": 1,
+                    "type": "quantity",
+                    "typeIdentifier": "HKQuantityTypeIdentifierSixMinuteWalkTestDistance",
+                    "unit": "meter",
+                    "value": 485,
+                    "startDate": "2020-06-21T08:00:00-07:00",
+                    "endDate": "2020-06-21T20:00:00-07:00",
+                },
+                {
+                    "syncIdentifier": "SyncIdentifier7",
+                    "syncVersion": 1,
+                    "type": "quantity",
+                    "typeIdentifier": "HKQuantityTypeIdentifierSixMinuteWalkTestDistance",
+                    "unit": "meter",
+                    "value": 490,
+                    "startDate": "2020-06-22T08:00:00-07:00",
+                    "endDate": "2020-06-22T20:00:00-07:00",
+                }
+            ]
+    }
+    
+}
+
+

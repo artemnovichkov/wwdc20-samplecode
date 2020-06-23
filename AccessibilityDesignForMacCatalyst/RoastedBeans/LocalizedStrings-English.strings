@@ -1,0 +1,49 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+English localized strings.
+*/
+
+"RoastedBeans" = "RoastedBeans";
+
+"Coffee list" = "Coffee list";
+"%@ selected" = "%@ selected";
+"Coffee" = "Coffee";
+
+"%@ Details" = "%@ Details";
+
+"More Options" = "More Options";
+"Copy" = "Copy";
+"Cancel" = "Cancel";
+
+"Decrease Rating" = "Decrease Rating";
+"Increase Rating" = "Increase Rating";
+"Toggle Favorite" = "Toggle Favorite";
+
+"Favorite" = "Favorite";
+"Add to favorites" = "Add to favorites";
+"Remove from favorites" = "Remove from favorites";
+
+"Rated %@ out of 5" = "Rated %@ out of 5";
+"Increase rating" = "Increase rating";
+"Decrease rating" = "Decrease rating";
+"Not rated" = "Not rated";
+
+"Share" = "Share";
+"Buy one for yourself" = "Buy one for yourself";
+"Buy one for friend" = "Buy one for friend";
+
+"Gift" = "Gift";
+
+"Price: %@" = "Price: %@";
+
+"Purchased" = "Purchased";
+"Not purchased" = "Not purchased";
+
+"%@ Roast" = "%@ Roast";
+
+"Availability: " = "Availability: ";
+"Available at %@ locations" = "Available at %@ locations";
+
+"Images" = "Images";

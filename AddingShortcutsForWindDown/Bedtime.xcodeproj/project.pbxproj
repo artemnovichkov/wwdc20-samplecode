@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291EF62620BD9DDF00531B69 /* PlayMediaIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603626CE2073241600370202 /* PlayMediaIntentHandler.swift */; };
+		298FCB6720B53D760050C9D6 /* BedtimeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003EDF62085803C006AE08A /* BedtimeKit.framework */; };
+		29964897208C1249000BC081 /* StarterData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29964896208C1249000BC081 /* StarterData.plist */; };
+		299648A8208D2C89000BC081 /* AudioPlaybackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD8784208BE94E00910CD0 /* AudioPlaybackManager.swift */; };
+		299648A9208D2C89000BC081 /* SoundLibraryDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD879C208BFE5E00910CD0 /* SoundLibraryDataManager.swift */; };
+		299648AE208D2C89000BC081 /* DataTypes+Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996489E208C1642000BC081 /* DataTypes+Intents.swift */; };
+		299648B1208D2C89000BC081 /* SoundLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299648A4208C2B6D000BC081 /* SoundLibrary.swift */; };
+		29DD87A1208BFF2A00910CD0 /* LibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD87A0208BFF2900910CD0 /* LibraryTableViewController.swift */; };
+		29DD87A3208C00E600910CD0 /* TrackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD87A2208C00E600910CD0 /* TrackTableViewController.swift */; };
+		29E15BDF20C0AC62008EE6CA /* SoundLibraryDataManager+Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E15BDE20C0AC62008EE6CA /* SoundLibraryDataManager+Intents.swift */; };
+		6003EDFA2085803D006AE08A /* BedtimeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6003EDF82085803D006AE08A /* BedtimeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6003EDFD2085803D006AE08A /* BedtimeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003EDF62085803C006AE08A /* BedtimeKit.framework */; };
+		6003EDFE2085803D006AE08A /* BedtimeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6003EDF62085803C006AE08A /* BedtimeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		602EDF6121E6C1AE001A251F /* Synth.aif in Resources */ = {isa = PBXBuildFile; fileRef = 602EDF6021E6C1AE001A251F /* Synth.aif */; };
+		603626AB207322A500370202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603626AA207322A500370202 /* AppDelegate.swift */; };
+		603626B2207322A500370202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603626B0207322A500370202 /* Main.storyboard */; };
+		603626B4207322A500370202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603626B3207322A500370202 /* Assets.xcassets */; };
+		603626B7207322A500370202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603626B5207322A500370202 /* LaunchScreen.storyboard */; };
+		603626C5207322C700370202 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603626C4207322C700370202 /* IntentHandler.swift */; };
+		603626C9207322C700370202 /* BedtimeIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 603626C2207322C700370202 /* BedtimeIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		60465274208E57AF00C9A536 /* LibraryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60465273208E57AF00C9A536 /* LibraryItem.swift */; };
+		60DB601B208EF55F0012F78D /* PlayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DB601A208EF55F0012F78D /* PlayRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6076C4B12497FA0900A02BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6036269F207322A500370202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003EDF52085803C006AE08A;
+			remoteInfo = BedtimeKit;
+		};
+		6076C4B22497FA0900A02BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6036269F207322A500370202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 603626C1207322C700370202;
+			remoteInfo = BedtimeIntents;
+		};
+		6076C4B32497FA0900A02BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6036269F207322A500370202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003EDF52085803C006AE08A;
+			remoteInfo = BedtimeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6003EE022085803D006AE08A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6003EDFE2085803D006AE08A /* BedtimeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603626CD207322C700370202 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				603626C9207322C700370202 /* BedtimeIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		29964896208C1249000BC081 /* StarterData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StarterData.plist; sourceTree = "<group>"; };
+		2996489E208C1642000BC081 /* DataTypes+Intents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataTypes+Intents.swift"; sourceTree = "<group>"; };
+		299648A4208C2B6D000BC081 /* SoundLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundLibrary.swift; sourceTree = "<group>"; };
+		29DD8784208BE94E00910CD0 /* AudioPlaybackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackManager.swift; sourceTree = "<group>"; };
+		29DD879C208BFE5E00910CD0 /* SoundLibraryDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundLibraryDataManager.swift; sourceTree = "<group>"; };
+		29DD87A0208BFF2900910CD0 /* LibraryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewController.swift; sourceTree = "<group>"; };
+		29DD87A2208C00E600910CD0 /* TrackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewController.swift; sourceTree = "<group>"; };
+		29E15BDD20C09835008EE6CA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		29E15BDE20C0AC62008EE6CA /* SoundLibraryDataManager+Intents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoundLibraryDataManager+Intents.swift"; sourceTree = "<group>"; };
+		47B426C85CE43624957DD936 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		6003EDF020857FE1006AE08A /* Bedtime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bedtime.entitlements; sourceTree = "<group>"; };
+		6003EDF62085803C006AE08A /* BedtimeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BedtimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003EDF82085803D006AE08A /* BedtimeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BedtimeKit.h; sourceTree = "<group>"; };
+		6003EDF92085803D006AE08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602C6145FD924C9A88AE3054 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		602EDF6021E6C1AE001A251F /* Synth.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Synth.aif; path = Media/Synth.aif; sourceTree = "<group>"; };
+		603626A7207322A500370202 /* Bedtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bedtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		603626AA207322A500370202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		603626B1207322A500370202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		603626B3207322A500370202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		603626B6207322A500370202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		603626B8207322A500370202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603626C2207322C700370202 /* BedtimeIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BedtimeIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		603626C4207322C700370202 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		603626C6207322C700370202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603626CE2073241600370202 /* PlayMediaIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMediaIntentHandler.swift; sourceTree = "<group>"; };
+		60465273208E57AF00C9A536 /* LibraryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryItem.swift; sourceTree = "<group>"; };
+		60DB601A208EF55F0012F78D /* PlayRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003EDF22085803C006AE08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603626A4207322A500370202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003EDFD2085803D006AE08A /* BedtimeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603626BF207322C700370202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298FCB6720B53D760050C9D6 /* BedtimeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016270E475D84DF445F26C2D /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				47B426C85CE43624957DD936 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		217B2AE81EB42EC308B4EC53 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				602C6145FD924C9A88AE3054 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		298FCB6620B53D760050C9D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003EDF72085803D006AE08A /* BedtimeKit */ = {
+			isa = PBXGroup;
+			children = (
+				29DD8784208BE94E00910CD0 /* AudioPlaybackManager.swift */,
+				2996489E208C1642000BC081 /* DataTypes+Intents.swift */,
+				60465273208E57AF00C9A536 /* LibraryItem.swift */,
+				60DB601A208EF55F0012F78D /* PlayRequest.swift */,
+				6007DDED208D338500712CB2 /* Resources */,
+				299648A4208C2B6D000BC081 /* SoundLibrary.swift */,
+				29DD879C208BFE5E00910CD0 /* SoundLibraryDataManager.swift */,
+				29E15BDE20C0AC62008EE6CA /* SoundLibraryDataManager+Intents.swift */,
+			);
+			path = BedtimeKit;
+			sourceTree = "<group>";
+		};
+		6007DDED208D338500712CB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6003EDF82085803D006AE08A /* BedtimeKit.h */,
+				6003EDF92085803D006AE08A /* Info.plist */,
+				29964896208C1249000BC081 /* StarterData.plist */,
+				602EDF6021E6C1AE001A251F /* Synth.aif */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6036269E207322A500370202 = {
+			isa = PBXGroup;
+			children = (
+				29E15BDD20C09835008EE6CA /* README.md */,
+				603626A9207322A500370202 /* Bedtime */,
+				6003EDF72085803D006AE08A /* BedtimeKit */,
+				603626C3207322C700370202 /* BedtimeIntents */,
+				298FCB6620B53D760050C9D6 /* Frameworks */,
+				603626A8207322A500370202 /* Products */,
+				217B2AE81EB42EC308B4EC53 /* Configuration */,
+				016270E475D84DF445F26C2D /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		603626A8207322A500370202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				603626A7207322A500370202 /* Bedtime.app */,
+				603626C2207322C700370202 /* BedtimeIntents.appex */,
+				6003EDF62085803C006AE08A /* BedtimeKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		603626A9207322A500370202 /* Bedtime */ = {
+			isa = PBXGroup;
+			children = (
+				603626AA207322A500370202 /* AppDelegate.swift */,
+				603626B3207322A500370202 /* Assets.xcassets */,
+				6003EDF020857FE1006AE08A /* Bedtime.entitlements */,
+				603626B8207322A500370202 /* Info.plist */,
+				603626B5207322A500370202 /* LaunchScreen.storyboard */,
+				29DD87A0208BFF2900910CD0 /* LibraryTableViewController.swift */,
+				603626B0207322A500370202 /* Main.storyboard */,
+				29DD87A2208C00E600910CD0 /* TrackTableViewController.swift */,
+			);
+			path = Bedtime;
+			sourceTree = "<group>";
+		};
+		603626C3207322C700370202 /* BedtimeIntents */ = {
+			isa = PBXGroup;
+			children = (
+				603626C6207322C700370202 /* Info.plist */,
+				603626C4207322C700370202 /* IntentHandler.swift */,
+				603626CE2073241600370202 /* PlayMediaIntentHandler.swift */,
+			);
+			path = BedtimeIntents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6003EDF32085803C006AE08A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003EDFA2085803D006AE08A /* BedtimeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6003EDF52085803C006AE08A /* BedtimeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003EE012085803D006AE08A /* Build configuration list for PBXNativeTarget "BedtimeKit" */;
+			buildPhases = (
+				6003EDF12085803C006AE08A /* Sources */,
+				6003EDF22085803C006AE08A /* Frameworks */,
+				6003EDF32085803C006AE08A /* Headers */,
+				6003EDF42085803C006AE08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BedtimeKit;
+			productName = BedtimeKit;
+			productReference = 6003EDF62085803C006AE08A /* BedtimeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		603626A6207322A500370202 /* Bedtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603626BB207322A500370202 /* Build configuration list for PBXNativeTarget "Bedtime" */;
+			buildPhases = (
+				603626A3207322A500370202 /* Sources */,
+				603626A4207322A500370202 /* Frameworks */,
+				603626A5207322A500370202 /* Resources */,
+				603626CD207322C700370202 /* Embed App Extensions */,
+				6003EE022085803D006AE08A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				603626C8207322C700370202 /* PBXTargetDependency */,
+				6003EDFC2085803D006AE08A /* PBXTargetDependency */,
+			);
+			name = Bedtime;
+			productName = Bedtime;
+			productReference = 603626A7207322A500370202 /* Bedtime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		603626C1207322C700370202 /* BedtimeIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603626CA207322C700370202 /* Build configuration list for PBXNativeTarget "BedtimeIntents" */;
+			buildPhases = (
+				603626BE207322C700370202 /* Sources */,
+				603626BF207322C700370202 /* Frameworks */,
+				603626C0207322C700370202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298FCB6920B53D790050C9D6 /* PBXTargetDependency */,
+			);
+			name = BedtimeIntents;
+			productName = BedtimeIntents;
+			productReference = 603626C2207322C700370202 /* BedtimeIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6036269F207322A500370202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					6003EDF52085803C006AE08A = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
+					};
+					603626A6207322A500370202 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					603626C1207322C700370202 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 603626A2207322A500370202 /* Build configuration list for PBXProject "Bedtime" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6036269E207322A500370202;
+			productRefGroup = 603626A8207322A500370202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				603626A6207322A500370202 /* Bedtime */,
+				603626C1207322C700370202 /* BedtimeIntents */,
+				6003EDF52085803C006AE08A /* BedtimeKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003EDF42085803C006AE08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29964897208C1249000BC081 /* StarterData.plist in Resources */,
+				602EDF6121E6C1AE001A251F /* Synth.aif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603626A5207322A500370202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603626B7207322A500370202 /* LaunchScreen.storyboard in Resources */,
+				603626B4207322A500370202 /* Assets.xcassets in Resources */,
+				603626B2207322A500370202 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603626C0207322C700370202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003EDF12085803C006AE08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299648AE208D2C89000BC081 /* DataTypes+Intents.swift in Sources */,
+				60465274208E57AF00C9A536 /* LibraryItem.swift in Sources */,
+				299648A9208D2C89000BC081 /* SoundLibraryDataManager.swift in Sources */,
+				29E15BDF20C0AC62008EE6CA /* SoundLibraryDataManager+Intents.swift in Sources */,
+				60DB601B208EF55F0012F78D /* PlayRequest.swift in Sources */,
+				299648B1208D2C89000BC081 /* SoundLibrary.swift in Sources */,
+				299648A8208D2C89000BC081 /* AudioPlaybackManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603626A3207322A500370202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DD87A1208BFF2A00910CD0 /* LibraryTableViewController.swift in Sources */,
+				29DD87A3208C00E600910CD0 /* TrackTableViewController.swift in Sources */,
+				603626AB207322A500370202 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603626BE207322C700370202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603626C5207322C700370202 /* IntentHandler.swift in Sources */,
+				291EF62620BD9DDF00531B69 /* PlayMediaIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		298FCB6920B53D790050C9D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003EDF52085803C006AE08A /* BedtimeKit */;
+			targetProxy = 6076C4B12497FA0900A02BF3 /* PBXContainerItemProxy */;
+		};
+		6003EDFC2085803D006AE08A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003EDF52085803C006AE08A /* BedtimeKit */;
+			targetProxy = 6076C4B32497FA0900A02BF3 /* PBXContainerItemProxy */;
+		};
+		603626C8207322C700370202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 603626C1207322C700370202 /* BedtimeIntents */;
+			targetProxy = 6076C4B22497FA0900A02BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		603626B0207322A500370202 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				603626B1207322A500370202 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		603626B5207322A500370202 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				603626B6207322A500370202 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003EDFF2085803D006AE08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602C6145FD924C9A88AE3054 /* SampleCode.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BedtimeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Bedtime${SAMPLE_CODE_DISAMBIGUATOR}.BedtimeKit";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6003EE002085803D006AE08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602C6145FD924C9A88AE3054 /* SampleCode.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BedtimeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Bedtime${SAMPLE_CODE_DISAMBIGUATOR}.BedtimeKit";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		603626B9207322A500370202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602C6145FD924C9A88AE3054 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		603626BA207322A500370202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602C6145FD924C9A88AE3054 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		603626BC207322A500370202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602C6145FD924C9A88AE3054 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bedtime/Bedtime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Bedtime/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Bedtime${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		603626BD207322A500370202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602C6145FD924C9A88AE3054 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bedtime/Bedtime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Bedtime/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Bedtime${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		603626CB207322C700370202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602C6145FD924C9A88AE3054 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/BedtimeIntents/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Bedtime${SAMPLE_CODE_DISAMBIGUATOR}.BedtimeIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		603626CC207322C700370202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602C6145FD924C9A88AE3054 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/BedtimeIntents/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Bedtime${SAMPLE_CODE_DISAMBIGUATOR}.BedtimeIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003EE012085803D006AE08A /* Build configuration list for PBXNativeTarget "BedtimeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003EDFF2085803D006AE08A /* Debug */,
+				6003EE002085803D006AE08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		603626A2207322A500370202 /* Build configuration list for PBXProject "Bedtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603626B9207322A500370202 /* Debug */,
+				603626BA207322A500370202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		603626BB207322A500370202 /* Build configuration list for PBXNativeTarget "Bedtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603626BC207322A500370202 /* Debug */,
+				603626BD207322A500370202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		603626CA207322C700370202 /* Build configuration list for PBXNativeTarget "BedtimeIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603626CB207322C700370202 /* Debug */,
+				603626CC207322C700370202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6036269F207322A500370202 /* Project object */;
+}

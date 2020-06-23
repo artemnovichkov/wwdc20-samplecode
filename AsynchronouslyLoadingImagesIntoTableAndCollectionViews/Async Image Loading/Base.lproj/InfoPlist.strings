@@ -1,0 +1,8 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+InfoPlist Strings File for MacOS.
+*/
+CFBundleGetInfoString = "v1.0, Copyright 2019, Apple Inc.";
+NSHumanReadableCopyright = "Copyright © 2019, Apple Inc.";

@@ -1,0 +1,1 @@
+Node.js and the imported modules cookie-parser, dotenv, ec-key, express, got, morgan, and uuid are subject to the license included in their respective packages.

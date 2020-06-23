@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A61AD5F249842660073B5C9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A61AD5D249841830073B5C9 /* Localizable.strings */; };
+		1A61AD61249842E20073B5C9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61AD60249842E20073B5C9 /* Model.swift */; };
+		1A61AD63249847A10073B5C9 /* AddShapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61AD62249847A10073B5C9 /* AddShapeViewController.swift */; };
+		1A91E723249850BE00ACE6D3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A91E722249850BE00ACE6D3 /* MainViewController.swift */; };
+		1A91E725249850E900ACE6D3 /* GlobalKeyboardShortcutRespondable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A91E724249850E900ACE6D3 /* GlobalKeyboardShortcutRespondable.swift */; };
+		CD8EF70F249496610078B4CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8EF70E249496610078B4CB /* Assets.xcassets */; };
+		CD8EF7112494970E0078B4CB /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EF7102494970E0078B4CB /* CanvasViewController.swift */; };
+		CD8EF713249497270078B4CB /* FileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EF712249497270078B4CB /* FileListViewController.swift */; };
+		CD8EF71724949ACF0078B4CB /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EF71624949ACF0078B4CB /* ShapeView.swift */; };
+		CD8EF71A24949F310078B4CB /* ShapeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EF71924949F310078B4CB /* ShapeSelectionView.swift */; };
+		CDF4A07124948BE9002AE822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4A07024948BE9002AE822 /* AppDelegate.swift */; };
+		CDF4A07324948BE9002AE822 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4A07224948BE9002AE822 /* SceneDelegate.swift */; };
+		CDF4A07824948BE9002AE822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF4A07624948BE9002AE822 /* Main.storyboard */; };
+		CDF4A07D24948BEA002AE822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF4A07B24948BEA002AE822 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A61AD5C249841830073B5C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A61AD60249842E20073B5C9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1A61AD62249847A10073B5C9 /* AddShapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShapeViewController.swift; sourceTree = "<group>"; };
+		1A91E722249850BE00ACE6D3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1A91E724249850E900ACE6D3 /* GlobalKeyboardShortcutRespondable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalKeyboardShortcutRespondable.swift; sourceTree = "<group>"; };
+		3535BE1F3458B7451CAE6A55 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		BEA3FD4924958863003D56A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C59C3D8E4AFA17DEBBD554E5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		CD8EF70E249496610078B4CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD8EF7102494970E0078B4CB /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		CD8EF712249497270078B4CB /* FileListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListViewController.swift; sourceTree = "<group>"; };
+		CD8EF71624949ACF0078B4CB /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		CD8EF71924949F310078B4CB /* ShapeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeSelectionView.swift; sourceTree = "<group>"; };
+		CDF4A06D24948BE9002AE822 /* ProIllustratorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProIllustratorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF4A07024948BE9002AE822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDF4A07224948BE9002AE822 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDF4A07724948BE9002AE822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDF4A07C24948BEA002AE822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDF4A07E24948BEA002AE822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF4A08424948C0B002AE822 /* ProIllustratorSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProIllustratorSample.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF4A06A24948BE9002AE822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD58CE8E24949634006475A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8EF70E249496610078B4CB /* Assets.xcassets */,
+				CDF4A08424948C0B002AE822 /* ProIllustratorSample.entitlements */,
+				CDF4A07B24948BEA002AE822 /* LaunchScreen.storyboard */,
+				CDF4A07E24948BEA002AE822 /* Info.plist */,
+				1A61AD5D249841830073B5C9 /* Localizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD8EF71824949ADD0078B4CB /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				CD8EF71624949ACF0078B4CB /* ShapeView.swift */,
+				CD8EF71924949F310078B4CB /* ShapeSelectionView.swift */,
+				CD8EF7102494970E0078B4CB /* CanvasViewController.swift */,
+				1A61AD62249847A10073B5C9 /* AddShapeViewController.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		CDF4A06424948BE9002AE822 = {
+			isa = PBXGroup;
+			children = (
+				BEA3FD4924958863003D56A2 /* README.md */,
+				CDF4A06F24948BE9002AE822 /* ProIllustratorSample */,
+				CDF4A06E24948BE9002AE822 /* Products */,
+				EDEC935149237A4AFF08E2F4 /* Configuration */,
+				F8D60D3ECCF15974FB91F059 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF4A06E24948BE9002AE822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4A06D24948BE9002AE822 /* ProIllustratorSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF4A06F24948BE9002AE822 /* ProIllustratorSample */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4A07024948BE9002AE822 /* AppDelegate.swift */,
+				CDF4A07224948BE9002AE822 /* SceneDelegate.swift */,
+				1A61AD60249842E20073B5C9 /* Model.swift */,
+				1A91E724249850E900ACE6D3 /* GlobalKeyboardShortcutRespondable.swift */,
+				1A91E722249850BE00ACE6D3 /* MainViewController.swift */,
+				CD8EF712249497270078B4CB /* FileListViewController.swift */,
+				CD8EF71824949ADD0078B4CB /* Canvas */,
+				CDF4A07624948BE9002AE822 /* Main.storyboard */,
+				CD58CE8E24949634006475A7 /* Supporting Files */,
+			);
+			path = ProIllustratorSample;
+			sourceTree = "<group>";
+		};
+		EDEC935149237A4AFF08E2F4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3535BE1F3458B7451CAE6A55 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		F8D60D3ECCF15974FB91F059 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				C59C3D8E4AFA17DEBBD554E5 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF4A06C24948BE9002AE822 /* ProIllustratorSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF4A08124948BEA002AE822 /* Build configuration list for PBXNativeTarget "ProIllustratorSample" */;
+			buildPhases = (
+				CDF4A06924948BE9002AE822 /* Sources */,
+				CDF4A06A24948BE9002AE822 /* Frameworks */,
+				CDF4A06B24948BE9002AE822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProIllustratorSample;
+			productName = ProIllustratorSample;
+			productReference = CDF4A06D24948BE9002AE822 /* ProIllustratorSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF4A06524948BE9002AE822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					CDF4A06C24948BE9002AE822 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = CDF4A06824948BE9002AE822 /* Build configuration list for PBXProject "ProIllustratorSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF4A06424948BE9002AE822;
+			productRefGroup = CDF4A06E24948BE9002AE822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF4A06C24948BE9002AE822 /* ProIllustratorSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF4A06B24948BE9002AE822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF4A07D24948BEA002AE822 /* LaunchScreen.storyboard in Resources */,
+				1A61AD5F249842660073B5C9 /* Localizable.strings in Resources */,
+				CD8EF70F249496610078B4CB /* Assets.xcassets in Resources */,
+				CDF4A07824948BE9002AE822 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF4A06924948BE9002AE822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8EF71724949ACF0078B4CB /* ShapeView.swift in Sources */,
+				1A91E725249850E900ACE6D3 /* GlobalKeyboardShortcutRespondable.swift in Sources */,
+				CDF4A07124948BE9002AE822 /* AppDelegate.swift in Sources */,
+				1A61AD63249847A10073B5C9 /* AddShapeViewController.swift in Sources */,
+				CD8EF7112494970E0078B4CB /* CanvasViewController.swift in Sources */,
+				1A61AD61249842E20073B5C9 /* Model.swift in Sources */,
+				CD8EF71A24949F310078B4CB /* ShapeSelectionView.swift in Sources */,
+				CD8EF713249497270078B4CB /* FileListViewController.swift in Sources */,
+				CDF4A07324948BE9002AE822 /* SceneDelegate.swift in Sources */,
+				1A91E723249850BE00ACE6D3 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A61AD5D249841830073B5C9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A61AD5C249841830073B5C9 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CDF4A07624948BE9002AE822 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF4A07724948BE9002AE822 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDF4A07B24948BEA002AE822 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF4A07C24948BEA002AE822 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDF4A07F24948BEA002AE822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3535BE1F3458B7451CAE6A55 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDF4A08024948BEA002AE822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3535BE1F3458B7451CAE6A55 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF4A08224948BEA002AE822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3535BE1F3458B7451CAE6A55 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ProIllustratorSample/Supporting Files/ProIllustratorSample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ProIllustratorSample/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.ProIllustratorSample${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,6";
+			};
+			name = Debug;
+		};
+		CDF4A08324948BEA002AE822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3535BE1F3458B7451CAE6A55 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ProIllustratorSample/Supporting Files/ProIllustratorSample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ProIllustratorSample/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.ProIllustratorSample${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF4A06824948BE9002AE822 /* Build configuration list for PBXProject "ProIllustratorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF4A07F24948BEA002AE822 /* Debug */,
+				CDF4A08024948BEA002AE822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF4A08124948BEA002AE822 /* Build configuration list for PBXNativeTarget "ProIllustratorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF4A08224948BEA002AE822 /* Debug */,
+				CDF4A08324948BEA002AE822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF4A06524948BE9002AE822 /* Project object */;
+}

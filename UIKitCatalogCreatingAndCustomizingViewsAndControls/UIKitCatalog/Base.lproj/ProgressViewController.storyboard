@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14800.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aY0-FD-8DD">
+    <device id="retina4_7" orientation="portrait"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14758.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Progress Views-->
+        <scene sceneID="lvJ-t8-0eN">
+            <objects>
+                <tableViewController id="aY0-FD-8DD" customClass="ProgressViewController" customModule="UIKitCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="vxe-YC-yBi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Default" id="eUe-E8-yfw">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="kmi-xt-LTG">
+                                        <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kmi-xt-LTG" id="FJn-D1-Mek">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ei4-Kf-1yF">
+                                                    <rect key="frame" x="20" y="21" width="335" height="2"/>
+                                                </progressView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="centerY" secondItem="ei4-Kf-1yF" secondAttribute="centerY" id="19T-l6-w2Z"/>
+                                                <constraint firstItem="ei4-Kf-1yF" firstAttribute="leading" secondItem="FJn-D1-Mek" secondAttribute="leading" constant="20" symbolic="YES" id="996-hT-SEd"/>
+                                                <constraint firstAttribute="trailing" secondItem="ei4-Kf-1yF" secondAttribute="trailing" constant="20" symbolic="YES" id="X0O-1q-n6K"/>
+                                                <constraint firstItem="ei4-Kf-1yF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FJn-D1-Mek" secondAttribute="leading" constant="20" id="yYu-XW-UDu"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Bar" id="bKC-KS-IHM">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="8gd-go-6HH">
+                                        <rect key="frame" x="0.0" y="147.5" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8gd-go-6HH" id="s1D-qX-CZU">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zOW-ND-gMa">
+                                                    <rect key="frame" x="20" y="21.5" width="340" height="2.5"/>
+                                                </progressView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="centerX" secondItem="zOW-ND-gMa" secondAttribute="centerX" constant="-2.5" id="0Kg-bD-Z29"/>
+                                                <constraint firstAttribute="centerY" secondItem="zOW-ND-gMa" secondAttribute="centerY" id="0eX-Wt-3bc"/>
+                                                <constraint firstItem="zOW-ND-gMa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="s1D-qX-CZU" secondAttribute="leading" constant="20" id="ABx-O0-dxH"/>
+                                                <constraint firstItem="zOW-ND-gMa" firstAttribute="leading" secondItem="s1D-qX-CZU" secondAttribute="leading" constant="20" id="KQ9-r2-iz2"/>
+                                                <constraint firstAttribute="trailing" secondItem="zOW-ND-gMa" secondAttribute="trailing" constant="15" id="an4-J8-8Nv"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Tinted" id="xT2-F1-qKq">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="e4s-Qv-cWn">
+                                        <rect key="frame" x="0.0" y="239.5" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e4s-Qv-cWn" id="U7H-qE-1Eb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hce-gL-kyl">
+                                                    <rect key="frame" x="20" y="21" width="340" height="2"/>
+                                                </progressView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="centerY" secondItem="hce-gL-kyl" secondAttribute="centerY" id="28r-KD-u2o"/>
+                                                <constraint firstAttribute="centerX" secondItem="hce-gL-kyl" secondAttribute="centerX" constant="-2.5" id="2Gr-hq-nSj"/>
+                                                <constraint firstItem="hce-gL-kyl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="U7H-qE-1Eb" secondAttribute="leading" constant="20" id="J3i-VD-vWd"/>
+                                                <constraint firstItem="hce-gL-kyl" firstAttribute="leading" secondItem="U7H-qE-1Eb" secondAttribute="leading" constant="20" id="csz-HT-u0D"/>
+                                                <constraint firstAttribute="trailing" secondItem="hce-gL-kyl" secondAttribute="trailing" constant="15" id="lA4-cN-FV2"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="aY0-FD-8DD" id="fzw-Hl-Whn"/>
+                            <outlet property="delegate" destination="aY0-FD-8DD" id="1bx-jV-2bJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Progress Views" id="msy-b9-rro"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="barStyleProgressView" destination="zOW-ND-gMa" id="oBr-1m-HjU"/>
+                        <outlet property="defaultStyleProgressView" destination="ei4-Kf-1yF" id="7lo-ee-pgZ"/>
+                        <outlet property="tintedProgressView" destination="hce-gL-kyl" id="6l7-NC-hb8"/>
+                        <outletCollection property="progressViews" destination="ei4-Kf-1yF" collectionClass="NSMutableArray" id="vi4-76-kJ6"/>
+                        <outletCollection property="progressViews" destination="hce-gL-kyl" collectionClass="NSMutableArray" id="kR6-BL-IOR"/>
+                        <outletCollection property="progressViews" destination="zOW-ND-gMa" collectionClass="NSMutableArray" id="gh3-jC-y2q"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xdv-yA-Pae" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2227" y="3368"/>
+        </scene>
+    </scenes>
+</document>

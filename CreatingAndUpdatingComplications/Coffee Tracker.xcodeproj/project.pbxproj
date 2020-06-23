@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93E5EEE5245A2BCC00F95BA0 /* Coffee Tracker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 93E5EEE4245A2BCC00F95BA0 /* Coffee Tracker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		93E5EEEB245A2BCC00F95BA0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E5EEE9245A2BCC00F95BA0 /* Interface.storyboard */; };
+		93E5EEED245A2BCE00F95BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E5EEEC245A2BCE00F95BA0 /* Assets.xcassets */; };
+		93E5EEF4245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 93E5EEF3245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		93E5EF01245A2BCF00F95BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E5EF00245A2BCF00F95BA0 /* Assets.xcassets */; };
+		93E5EF04245A2BCF00F95BA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E5EF03245A2BCF00F95BA0 /* Preview Assets.xcassets */; };
+		93E5EF20245A2C5100F95BA0 /* CoffeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5EF16245A2C5000F95BA0 /* CoffeeData.swift */; };
+		93E5EF21245A2C5100F95BA0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5EF17245A2C5000F95BA0 /* ExtensionDelegate.swift */; };
+		93E5EF22245A2C5100F95BA0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5EF18245A2C5000F95BA0 /* ComplicationController.swift */; };
+		93E5EF23245A2C5100F95BA0 /* DrinkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5EF19245A2C5000F95BA0 /* DrinkListView.swift */; };
+		93E5EF24245A2C5100F95BA0 /* HealthKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5EF1A245A2C5000F95BA0 /* HealthKitController.swift */; };
+		93E5EF25245A2C5100F95BA0 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5EF1B245A2C5000F95BA0 /* HostingController.swift */; };
+		93E5EF26245A2C5100F95BA0 /* CoffeeTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5EF1C245A2C5000F95BA0 /* CoffeeTrackerView.swift */; };
+		93E5EF27245A2C5100F95BA0 /* DrinkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5EF1D245A2C5000F95BA0 /* DrinkType.swift */; };
+		93E5EF28245A2C5100F95BA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5EF1E245A2C5100F95BA0 /* ContentView.swift */; };
+		93E5EF29245A2C5100F95BA0 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5EF1F245A2C5100F95BA0 /* Drink.swift */; };
+		93E5EF2D245A2E2800F95BA0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5EF2C245A2E2800F95BA0 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93E5EEE6245A2BCC00F95BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E5EEDA245A2BCC00F95BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93E5EEE3245A2BCC00F95BA0;
+			remoteInfo = "Coffee Tracker WatchKit App";
+		};
+		93E5EEF5245A2BCE00F95BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E5EEDA245A2BCC00F95BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93E5EEF2245A2BCE00F95BA0;
+			remoteInfo = "Coffee Tracker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93E5EF0B245A2BCF00F95BA0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				93E5EEF4245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E5EF0F245A2BCF00F95BA0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				93E5EEE5245A2BCC00F95BA0 /* Coffee Tracker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		431440C68D495BD7CDB87FEC /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		93E5EEE0245A2BCC00F95BA0 /* Coffee Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E5EEE4245A2BCC00F95BA0 /* Coffee Tracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Tracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E5EEEA245A2BCC00F95BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		93E5EEEC245A2BCE00F95BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93E5EEEE245A2BCE00F95BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E5EEF3245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Coffee Tracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E5EF00245A2BCF00F95BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93E5EF03245A2BCF00F95BA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93E5EF05245A2BCF00F95BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E5EF13245A2C1300F95BA0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93E5EF16245A2C5000F95BA0 /* CoffeeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeData.swift; sourceTree = "<group>"; };
+		93E5EF17245A2C5000F95BA0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		93E5EF18245A2C5000F95BA0 /* ComplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		93E5EF19245A2C5000F95BA0 /* DrinkListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkListView.swift; sourceTree = "<group>"; };
+		93E5EF1A245A2C5000F95BA0 /* HealthKitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitController.swift; sourceTree = "<group>"; };
+		93E5EF1B245A2C5000F95BA0 /* HostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		93E5EF1C245A2C5000F95BA0 /* CoffeeTrackerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeTrackerView.swift; sourceTree = "<group>"; };
+		93E5EF1D245A2C5000F95BA0 /* DrinkType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkType.swift; sourceTree = "<group>"; };
+		93E5EF1E245A2C5100F95BA0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93E5EF1F245A2C5100F95BA0 /* Drink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		93E5EF2A245A2E2800F95BA0 /* Coffee Tracker WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Coffee Tracker WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		93E5EF2C245A2E2800F95BA0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		ADEA760596734A634F034C37 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93E5EEF0245A2BCE00F95BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E5EF2D245A2E2800F95BA0 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93E5EED9245A2BCC00F95BA0 = {
+			isa = PBXGroup;
+			children = (
+				93E5EF13245A2C1300F95BA0 /* README.md */,
+				93E5EEE8245A2BCC00F95BA0 /* Coffee Tracker WatchKit App */,
+				93E5EEF7245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension */,
+				93E5EEE1245A2BCC00F95BA0 /* Products */,
+				93E5EF2B245A2E2800F95BA0 /* Frameworks */,
+				F0B4B0F4A097C5D746C7F388 /* Configuration */,
+				D5CC5B7D1E805688BC1F667C /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		93E5EEE1245A2BCC00F95BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93E5EEE0245A2BCC00F95BA0 /* Coffee Tracker.app */,
+				93E5EEE4245A2BCC00F95BA0 /* Coffee Tracker WatchKit App.app */,
+				93E5EEF3245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93E5EEE8245A2BCC00F95BA0 /* Coffee Tracker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				93E5EEE9245A2BCC00F95BA0 /* Interface.storyboard */,
+				93E5EEEC245A2BCE00F95BA0 /* Assets.xcassets */,
+				93E5EEEE245A2BCE00F95BA0 /* Info.plist */,
+			);
+			path = "Coffee Tracker WatchKit App";
+			sourceTree = "<group>";
+		};
+		93E5EEF7245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				93E5EF2A245A2E2800F95BA0 /* Coffee Tracker WatchKit Extension.entitlements */,
+				93E5EF16245A2C5000F95BA0 /* CoffeeData.swift */,
+				93E5EF1C245A2C5000F95BA0 /* CoffeeTrackerView.swift */,
+				93E5EF18245A2C5000F95BA0 /* ComplicationController.swift */,
+				93E5EF1E245A2C5100F95BA0 /* ContentView.swift */,
+				93E5EF1F245A2C5100F95BA0 /* Drink.swift */,
+				93E5EF19245A2C5000F95BA0 /* DrinkListView.swift */,
+				93E5EF1D245A2C5000F95BA0 /* DrinkType.swift */,
+				93E5EF17245A2C5000F95BA0 /* ExtensionDelegate.swift */,
+				93E5EF1A245A2C5000F95BA0 /* HealthKitController.swift */,
+				93E5EF1B245A2C5000F95BA0 /* HostingController.swift */,
+				93E5EF00245A2BCF00F95BA0 /* Assets.xcassets */,
+				93E5EF05245A2BCF00F95BA0 /* Info.plist */,
+				93E5EF02245A2BCF00F95BA0 /* Preview Content */,
+			);
+			path = "Coffee Tracker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		93E5EF02245A2BCF00F95BA0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93E5EF03245A2BCF00F95BA0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93E5EF2B245A2E2800F95BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93E5EF2C245A2E2800F95BA0 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5CC5B7D1E805688BC1F667C /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA760596734A634F034C37 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		F0B4B0F4A097C5D746C7F388 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				431440C68D495BD7CDB87FEC /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93E5EEDF245A2BCC00F95BA0 /* Coffee Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E5EF10245A2BCF00F95BA0 /* Build configuration list for PBXNativeTarget "Coffee Tracker" */;
+			buildPhases = (
+				93E5EEDE245A2BCC00F95BA0 /* Resources */,
+				93E5EF0F245A2BCF00F95BA0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E5EEE7245A2BCC00F95BA0 /* PBXTargetDependency */,
+			);
+			name = "Coffee Tracker";
+			productName = "Coffee Tracker";
+			productReference = 93E5EEE0245A2BCC00F95BA0 /* Coffee Tracker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		93E5EEE3245A2BCC00F95BA0 /* Coffee Tracker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E5EF0C245A2BCF00F95BA0 /* Build configuration list for PBXNativeTarget "Coffee Tracker WatchKit App" */;
+			buildPhases = (
+				93E5EEE2245A2BCC00F95BA0 /* Resources */,
+				93E5EF0B245A2BCF00F95BA0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E5EEF6245A2BCE00F95BA0 /* PBXTargetDependency */,
+			);
+			name = "Coffee Tracker WatchKit App";
+			productName = "Coffee Tracker WatchKit App";
+			productReference = 93E5EEE4245A2BCC00F95BA0 /* Coffee Tracker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		93E5EEF2245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E5EF08245A2BCF00F95BA0 /* Build configuration list for PBXNativeTarget "Coffee Tracker WatchKit Extension" */;
+			buildPhases = (
+				93E5EEEF245A2BCE00F95BA0 /* Sources */,
+				93E5EEF0245A2BCE00F95BA0 /* Frameworks */,
+				93E5EEF1245A2BCE00F95BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coffee Tracker WatchKit Extension";
+			productName = "Coffee Tracker WatchKit Extension";
+			productReference = 93E5EEF3245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93E5EEDA245A2BCC00F95BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					93E5EEDF245A2BCC00F95BA0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					93E5EEE3245A2BCC00F95BA0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					93E5EEF2245A2BCE00F95BA0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 93E5EEDD245A2BCC00F95BA0 /* Build configuration list for PBXProject "Coffee Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93E5EED9245A2BCC00F95BA0;
+			productRefGroup = 93E5EEE1245A2BCC00F95BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93E5EEDF245A2BCC00F95BA0 /* Coffee Tracker */,
+				93E5EEE3245A2BCC00F95BA0 /* Coffee Tracker WatchKit App */,
+				93E5EEF2245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93E5EEDE245A2BCC00F95BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E5EEE2245A2BCC00F95BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E5EEED245A2BCE00F95BA0 /* Assets.xcassets in Resources */,
+				93E5EEEB245A2BCC00F95BA0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E5EEF1245A2BCE00F95BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E5EF04245A2BCF00F95BA0 /* Preview Assets.xcassets in Resources */,
+				93E5EF01245A2BCF00F95BA0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93E5EEEF245A2BCE00F95BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E5EF25245A2C5100F95BA0 /* HostingController.swift in Sources */,
+				93E5EF21245A2C5100F95BA0 /* ExtensionDelegate.swift in Sources */,
+				93E5EF24245A2C5100F95BA0 /* HealthKitController.swift in Sources */,
+				93E5EF26245A2C5100F95BA0 /* CoffeeTrackerView.swift in Sources */,
+				93E5EF27245A2C5100F95BA0 /* DrinkType.swift in Sources */,
+				93E5EF28245A2C5100F95BA0 /* ContentView.swift in Sources */,
+				93E5EF23245A2C5100F95BA0 /* DrinkListView.swift in Sources */,
+				93E5EF20245A2C5100F95BA0 /* CoffeeData.swift in Sources */,
+				93E5EF29245A2C5100F95BA0 /* Drink.swift in Sources */,
+				93E5EF22245A2C5100F95BA0 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93E5EEE7245A2BCC00F95BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93E5EEE3245A2BCC00F95BA0 /* Coffee Tracker WatchKit App */;
+			targetProxy = 93E5EEE6245A2BCC00F95BA0 /* PBXContainerItemProxy */;
+		};
+		93E5EEF6245A2BCE00F95BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93E5EEF2245A2BCE00F95BA0 /* Coffee Tracker WatchKit Extension */;
+			targetProxy = 93E5EEF5245A2BCE00F95BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93E5EEE9245A2BCC00F95BA0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E5EEEA245A2BCC00F95BA0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93E5EF06245A2BCF00F95BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431440C68D495BD7CDB87FEC /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93E5EF07245A2BCF00F95BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431440C68D495BD7CDB87FEC /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93E5EF09245A2BCF00F95BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431440C68D495BD7CDB87FEC /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Coffee Tracker WatchKit Extension/Coffee Tracker WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Coffee Tracker WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Coffee Tracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Coffee-Tracker${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		93E5EF0A245A2BCF00F95BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431440C68D495BD7CDB87FEC /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Coffee Tracker WatchKit Extension/Coffee Tracker WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Coffee Tracker WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Coffee Tracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Coffee-Tracker${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		93E5EF0D245A2BCF00F95BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431440C68D495BD7CDB87FEC /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = Coffee_Tracker_WatchKit_Extension;
+				INFOPLIST_FILE = "Coffee Tracker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Coffee-Tracker${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		93E5EF0E245A2BCF00F95BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431440C68D495BD7CDB87FEC /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = Coffee_Tracker_WatchKit_Extension;
+				INFOPLIST_FILE = "Coffee Tracker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Coffee-Tracker${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		93E5EF11245A2BCF00F95BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431440C68D495BD7CDB87FEC /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Coffee-Tracker${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93E5EF12245A2BCF00F95BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431440C68D495BD7CDB87FEC /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Coffee-Tracker${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93E5EEDD245A2BCC00F95BA0 /* Build configuration list for PBXProject "Coffee Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E5EF06245A2BCF00F95BA0 /* Debug */,
+				93E5EF07245A2BCF00F95BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E5EF08245A2BCF00F95BA0 /* Build configuration list for PBXNativeTarget "Coffee Tracker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E5EF09245A2BCF00F95BA0 /* Debug */,
+				93E5EF0A245A2BCF00F95BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E5EF0C245A2BCF00F95BA0 /* Build configuration list for PBXNativeTarget "Coffee Tracker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E5EF0D245A2BCF00F95BA0 /* Debug */,
+				93E5EF0E245A2BCF00F95BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E5EF10245A2BCF00F95BA0 /* Build configuration list for PBXNativeTarget "Coffee Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E5EF11245A2BCF00F95BA0 /* Debug */,
+				93E5EF12245A2BCF00F95BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93E5EEDA245A2BCC00F95BA0 /* Project object */;
+}

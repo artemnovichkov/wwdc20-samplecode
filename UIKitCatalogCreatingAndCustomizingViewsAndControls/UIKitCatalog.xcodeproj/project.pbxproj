@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2200541E18BC54E8002A6E8B /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200541A18BC54E8002A6E8B /* ActivityIndicatorViewController.swift */; };
+		2200541F18BC54E8002A6E8B /* AlertControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200541B18BC54E8002A6E8B /* AlertControllerViewController.swift */; };
+		2200542018BC54E8002A6E8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200541C18BC54E8002A6E8B /* AppDelegate.swift */; };
+		2200542718BC54EC002A6E8B /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200542118BC54EC002A6E8B /* ButtonViewController.swift */; };
+		2200542818BC54EC002A6E8B /* CustomSearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200542218BC54EC002A6E8B /* CustomSearchBarViewController.swift */; };
+		2200542918BC54EC002A6E8B /* CustomToolbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200542318BC54EC002A6E8B /* CustomToolbarViewController.swift */; };
+		2200542A18BC54EC002A6E8B /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200542418BC54EC002A6E8B /* DatePickerController.swift */; };
+		2200542B18BC54EC002A6E8B /* DefaultSearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200542518BC54EC002A6E8B /* DefaultSearchBarViewController.swift */; };
+		2200542C18BC54EC002A6E8B /* DefaultToolbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200542618BC54EC002A6E8B /* DefaultToolbarViewController.swift */; };
+		2200543C18BC54F5002A6E8B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200542D18BC54F5002A6E8B /* ImageViewController.swift */; };
+		2200543F18BC54F5002A6E8B /* DefaultPageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543018BC54F5002A6E8B /* DefaultPageControlViewController.swift */; };
+		2200544118BC54F5002A6E8B /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543218BC54F5002A6E8B /* ProgressViewController.swift */; };
+		2200544218BC54F5002A6E8B /* SegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543318BC54F5002A6E8B /* SegmentedControlViewController.swift */; };
+		2200544318BC54F5002A6E8B /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543418BC54F5002A6E8B /* SliderViewController.swift */; };
+		2200544518BC54F5002A6E8B /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543618BC54F5002A6E8B /* StepperViewController.swift */; };
+		2200544618BC54F5002A6E8B /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543718BC54F5002A6E8B /* SwitchViewController.swift */; };
+		2200544718BC54F5002A6E8B /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543818BC54F5002A6E8B /* TextFieldViewController.swift */; };
+		2200544818BC54F5002A6E8B /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543918BC54F5002A6E8B /* TextViewController.swift */; };
+		2200544918BC54F5002A6E8B /* TintedToolbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543A18BC54F5002A6E8B /* TintedToolbarViewController.swift */; };
+		2200544A18BC54F5002A6E8B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543B18BC54F5002A6E8B /* WebViewController.swift */; };
+		228DBA0818BC53F1002BA12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228DBA0718BC53F1002BA12A /* Assets.xcassets */; };
+		3E5C084E1974991E00969DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5C08501974991E00969DD7 /* Main.storyboard */; };
+		5312D0F222848B0200048DE2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5312D0F022848B0200048DE2 /* Credits.rtf */; };
+		5340A1B62496CF64004F3666 /* DefaultToolbarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5340A1B02496CF64004F3666 /* DefaultToolbarViewController.storyboard */; };
+		5340A1B72496CF64004F3666 /* CustomToolbarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5340A1B22496CF64004F3666 /* CustomToolbarViewController.storyboard */; };
+		5340A1B82496CF64004F3666 /* TintedToolbarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5340A1B42496CF64004F3666 /* TintedToolbarViewController.storyboard */; };
+		5340A1B92496D670004F3666 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200543118BC54F5002A6E8B /* PickerViewController.swift */; };
+		535D32B224970EF10011E153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535D32B124970EF10011E153 /* SceneDelegate.swift */; };
+		5364C08C249696D7009A9A52 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5364C08A249696D7009A9A52 /* OutlineViewController.swift */; };
+		5364C0922496BEFD009A9A52 /* DefaultSearchBarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5364C08E2496BEFD009A9A52 /* DefaultSearchBarViewController.storyboard */; };
+		5364C0932496BEFD009A9A52 /* CustomSearchBarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5364C0902496BEFD009A9A52 /* CustomSearchBarViewController.storyboard */; };
+		5364C0992496C2B3009A9A52 /* DefaultPageControlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5364C0952496C2B3009A9A52 /* DefaultPageControlViewController.storyboard */; };
+		5364C09A2496C2B3009A9A52 /* CustomPageControlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5364C0972496C2B3009A9A52 /* CustomPageControlViewController.storyboard */; };
+		53654E232298881200B999C7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53654E222298881200B999C7 /* WebKit.framework */; };
+		538B36F41F2A8E06002AE100 /* DatePickerController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538B36F21F2A8D97002AE100 /* DatePickerController.storyboard */; };
+		538B36F71F2A8E8A002AE100 /* TextViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538B36F51F2A8E66002AE100 /* TextViewController.storyboard */; };
+		539029FF1F2A53AD009775E3 /* AlertControllerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539029FD1F2A53AD009775E3 /* AlertControllerViewController.storyboard */; };
+		539C6BAE1F27F4980006C5A9 /* ActivityIndicatorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539C6BA81F27F4980006C5A9 /* ActivityIndicatorViewController.storyboard */; };
+		539C6BAF1F27F4980006C5A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539C6BAA1F27F4980006C5A9 /* LaunchScreen.storyboard */; };
+		539C6BB01F27F4980006C5A9 /* WebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539C6BAC1F27F4980006C5A9 /* WebViewController.storyboard */; };
+		53A266B52491ED77008EADBB /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A266AE2491ED77008EADBB /* ImagePickerViewController.swift */; };
+		53A266B62491ED77008EADBB /* CustomPageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A266AF2491ED77008EADBB /* CustomPageControlViewController.swift */; };
+		53A266B82491ED77008EADBB /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A266B12491ED77008EADBB /* ColorPickerViewController.swift */; };
+		53A266B92491ED77008EADBB /* FontPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A266B22491ED77008EADBB /* FontPickerViewController.swift */; };
+		53A266C22491ED9E008EADBB /* ImagePickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A266BA2491ED9E008EADBB /* ImagePickerViewController.storyboard */; };
+		53A266C42491ED9E008EADBB /* ColorPickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A266BE2491ED9E008EADBB /* ColorPickerViewController.storyboard */; };
+		53A266C52491ED9E008EADBB /* FontPickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A266C02491ED9E008EADBB /* FontPickerViewController.storyboard */; };
+		53B791DA1F85505400AB2FA6 /* content.html in Resources */ = {isa = PBXBuildFile; fileRef = 53B791D41F854B4700AB2FA6 /* content.html */; };
+		53B791DB1F85505700AB2FA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53B791D61F854B4700AB2FA6 /* InfoPlist.strings */; };
+		53B791DC1F85505A00AB2FA6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53B791D81F854B4800AB2FA6 /* Localizable.strings */; };
+		53CE5AD81F2A89E500D8A656 /* ButtonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AD61F2A89E500D8A656 /* ButtonViewController.storyboard */; };
+		53CE5ADE1F2A8A3D00D8A656 /* ImageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5ADC1F2A8A3D00D8A656 /* ImageViewController.storyboard */; };
+		53CE5AE61F2A8AEF00D8A656 /* PickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AE41F2A8AEF00D8A656 /* PickerViewController.storyboard */; };
+		53CE5AE91F2A8B1000D8A656 /* ProgressViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AE71F2A8B1000D8A656 /* ProgressViewController.storyboard */; };
+		53CE5AEC1F2A8B2F00D8A656 /* SegmentedControlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AEA1F2A8B2F00D8A656 /* SegmentedControlViewController.storyboard */; };
+		53CE5AEF1F2A8B4F00D8A656 /* SliderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AED1F2A8B4F00D8A656 /* SliderViewController.storyboard */; };
+		53CE5AF21F2A8B8300D8A656 /* StackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AF01F2A8B8300D8A656 /* StackViewController.storyboard */; };
+		53CE5AF51F2A8BB000D8A656 /* StepperViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AF31F2A8BB000D8A656 /* StepperViewController.storyboard */; };
+		53CE5AF81F2A8BD000D8A656 /* SwitchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AF61F2A8BD000D8A656 /* SwitchViewController.storyboard */; };
+		53CE5AFB1F2A8BEB00D8A656 /* TextFieldViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CE5AF91F2A8BEB00D8A656 /* TextFieldViewController.storyboard */; };
+		B50F41081B1D284700E5147D /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F41071B1D284700E5147D /* StackViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2200541A18BC54E8002A6E8B /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		2200541B18BC54E8002A6E8B /* AlertControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AlertControllerViewController.swift; sourceTree = "<group>"; };
+		2200541C18BC54E8002A6E8B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2200542118BC54EC002A6E8B /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		2200542218BC54EC002A6E8B /* CustomSearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CustomSearchBarViewController.swift; sourceTree = "<group>"; };
+		2200542318BC54EC002A6E8B /* CustomToolbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CustomToolbarViewController.swift; sourceTree = "<group>"; };
+		2200542418BC54EC002A6E8B /* DatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DatePickerController.swift; sourceTree = "<group>"; };
+		2200542518BC54EC002A6E8B /* DefaultSearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSearchBarViewController.swift; sourceTree = "<group>"; };
+		2200542618BC54EC002A6E8B /* DefaultToolbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DefaultToolbarViewController.swift; sourceTree = "<group>"; };
+		2200542D18BC54F5002A6E8B /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ImageViewController.swift; sourceTree = "<group>"; };
+		2200543018BC54F5002A6E8B /* DefaultPageControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DefaultPageControlViewController.swift; sourceTree = "<group>"; };
+		2200543118BC54F5002A6E8B /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PickerViewController.swift; sourceTree = "<group>"; };
+		2200543218BC54F5002A6E8B /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		2200543318BC54F5002A6E8B /* SegmentedControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SegmentedControlViewController.swift; sourceTree = "<group>"; };
+		2200543418BC54F5002A6E8B /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SliderViewController.swift; sourceTree = "<group>"; };
+		2200543618BC54F5002A6E8B /* StepperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = StepperViewController.swift; sourceTree = "<group>"; };
+		2200543718BC54F5002A6E8B /* SwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		2200543818BC54F5002A6E8B /* TextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		2200543918BC54F5002A6E8B /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = TextViewController.swift; sourceTree = "<group>"; };
+		2200543A18BC54F5002A6E8B /* TintedToolbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TintedToolbarViewController.swift; sourceTree = "<group>"; };
+		2200543B18BC54F5002A6E8B /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		228DB9F318BC53F1002BA12A /* UIKitCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		228DB9F718BC53F1002BA12A /* UIKitCatalog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKitCatalog-Info.plist"; sourceTree = "<group>"; };
+		228DBA0718BC53F1002BA12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E5C084F1974991E00969DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5312D0F122848B0200048DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5340A1B12496CF64004F3666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DefaultToolbarViewController.storyboard; sourceTree = "<group>"; };
+		5340A1B32496CF64004F3666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CustomToolbarViewController.storyboard; sourceTree = "<group>"; };
+		5340A1B52496CF64004F3666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TintedToolbarViewController.storyboard; sourceTree = "<group>"; };
+		5359C3081F194CF0007F0EC7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		535D32B124970EF10011E153 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5364C08A249696D7009A9A52 /* OutlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
+		5364C08F2496BEFD009A9A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DefaultSearchBarViewController.storyboard; sourceTree = "<group>"; };
+		5364C0912496BEFD009A9A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CustomSearchBarViewController.storyboard; sourceTree = "<group>"; };
+		5364C0962496C2B3009A9A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DefaultPageControlViewController.storyboard; sourceTree = "<group>"; };
+		5364C0982496C2B3009A9A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CustomPageControlViewController.storyboard; sourceTree = "<group>"; };
+		53654E222298881200B999C7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		538B36F31F2A8D97002AE100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DatePickerController.storyboard; sourceTree = "<group>"; };
+		538B36F61F2A8E66002AE100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TextViewController.storyboard; sourceTree = "<group>"; };
+		539029FE1F2A53AD009775E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AlertControllerViewController.storyboard; sourceTree = "<group>"; };
+		539C6BA91F27F4980006C5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ActivityIndicatorViewController.storyboard; sourceTree = "<group>"; };
+		539C6BAB1F27F4980006C5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		539C6BAD1F27F4980006C5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WebViewController.storyboard; sourceTree = "<group>"; };
+		53A266AE2491ED77008EADBB /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		53A266AF2491ED77008EADBB /* CustomPageControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPageControlViewController.swift; sourceTree = "<group>"; };
+		53A266B12491ED77008EADBB /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		53A266B22491ED77008EADBB /* FontPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontPickerViewController.swift; sourceTree = "<group>"; };
+		53A266BB2491ED9E008EADBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ImagePickerViewController.storyboard; sourceTree = "<group>"; };
+		53A266BF2491ED9E008EADBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ColorPickerViewController.storyboard; sourceTree = "<group>"; };
+		53A266C12491ED9E008EADBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FontPickerViewController.storyboard; sourceTree = "<group>"; };
+		53B791D51F854B4700AB2FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/content.html; sourceTree = "<group>"; };
+		53B791D71F854B4700AB2FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53B791D91F854B4800AB2FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		53CE5AD71F2A89E500D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ButtonViewController.storyboard; sourceTree = "<group>"; };
+		53CE5ADD1F2A8A3D00D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ImageViewController.storyboard; sourceTree = "<group>"; };
+		53CE5AE51F2A8AEF00D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PickerViewController.storyboard; sourceTree = "<group>"; };
+		53CE5AE81F2A8B1000D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProgressViewController.storyboard; sourceTree = "<group>"; };
+		53CE5AEB1F2A8B2F00D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SegmentedControlViewController.storyboard; sourceTree = "<group>"; };
+		53CE5AEE1F2A8B4F00D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SliderViewController.storyboard; sourceTree = "<group>"; };
+		53CE5AF11F2A8B8300D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StackViewController.storyboard; sourceTree = "<group>"; };
+		53CE5AF41F2A8BB000D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StepperViewController.storyboard; sourceTree = "<group>"; };
+		53CE5AF71F2A8BD000D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SwitchViewController.storyboard; sourceTree = "<group>"; };
+		53CE5AFA1F2A8BEB00D8A656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TextFieldViewController.storyboard; sourceTree = "<group>"; };
+		53DDE73C22776382000006CF /* UIKitCatalog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UIKitCatalog.entitlements; sourceTree = "<group>"; };
+		64D8CD77C30F3CED2D55B8F2 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		8A04EFECD9880EE89ADA2FE8 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		B50F41071B1D284700E5147D /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		228DB9F018BC53F1002BA12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53654E232298881200B999C7 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16BE5A8EA8411C7808E4CA84 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8A04EFECD9880EE89ADA2FE8 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		228DB9EA18BC53F1002BA12A = {
+			isa = PBXGroup;
+			children = (
+				5359C3081F194CF0007F0EC7 /* README.md */,
+				228DB9F518BC53F1002BA12A /* UIKitCatalog */,
+				228DB9F418BC53F1002BA12A /* Products */,
+				53654E212298881100B999C7 /* Frameworks */,
+				16BE5A8EA8411C7808E4CA84 /* Configuration */,
+				D9361AEE59ED9397893793F6 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		228DB9F418BC53F1002BA12A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				228DB9F318BC53F1002BA12A /* UIKitCatalog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		228DB9F518BC53F1002BA12A /* UIKitCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				53DDE73C22776382000006CF /* UIKitCatalog.entitlements */,
+				3E2459D41931CCB5002D3369 /* Application */,
+				3E1DA7601931CC99000114A9 /* Controls */,
+				539383DE2492800100A489A9 /* Views */,
+				539383DF2492801000A489A9 /* Pickers */,
+				228DBA0718BC53F1002BA12A /* Assets.xcassets */,
+				228DB9F618BC53F1002BA12A /* Supporting Files */,
+			);
+			path = UIKitCatalog;
+			sourceTree = "<group>";
+		};
+		228DB9F618BC53F1002BA12A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				228DB9F718BC53F1002BA12A /* UIKitCatalog-Info.plist */,
+				3E5C08501974991E00969DD7 /* Main.storyboard */,
+				539C6BAA1F27F4980006C5A9 /* LaunchScreen.storyboard */,
+				53B791D41F854B4700AB2FA6 /* content.html */,
+				53B791D61F854B4700AB2FA6 /* InfoPlist.strings */,
+				53B791D81F854B4800AB2FA6 /* Localizable.strings */,
+				5312D0F022848B0200048DE2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22B7BB9718BC601D006C4AD5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2200542518BC54EC002A6E8B /* DefaultSearchBarViewController.swift */,
+				2200542218BC54EC002A6E8B /* CustomSearchBarViewController.swift */,
+				5364C0902496BEFD009A9A52 /* CustomSearchBarViewController.storyboard */,
+				5364C08E2496BEFD009A9A52 /* DefaultSearchBarViewController.storyboard */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		22B7BB9818BC6024006C4AD5 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				2200542618BC54EC002A6E8B /* DefaultToolbarViewController.swift */,
+				2200543A18BC54F5002A6E8B /* TintedToolbarViewController.swift */,
+				2200542318BC54EC002A6E8B /* CustomToolbarViewController.swift */,
+				5340A1B22496CF64004F3666 /* CustomToolbarViewController.storyboard */,
+				5340A1B02496CF64004F3666 /* DefaultToolbarViewController.storyboard */,
+				5340A1B42496CF64004F3666 /* TintedToolbarViewController.storyboard */,
+			);
+			name = Toolbar;
+			sourceTree = "<group>";
+		};
+		3E1DA7601931CC99000114A9 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				2200542118BC54EC002A6E8B /* ButtonViewController.swift */,
+				53CE5AD61F2A89E500D8A656 /* ButtonViewController.storyboard */,
+				5364C0942496C22D009A9A52 /* Page Control */,
+				22B7BB9718BC601D006C4AD5 /* Search */,
+				2200543318BC54F5002A6E8B /* SegmentedControlViewController.swift */,
+				53CE5AEA1F2A8B2F00D8A656 /* SegmentedControlViewController.storyboard */,
+				2200543418BC54F5002A6E8B /* SliderViewController.swift */,
+				53CE5AED1F2A8B4F00D8A656 /* SliderViewController.storyboard */,
+				2200543618BC54F5002A6E8B /* StepperViewController.swift */,
+				53CE5AF31F2A8BB000D8A656 /* StepperViewController.storyboard */,
+				2200543718BC54F5002A6E8B /* SwitchViewController.swift */,
+				53CE5AF61F2A8BD000D8A656 /* SwitchViewController.storyboard */,
+				2200543818BC54F5002A6E8B /* TextFieldViewController.swift */,
+				53CE5AF91F2A8BEB00D8A656 /* TextFieldViewController.storyboard */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		3E2459D41931CCB5002D3369 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2200541C18BC54E8002A6E8B /* AppDelegate.swift */,
+				535D32B124970EF10011E153 /* SceneDelegate.swift */,
+				5364C08A249696D7009A9A52 /* OutlineViewController.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		5364C0942496C22D009A9A52 /* Page Control */ = {
+			isa = PBXGroup;
+			children = (
+				2200543018BC54F5002A6E8B /* DefaultPageControlViewController.swift */,
+				53A266AF2491ED77008EADBB /* CustomPageControlViewController.swift */,
+				5364C0972496C2B3009A9A52 /* CustomPageControlViewController.storyboard */,
+				5364C0952496C2B3009A9A52 /* DefaultPageControlViewController.storyboard */,
+			);
+			name = "Page Control";
+			sourceTree = "<group>";
+		};
+		53654E212298881100B999C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53654E222298881200B999C7 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		539383DE2492800100A489A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2200541A18BC54E8002A6E8B /* ActivityIndicatorViewController.swift */,
+				539C6BA81F27F4980006C5A9 /* ActivityIndicatorViewController.storyboard */,
+				2200541B18BC54E8002A6E8B /* AlertControllerViewController.swift */,
+				539029FD1F2A53AD009775E3 /* AlertControllerViewController.storyboard */,
+				2200542D18BC54F5002A6E8B /* ImageViewController.swift */,
+				53CE5ADC1F2A8A3D00D8A656 /* ImageViewController.storyboard */,
+				2200543218BC54F5002A6E8B /* ProgressViewController.swift */,
+				53CE5AE71F2A8B1000D8A656 /* ProgressViewController.storyboard */,
+				B50F41071B1D284700E5147D /* StackViewController.swift */,
+				53CE5AF01F2A8B8300D8A656 /* StackViewController.storyboard */,
+				2200543918BC54F5002A6E8B /* TextViewController.swift */,
+				538B36F51F2A8E66002AE100 /* TextViewController.storyboard */,
+				22B7BB9818BC6024006C4AD5 /* Toolbar */,
+				2200543B18BC54F5002A6E8B /* WebViewController.swift */,
+				539C6BAC1F27F4980006C5A9 /* WebViewController.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		539383DF2492801000A489A9 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				2200542418BC54EC002A6E8B /* DatePickerController.swift */,
+				538B36F21F2A8D97002AE100 /* DatePickerController.storyboard */,
+				2200543118BC54F5002A6E8B /* PickerViewController.swift */,
+				53CE5AE41F2A8AEF00D8A656 /* PickerViewController.storyboard */,
+				53A266B12491ED77008EADBB /* ColorPickerViewController.swift */,
+				53A266BE2491ED9E008EADBB /* ColorPickerViewController.storyboard */,
+				53A266B22491ED77008EADBB /* FontPickerViewController.swift */,
+				53A266C02491ED9E008EADBB /* FontPickerViewController.storyboard */,
+				53A266AE2491ED77008EADBB /* ImagePickerViewController.swift */,
+				53A266BA2491ED9E008EADBB /* ImagePickerViewController.storyboard */,
+			);
+			name = Pickers;
+			sourceTree = "<group>";
+		};
+		D9361AEE59ED9397893793F6 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				64D8CD77C30F3CED2D55B8F2 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		228DB9F218BC53F1002BA12A /* UIKitCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228DBA0B18BC53F1002BA12A /* Build configuration list for PBXNativeTarget "UIKitCatalog" */;
+			buildPhases = (
+				228DB9EF18BC53F1002BA12A /* Sources */,
+				228DB9F018BC53F1002BA12A /* Frameworks */,
+				228DB9F118BC53F1002BA12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIKitCatalog;
+			productName = UIKitCatalog;
+			productReference = 228DB9F318BC53F1002BA12A /* UIKitCatalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		228DB9EB18BC53F1002BA12A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					228DB9F218BC53F1002BA12A = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 228DB9EE18BC53F1002BA12A /* Build configuration list for PBXProject "UIKitCatalog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 228DB9EA18BC53F1002BA12A;
+			productRefGroup = 228DB9F418BC53F1002BA12A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				228DB9F218BC53F1002BA12A /* UIKitCatalog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		228DB9F118BC53F1002BA12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539C6BB01F27F4980006C5A9 /* WebViewController.storyboard in Resources */,
+				5364C09A2496C2B3009A9A52 /* CustomPageControlViewController.storyboard in Resources */,
+				53CE5AD81F2A89E500D8A656 /* ButtonViewController.storyboard in Resources */,
+				53A266C42491ED9E008EADBB /* ColorPickerViewController.storyboard in Resources */,
+				53CE5AEF1F2A8B4F00D8A656 /* SliderViewController.storyboard in Resources */,
+				53A266C52491ED9E008EADBB /* FontPickerViewController.storyboard in Resources */,
+				5364C0922496BEFD009A9A52 /* DefaultSearchBarViewController.storyboard in Resources */,
+				53CE5AE91F2A8B1000D8A656 /* ProgressViewController.storyboard in Resources */,
+				53A266C22491ED9E008EADBB /* ImagePickerViewController.storyboard in Resources */,
+				5364C0992496C2B3009A9A52 /* DefaultPageControlViewController.storyboard in Resources */,
+				5340A1B72496CF64004F3666 /* CustomToolbarViewController.storyboard in Resources */,
+				53CE5AE61F2A8AEF00D8A656 /* PickerViewController.storyboard in Resources */,
+				53B791DA1F85505400AB2FA6 /* content.html in Resources */,
+				3E5C084E1974991E00969DD7 /* Main.storyboard in Resources */,
+				53CE5AEC1F2A8B2F00D8A656 /* SegmentedControlViewController.storyboard in Resources */,
+				5364C0932496BEFD009A9A52 /* CustomSearchBarViewController.storyboard in Resources */,
+				53B791DB1F85505700AB2FA6 /* InfoPlist.strings in Resources */,
+				539C6BAE1F27F4980006C5A9 /* ActivityIndicatorViewController.storyboard in Resources */,
+				53CE5AFB1F2A8BEB00D8A656 /* TextFieldViewController.storyboard in Resources */,
+				53B791DC1F85505A00AB2FA6 /* Localizable.strings in Resources */,
+				228DBA0818BC53F1002BA12A /* Assets.xcassets in Resources */,
+				538B36F41F2A8E06002AE100 /* DatePickerController.storyboard in Resources */,
+				53CE5AF21F2A8B8300D8A656 /* StackViewController.storyboard in Resources */,
+				5340A1B82496CF64004F3666 /* TintedToolbarViewController.storyboard in Resources */,
+				538B36F71F2A8E8A002AE100 /* TextViewController.storyboard in Resources */,
+				539C6BAF1F27F4980006C5A9 /* LaunchScreen.storyboard in Resources */,
+				5312D0F222848B0200048DE2 /* Credits.rtf in Resources */,
+				539029FF1F2A53AD009775E3 /* AlertControllerViewController.storyboard in Resources */,
+				53CE5AF51F2A8BB000D8A656 /* StepperViewController.storyboard in Resources */,
+				53CE5AF81F2A8BD000D8A656 /* SwitchViewController.storyboard in Resources */,
+				5340A1B62496CF64004F3666 /* DefaultToolbarViewController.storyboard in Resources */,
+				53CE5ADE1F2A8A3D00D8A656 /* ImageViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		228DB9EF18BC53F1002BA12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2200543F18BC54F5002A6E8B /* DefaultPageControlViewController.swift in Sources */,
+				2200544918BC54F5002A6E8B /* TintedToolbarViewController.swift in Sources */,
+				5364C08C249696D7009A9A52 /* OutlineViewController.swift in Sources */,
+				2200544318BC54F5002A6E8B /* SliderViewController.swift in Sources */,
+				2200544218BC54F5002A6E8B /* SegmentedControlViewController.swift in Sources */,
+				2200544A18BC54F5002A6E8B /* WebViewController.swift in Sources */,
+				2200542018BC54E8002A6E8B /* AppDelegate.swift in Sources */,
+				5340A1B92496D670004F3666 /* PickerViewController.swift in Sources */,
+				53A266B92491ED77008EADBB /* FontPickerViewController.swift in Sources */,
+				2200541F18BC54E8002A6E8B /* AlertControllerViewController.swift in Sources */,
+				2200542C18BC54EC002A6E8B /* DefaultToolbarViewController.swift in Sources */,
+				2200543C18BC54F5002A6E8B /* ImageViewController.swift in Sources */,
+				2200541E18BC54E8002A6E8B /* ActivityIndicatorViewController.swift in Sources */,
+				2200544618BC54F5002A6E8B /* SwitchViewController.swift in Sources */,
+				B50F41081B1D284700E5147D /* StackViewController.swift in Sources */,
+				535D32B224970EF10011E153 /* SceneDelegate.swift in Sources */,
+				2200544118BC54F5002A6E8B /* ProgressViewController.swift in Sources */,
+				2200544718BC54F5002A6E8B /* TextFieldViewController.swift in Sources */,
+				2200544818BC54F5002A6E8B /* TextViewController.swift in Sources */,
+				2200542B18BC54EC002A6E8B /* DefaultSearchBarViewController.swift in Sources */,
+				2200544518BC54F5002A6E8B /* StepperViewController.swift in Sources */,
+				53A266B62491ED77008EADBB /* CustomPageControlViewController.swift in Sources */,
+				53A266B82491ED77008EADBB /* ColorPickerViewController.swift in Sources */,
+				2200542818BC54EC002A6E8B /* CustomSearchBarViewController.swift in Sources */,
+				53A266B52491ED77008EADBB /* ImagePickerViewController.swift in Sources */,
+				2200542918BC54EC002A6E8B /* CustomToolbarViewController.swift in Sources */,
+				2200542A18BC54EC002A6E8B /* DatePickerController.swift in Sources */,
+				2200542718BC54EC002A6E8B /* ButtonViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E5C08501974991E00969DD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E5C084F1974991E00969DD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5312D0F022848B0200048DE2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5312D0F122848B0200048DE2 /* Base */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5340A1B02496CF64004F3666 /* DefaultToolbarViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5340A1B12496CF64004F3666 /* Base */,
+			);
+			name = DefaultToolbarViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		5340A1B22496CF64004F3666 /* CustomToolbarViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5340A1B32496CF64004F3666 /* Base */,
+			);
+			name = CustomToolbarViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		5340A1B42496CF64004F3666 /* TintedToolbarViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5340A1B52496CF64004F3666 /* Base */,
+			);
+			name = TintedToolbarViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		5364C08E2496BEFD009A9A52 /* DefaultSearchBarViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5364C08F2496BEFD009A9A52 /* Base */,
+			);
+			name = DefaultSearchBarViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		5364C0902496BEFD009A9A52 /* CustomSearchBarViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5364C0912496BEFD009A9A52 /* Base */,
+			);
+			name = CustomSearchBarViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		5364C0952496C2B3009A9A52 /* DefaultPageControlViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5364C0962496C2B3009A9A52 /* Base */,
+			);
+			name = DefaultPageControlViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		5364C0972496C2B3009A9A52 /* CustomPageControlViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5364C0982496C2B3009A9A52 /* Base */,
+			);
+			name = CustomPageControlViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		538B36F21F2A8D97002AE100 /* DatePickerController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538B36F31F2A8D97002AE100 /* Base */,
+			);
+			name = DatePickerController.storyboard;
+			sourceTree = "<group>";
+		};
+		538B36F51F2A8E66002AE100 /* TextViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538B36F61F2A8E66002AE100 /* Base */,
+			);
+			name = TextViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		539029FD1F2A53AD009775E3 /* AlertControllerViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				539029FE1F2A53AD009775E3 /* Base */,
+			);
+			name = AlertControllerViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		539C6BA81F27F4980006C5A9 /* ActivityIndicatorViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				539C6BA91F27F4980006C5A9 /* Base */,
+			);
+			name = ActivityIndicatorViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		539C6BAA1F27F4980006C5A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				539C6BAB1F27F4980006C5A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		539C6BAC1F27F4980006C5A9 /* WebViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				539C6BAD1F27F4980006C5A9 /* Base */,
+			);
+			name = WebViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53A266BA2491ED9E008EADBB /* ImagePickerViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53A266BB2491ED9E008EADBB /* Base */,
+			);
+			name = ImagePickerViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53A266BE2491ED9E008EADBB /* ColorPickerViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53A266BF2491ED9E008EADBB /* Base */,
+			);
+			name = ColorPickerViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53A266C02491ED9E008EADBB /* FontPickerViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53A266C12491ED9E008EADBB /* Base */,
+			);
+			name = FontPickerViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53B791D41F854B4700AB2FA6 /* content.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B791D51F854B4700AB2FA6 /* Base */,
+			);
+			name = content.html;
+			sourceTree = "<group>";
+		};
+		53B791D61F854B4700AB2FA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B791D71F854B4700AB2FA6 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53B791D81F854B4800AB2FA6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B791D91F854B4800AB2FA6 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		53CE5AD61F2A89E500D8A656 /* ButtonViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE5AD71F2A89E500D8A656 /* Base */,
+			);
+			name = ButtonViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53CE5ADC1F2A8A3D00D8A656 /* ImageViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE5ADD1F2A8A3D00D8A656 /* Base */,
+			);
+			name = ImageViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53CE5AE41F2A8AEF00D8A656 /* PickerViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE5AE51F2A8AEF00D8A656 /* Base */,
+			);
+			name = PickerViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53CE5AE71F2A8B1000D8A656 /* ProgressViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE5AE81F2A8B1000D8A656 /* Base */,
+			);
+			name = ProgressViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53CE5AEA1F2A8B2F00D8A656 /* SegmentedControlViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE5AEB1F2A8B2F00D8A656 /* Base */,
+			);
+			name = SegmentedControlViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53CE5AED1F2A8B4F00D8A656 /* SliderViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE5AEE1F2A8B4F00D8A656 /* Base */,
+			);
+			name = SliderViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53CE5AF01F2A8B8300D8A656 /* StackViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE5AF11F2A8B8300D8A656 /* Base */,
+			);
+			name = StackViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53CE5AF31F2A8BB000D8A656 /* StepperViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE5AF41F2A8BB000D8A656 /* Base */,
+			);
+			name = StepperViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53CE5AF61F2A8BD000D8A656 /* SwitchViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE5AF71F2A8BD000D8A656 /* Base */,
+			);
+			name = SwitchViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		53CE5AF91F2A8BEB00D8A656 /* TextFieldViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53CE5AFA1F2A8BEB00D8A656 /* Base */,
+			);
+			name = TextFieldViewController.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		228DBA0918BC53F1002BA12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A04EFECD9880EE89ADA2FE8 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		228DBA0A18BC53F1002BA12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A04EFECD9880EE89ADA2FE8 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		228DBA0C18BC53F1002BA12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A04EFECD9880EE89ADA2FE8 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UIKitCatalog/UIKitCatalog.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/UIKitCatalog/UIKitCatalog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 16;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		228DBA0D18BC53F1002BA12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A04EFECD9880EE89ADA2FE8 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UIKitCatalog/UIKitCatalog.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/UIKitCatalog/UIKitCatalog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 16;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228DB9EE18BC53F1002BA12A /* Build configuration list for PBXProject "UIKitCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228DBA0918BC53F1002BA12A /* Debug */,
+				228DBA0A18BC53F1002BA12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228DBA0B18BC53F1002BA12A /* Build configuration list for PBXNativeTarget "UIKitCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228DBA0C18BC53F1002BA12A /* Debug */,
+				228DBA0D18BC53F1002BA12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 228DB9EB18BC53F1002BA12A /* Project object */;
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14269.10" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14269.10"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="GridViewController" customModule="Slideshow_Sample" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="ERI-Hk-AcQ" id="Dnp-nw-Wme"/>
+                <outlet property="view" destination="1" id="2"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView translatesAutoresizingMaskIntoConstraints="NO" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="286"/>
+            <subviews>
+                <scrollView wantsLayer="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6R-43-RS0">
+                    <rect key="frame" x="0.0" y="0.0" width="387" height="249"/>
+                    <clipView key="contentView" id="IUG-CU-E15">
+                        <rect key="frame" x="1" y="1" width="385" height="247"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView id="ERI-Hk-AcQ">
+                                <rect key="frame" x="0.0" y="0.0" width="385" height="247"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" id="79I-Nx-SQo">
+                                    <size key="itemSize" width="100" height="100"/>
+                                    <edgeInsets key="sectionInset" left="20" right="20" top="20" bottom="20"/>
+                                </collectionViewFlowLayout>
+                                <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="17N-vj-Ze5">
+                        <rect key="frame" x="-100" y="-100" width="233" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="iwb-4I-xVE">
+                        <rect key="frame" x="370" y="1" width="16" height="247"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HXJ-3Z-xeS">
+                    <rect key="frame" x="327" y="250" width="46" height="32"/>
+                    <buttonCell key="cell" type="push" title="▸" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="p0t-aG-beU">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                    </buttonCell>
+                    <connections>
+                        <action selector="startSlideshow:" target="-1" id="6B9-gz-CnU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="N6R-43-RS0" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="Jmw-NK-wUs"/>
+                <constraint firstAttribute="trailing" secondItem="HXJ-3Z-xeS" secondAttribute="trailing" constant="20" id="Lxn-Dy-kkh"/>
+                <constraint firstItem="HXJ-3Z-xeS" firstAttribute="top" secondItem="1" secondAttribute="top" constant="8" id="dF3-b4-QVN"/>
+                <constraint firstAttribute="trailing" secondItem="N6R-43-RS0" secondAttribute="trailing" id="djz-eG-zzJ"/>
+                <constraint firstAttribute="bottom" secondItem="N6R-43-RS0" secondAttribute="bottom" id="emg-Pb-xlZ"/>
+                <constraint firstItem="N6R-43-RS0" firstAttribute="top" secondItem="HXJ-3Z-xeS" secondAttribute="bottom" constant="8" id="l0L-uw-Uit"/>
+            </constraints>
+            <point key="canvasLocation" x="138.5" y="211"/>
+        </customView>
+    </objects>
+</document>

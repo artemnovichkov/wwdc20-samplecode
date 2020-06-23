@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17132" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17132"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="SampleHDRVideoEditing-CIFilter" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="SampleHDRVideoEditing-CIFilter" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About SampleHDRVideoEditing-CIFilter" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Quit SampleHDRVideoEdition-CIFilter" keyEquivalent="q" id="qPK-a5-lKd" userLabel="Quit">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="I5z-Bm-yzH"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Edit" id="3hc-Nq-Iwm">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Edit" id="Sq4-ie-krd">
+                                    <items>
+                                        <menuItem title="Undo" keyEquivalent="z" id="DCT-9z-7Mc">
+                                            <connections>
+                                                <action selector="undo:" target="Ady-hI-5gd" id="OML-9N-EXd"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Redo" keyEquivalent="Z" id="vdT-Yx-BYx">
+                                            <connections>
+                                                <action selector="redo:" target="Ady-hI-5gd" id="GyX-Fg-maK"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="PRb-iM-iNZ"/>
+                                        <menuItem title="Cut" keyEquivalent="x" id="93b-bM-5tH">
+                                            <connections>
+                                                <action selector="cut:" target="Ady-hI-5gd" id="X6j-vQ-oou"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Copy" keyEquivalent="c" id="ZED-w1-YWd">
+                                            <connections>
+                                                <action selector="copy:" target="Ady-hI-5gd" id="1cS-Ik-1zk"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Paste" keyEquivalent="v" id="Xs6-Cn-LyK">
+                                            <connections>
+                                                <action selector="paste:" target="Ady-hI-5gd" id="56H-4A-YmZ"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Export" id="dMs-cI-mzQ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Export" id="bib-Uj-vzu">
+                                    <items>
+                                        <menuItem title="Export as…" keyEquivalent="S" id="Bw7-FT-i3A">
+                                            <connections>
+                                                <action selector="export:" target="Voe-Tx-rLC" id="FNl-r1-7k8"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SampleHDRVideoEditing_CIFilter" customModuleProvider="target"/>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

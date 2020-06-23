@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "bean_rate_0000_Vector-Smart-Object.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
+  }
+}
